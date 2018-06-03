@@ -150,7 +150,7 @@
     <string name="label_wallet_receive">Receive</string>
     <string name="label_wallet_send">Give</string>
 
-    <string name="xmr_unconfirmed_amount">+ %1$s XMR unconfirmed</string>
+    <string name="xmr_unconfirmed_amount">+ %1$s AEON unconfirmed</string>
 
     <string name="service_description">monerujo Service</string>
 
@@ -238,7 +238,7 @@
     <string name="send_qr_address_invalid">Not a valid payment QR code</string>
     <string name="send_address_invalid">Not a valid address</string>
     <string name="send_title">Send</string>
-    <string name="send_available">Balance: %1$s XMR</string>
+    <string name="send_available">Balance: %1$s AEON</string>
     <string name="send_address_title">Address</string>
     <string name="send_amount_title">Amount</string>
     <string name="send_settings_title">Settings</string>
@@ -251,7 +251,7 @@
     <string name="send_total_btc_label">Total (XMR)</string>
     <string name="send_total_label">Total</string>
 
-    <string name="send_amount">%1$s XMR</string>
+    <string name="send_amount">%1$s AEON</string>
     <string name="send_fee">+%1$s Fee</string>
 
     <string name="send_create_tx_error_title">Create Transaction Error</string>
@@ -290,7 +290,7 @@
 
     <string name="receive_amount_too_big">Max. %1$s</string>
     <string name="receive_amount_negative">Min. 0</string>
-    <string name="receive_amount_nan">XMR not a number</string>
+    <string name="receive_amount_nan">AEON not a number</string>
 
     <string name="receive_title">Receive</string>
 
@@ -318,7 +318,7 @@
     </string-array>
 
     <string-array name="currency" translatable="false">
-        <item>XMR</item>
+        <item>AEON</item>
         <item>EUR</item>
         <item>USD</item>
     </string-array>
