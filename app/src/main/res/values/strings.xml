@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name" translatable="false">monerujo</string>
+    <string name="app_name" translatable="false">monerujoAE</string>
     <string name="wallet_activity_name">Wallet</string>
 
     <string name="menu_stagenet" translatable="false">Stagenet</string>

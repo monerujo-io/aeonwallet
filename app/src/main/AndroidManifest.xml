@@ -39,7 +39,7 @@
             android:name=".service.WalletService"
             android:description="@string/service_description"
             android:exported="false"
-            android:label="Monero Wallet Service" />
+            android:label="Wallet Service" />
 
     </application>
 
