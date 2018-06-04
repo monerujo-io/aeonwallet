@@ -94,7 +94,7 @@
     <string name="label_wallet_receive">接收</string>
     <string name="label_wallet_send">發送</string>
 
-    <string name="xmr_unconfirmed_amount">+ %1$s 未確認的 XMR </string>
+    <string name="xmr_unconfirmed_amount">+ %1$s 未確認的 AEON </string>
 
     <string name="service_description">monerujo 服務</string>
 
@@ -113,7 +113,7 @@
     <string name="message_copy_txid">交易ID 已複製至剪貼簿!</string>
     <string name="message_nocopy">因安全性因素已停用複製功能!</string>
 
-    <string name="message_exchange_failed">無法取得匯率!\n使用 XMR/XMR 或重試</string>
+    <string name="message_exchange_failed">無法取得匯率!\n使用 AEON/AEON 或重試</string>
 
     <string name="generate_title">建立錢包</string>
     <string name="generate_name_hint">錢包名稱</string>
@@ -163,7 +163,7 @@
     <string name="generate_check_address">輸入有效的地址</string>
     <string name="generate_check_mnemonic">輸入你的24/25字種子碼</string>
 
-    <string name="send_address_hint">收款者的 XMR 地址</string>
+    <string name="send_address_hint">收款者的 AEON 地址</string>
     <string name="send_paymentid_hint">付款ID (選填)</string>
     <string name="send_amount_hint">0.00</string>
     <string name="send_notes_hint">註記 (選填)</string>
@@ -174,7 +174,7 @@
     <string name="send_qr_address_invalid">這不是有效的付款QR碼</string>
     <string name="send_address_invalid">這不是有效的地址</string>
     <string name="send_title">發送</string>
-    <string name="send_available">餘額: %1$s XMR</string>
+    <string name="send_available">餘額: %1$s AEON</string>
     <string name="send_address_title">地址</string>
     <string name="send_amount_title">金額</string>
     <string name="send_settings_title">設定</string>
@@ -185,7 +185,7 @@
     <string name="send_fee_label">手續費</string>
     <string name="send_total_label">總計</string>
 
-    <string name="send_amount">%1$s XMR</string>
+    <string name="send_amount">%1$s AEON</string>
     <string name="send_fee">+%1$s 手續費</string>
 
     <string name="send_create_tx_error_title">建立交易錯誤</string>
@@ -222,7 +222,7 @@
 
     <string name="receive_amount_too_big">最大值 %1$s</string>
     <string name="receive_amount_negative">最小值 0</string>
-    <string name="receive_amount_nan">輸入的XMR不是個數字</string>
+    <string name="receive_amount_nan">輸入的AEON不是個數字</string>
 
     <string name="receive_title">接收</string>
 

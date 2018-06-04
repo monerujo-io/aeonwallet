@@ -94,7 +94,7 @@
     <string name="label_wallet_receive">Recevoir</string>
     <string name="label_wallet_send">Envoyer</string>
 
-    <string name="xmr_unconfirmed_amount">+ %1$s XMR non confirmés</string>
+    <string name="xmr_unconfirmed_amount">+ %1$s AEON non confirmés</string>
 
     <string name="service_description">Service monerujo</string>
 
@@ -113,7 +113,7 @@
     <string name="message_copy_txid">ID de Transaction copié !</string>
     <string name="message_nocopy">Copie désactivée par sécurité !</string>
 
-    <string name="message_exchange_failed">Taux de change introuvable !\nUtilisez XMR/XMR ou essayez à nouveau</string>
+    <string name="message_exchange_failed">Taux de change introuvable !\nUtilisez AEON/AEON ou essayez à nouveau</string>
 
     <string name="generate_title">Créer un Portefeuille</string>
     <string name="generate_name_hint">Nom du Portefeuille</string>
@@ -167,7 +167,7 @@
     <string name="generate_check_address">Entrez une Adresse valide</string>
     <string name="generate_check_mnemonic">Entrez votre phrase Mnémonique</string>
 
-    <string name="send_address_hint">Adresse XMR du Destinataire</string>
+    <string name="send_address_hint">Adresse AEON du Destinataire</string>
     <string name="send_paymentid_hint">ID de Paiement (optionnel)</string>
     <string name="send_amount_hint">0.00</string>
     <string name="send_notes_hint">Notes Privées (optionnelles)</string>
@@ -178,7 +178,7 @@
     <string name="send_qr_address_invalid">QR code de paiement invalide</string>
     <string name="send_address_invalid">Adresse invalide</string>
     <string name="send_title">Envoi</string>
-    <string name="send_available">Solde : %1$s XMR</string>
+    <string name="send_available">Solde : %1$s AEON</string>
     <string name="send_address_title">Adresse</string>
     <string name="send_amount_title">Montant</string>
     <string name="send_settings_title">Paramètres</string>
@@ -189,7 +189,7 @@
     <string name="send_fee_label">Frais</string>
     <string name="send_total_label">Total</string>
 
-    <string name="send_amount">%1$s XMR</string>
+    <string name="send_amount">%1$s AEON</string>
     <string name="send_fee">+%1$s Frais</string>
 
     <string name="send_create_tx_error_title">Erreur de Création de Transaction</string>
@@ -226,7 +226,7 @@
 
     <string name="receive_amount_too_big">Max. %1$s</string>
     <string name="receive_amount_negative">Min. 0</string>
-    <string name="receive_amount_nan">XMR pas un nombre</string>
+    <string name="receive_amount_nan">AEON pas un nombre</string>
 
     <string name="receive_title">Recevoir</string>
 

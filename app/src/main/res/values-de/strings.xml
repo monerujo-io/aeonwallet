@@ -165,7 +165,7 @@
     <string name="generate_check_address">Gib eine gültige Adresse ein</string>
     <string name="generate_check_mnemonic">Gib deine 24/25 Wörter Seed ein</string>
 
-    <string name="send_address_hint">Empfänger XMR Adresse</string>
+    <string name="send_address_hint">Empfänger AEON Adresse</string>
     <string name="send_paymentid_hint">Zahlungs-ID (optional)</string>
     <string name="send_amount_hint">0.00</string>
     <string name="send_notes_hint">Private Notizen (optional)</string>
@@ -176,7 +176,7 @@
     <string name="send_qr_address_invalid">Kein gültiger Zahlungs-QR-Code</string>
     <string name="send_address_invalid">Keine gültige Adresse</string>
     <string name="send_title">Senden</string>
-    <string name="send_available">Saldo: %1$s XMR</string>
+    <string name="send_available">Saldo: %1$s AEON</string>
     <string name="send_address_title">Adresse</string>
     <string name="send_amount_title">Menge</string>
     <string name="send_settings_title">Einstellungen</string>
@@ -187,7 +187,7 @@
     <string name="send_fee_label">Gebühr</string>
     <string name="send_total_label">Total</string>
 
-    <string name="send_amount">%1$s XMR</string>
+    <string name="send_amount">%1$s AEON</string>
     <string name="send_fee">+%1$s Gebühr</string>
 
     <string name="send_create_tx_error_title">Transaktionserstellungsfehler</string>
@@ -224,7 +224,7 @@
 
     <string name="receive_amount_too_big">Max. %1$s</string>
     <string name="receive_amount_negative">Min. 0</string>
-    <string name="receive_amount_nan">XMR keine Nummer</string>
+    <string name="receive_amount_nan">AEON keine Nummer</string>
 
     <string name="receive_title">Empfangen</string>
 

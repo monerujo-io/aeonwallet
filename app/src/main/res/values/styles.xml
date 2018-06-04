@@ -29,7 +29,7 @@
 
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorPrimary">@color/moneroText</item>
-        <item name="colorAccent">@color/gradientPink</item>
+        <item name="colorAccent">@color/colorAccent</item>
 
         <item name="android:spinnerItemStyle">@style/MoneroSpinnerItem</item>
         <item name="android:spinnerStyle">@style/MoneroSpinner</item>

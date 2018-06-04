@@ -93,7 +93,7 @@
     <string name="label_wallet_receive">Motta</string>
     <string name="label_wallet_send">Gi</string>
 
-    <string name="xmr_unconfirmed_amount">+ %1$s XMR ubekrefta</string>
+    <string name="xmr_unconfirmed_amount">+ %1$s AEON ubekrefta</string>
 
     <string name="service_description">monerujo tjeneste</string>
 
@@ -112,7 +112,7 @@
     <string name="message_copy_txid">Transaksjons-ID kopiert til utklippstavle!</string>
     <string name="message_nocopy">Kopiering skrudd av for sikkerhetsgrunner!</string>
 
-    <string name="message_exchange_failed">Kan ikke hente vekslingskurs!\nBruk XMR/XMR eller prøv igjen</string>
+    <string name="message_exchange_failed">Kan ikke hente vekslingskurs!\nBruk AEON/AEON eller prøv igjen</string>
 
     <string name="generate_title">Lag lommebok</string>
     <string name="generate_name_hint">Lommeboknavn</string>
@@ -165,7 +165,7 @@
     <string name="generate_check_address">Skriv inn gyldig adresse</string>
     <string name="generate_check_mnemonic">Skriv inn ditt 24/25-ord lange seed</string>
 
-    <string name="send_address_hint">Mottakers XMR adresse</string>
+    <string name="send_address_hint">Mottakers AEON adresse</string>
     <string name="send_paymentid_hint">Betalings-ID (valgfritt)</string>
     <string name="send_amount_hint">0,00</string>
     <string name="send_notes_hint">Privat notat (valgfritt)</string>
@@ -176,7 +176,7 @@
     <string name="send_qr_address_invalid">Ikke en gyldig betalings-QR-kode</string>
     <string name="send_address_invalid">Ikke en gyldig adresse</string>
     <string name="send_title">Send</string>
-    <string name="send_available">Saldo: %1$s XMR</string>
+    <string name="send_available">Saldo: %1$s AEON</string>
     <string name="send_address_title">Adresse</string>
     <string name="send_amount_title">Mengde</string>
     <string name="send_settings_title">Innstillinger</string>
@@ -187,7 +187,7 @@
     <string name="send_fee_label">Avgift</string>
     <string name="send_total_label">Totalt</string>
 
-    <string name="send_amount">%1$s XMR</string>
+    <string name="send_amount">%1$s AEON</string>
     <string name="send_fee">+%1$s avgift</string>
 
     <string name="send_create_tx_error_title">Error med å lage transaksjon</string>
@@ -224,7 +224,7 @@
 
     <string name="receive_amount_too_big">Maks. %1$s</string>
     <string name="receive_amount_negative">Min. 0</string>
-    <string name="receive_amount_nan">XMR ikke et tall</string>
+    <string name="receive_amount_nan">AEON ikke et tall</string>
 
     <string name="receive_title">Motta</string>
 

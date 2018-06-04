@@ -91,7 +91,7 @@
     <string name="label_wallet_receive">Recibir</string>
     <string name="label_wallet_send">Enviar</string>
 
-    <string name="xmr_unconfirmed_amount">+ %1$s XMR sin confirmar</string>
+    <string name="xmr_unconfirmed_amount">+ %1$s AEON sin confirmar</string>
 
     <string name="service_description">Servicio de monerujo</string>
 
@@ -109,7 +109,7 @@
     <string name="message_copy_address">¡Dirección del monedero copiada al portapapeles!</string>
     <string name="message_nocopy">¡La copia está desactivada por motivos de seguridad!</string>
 
-    <string name="message_exchange_failed">¡No se ha podido obtener la tasa de cambio!\nUsa XMR/XMR o inténtalo de nuevo</string>
+    <string name="message_exchange_failed">¡No se ha podido obtener la tasa de cambio!\nUsa AEON/AEON o inténtalo de nuevo</string>
 
     <string name="generate_title">Crear monedero</string>
     <string name="generate_name_hint">Nombre del monedero</string>
@@ -162,7 +162,7 @@
     <string name="generate_check_address">Introduce una dirección válida</string>
     <string name="generate_check_mnemonic">Introduce tu semilla de 24/25 palabras</string>
 
-    <string name="send_address_hint">Dirección XMR del Destinatario</string>
+    <string name="send_address_hint">Dirección AEON del Destinatario</string>
     <string name="send_paymentid_hint">ID de Pago (opcional)</string>
     <string name="send_amount_hint">0.00</string>
     <string name="send_notes_hint">Notas Privadas (opcional)</string>
@@ -171,7 +171,7 @@
     <string name="send_qr_invalid">No es un Código QR de monero</string>
     <string name="send_qr_address_invalid">Dirección de Monero inválida</string>
     <string name="send_title">Enviar</string>
-    <string name="send_available">Fondos disponibles: %1$s XMR</string>
+    <string name="send_available">Fondos disponibles: %1$s AEON</string>
     <string name="send_address_title">Dirección</string>
     <string name="send_amount_title">Monto</string>
     <string name="send_settings_title">Ajustes</string>
@@ -216,7 +216,7 @@
 
     <string name="receive_amount_too_big">Max. %1$s</string>
     <string name="receive_amount_negative">Min. 0</string>
-    <string name="receive_amount_nan">XMR no es un número</string>
+    <string name="receive_amount_nan">AEON no es un número</string>
 
     <string name="receive_title">Recibir</string>
 
@@ -243,7 +243,7 @@
     <string name="label_send_settings_advanced">Avanzado</string>
     <string name="send_send_label">Enviar mis preciados moneroj</string>
     <string name="send_address_invalid">No es una dirección válida</string>
-    <string name="send_amount">%1$s XMR</string>
+    <string name="send_amount">%1$s AEON</string>
     <string name="send_fee">+%1$s Comisión</string>
     <string name="about_whoami">Soy monerujo</string>
     <string name="info_crazypass_enabled">CrAzYpass activado, toca para más info.</string>
