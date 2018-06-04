@@ -10,8 +10,8 @@
 
     <color name="trafficGray">#9B9B9B</color>
 
-    <color name="take">#FF39d9fd</color>
-    <color name="give">#FFfdb139</color>
+    <color name="take">#FF1059c6</color>
+    <color name="give">#FFc62e10</color>
 
     <color name="moneroWhite">#ffffff</color>
     <color name="moneroBlack">#000000</color>
