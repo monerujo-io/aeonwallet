@@ -341,11 +341,13 @@ public class Helper {
     // or the password used to derive the CrAzYpass for the wallet
     static public String getWalletPassword(Context context, String walletName, String password) {
         String walletPath = new File(getWalletRoot(context), walletName + ".keys").getAbsolutePath();
+        Timber.e("A %s/%s/", walletPath, password);
 
         // try with entered password (which could be a legacy password or a CrAzYpass)
         if (WalletManager.getInstance().verifyWalletPassword(walletPath, password, true)) {
             return password;
         }
+        Timber.e("B");
 
         // maybe this is a malformed CrAzYpass?
         String possibleCrazyPass = CrazyPassEncoder.reformat(password);
@@ -354,24 +356,15 @@ public class Helper {
                 return possibleCrazyPass;
             }
         }
+        Timber.e("C");
 
         // generate & try with CrAzYpass
         String crazyPass = KeyStoreHelper.getCrazyPass(context, password);
+        Timber.e("D /%s/",crazyPass);
         if (WalletManager.getInstance().verifyWalletPassword(walletPath, crazyPass, true)) {
             return crazyPass;
         }
-
-        // or maybe it is a broken CrAzYpass? (of which we have two variants)
-        String brokenCrazyPass2 = KeyStoreHelper.getBrokenCrazyPass(context, password, 2);
-        if ((brokenCrazyPass2 != null)
-                && WalletManager.getInstance().verifyWalletPassword(walletPath, brokenCrazyPass2, true)) {
-            return brokenCrazyPass2;
-        }
-        String brokenCrazyPass1 = KeyStoreHelper.getBrokenCrazyPass(context, password, 1);
-        if ((brokenCrazyPass1 != null)
-                && WalletManager.getInstance().verifyWalletPassword(walletPath, brokenCrazyPass1, true)) {
-            return brokenCrazyPass1;
-        }
+        Timber.e("E");
 
         return null;
     }

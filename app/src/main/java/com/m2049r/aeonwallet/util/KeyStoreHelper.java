@@ -61,7 +61,7 @@ public class KeyStoreHelper {
         System.loadLibrary("monerujo");
     }
 
-    public static native byte[] slowHash(byte[] data, int brokenVariant);
+    public static native byte[] slowHash(byte[] data);
 
     static final private String RSA_ALIAS = "MonerujoRSA";
 
@@ -71,7 +71,7 @@ public class KeyStoreHelper {
         try {
             KeyStoreHelper.createKeys(context, RSA_ALIAS);
             sig = KeyStoreHelper.signData(RSA_ALIAS, data);
-            byte[] hash = slowHash(sig, brokenVariant);
+            byte[] hash = slowHash(sig);
             if (hash == null) {
                 throw new IllegalStateException("Slow Hash is null!");
             }
@@ -85,30 +85,6 @@ public class KeyStoreHelper {
 
     public static String getCrazyPass(Context context, String password) {
         return getCrazyPass(context, password, 0);
-    }
-
-    public static String getBrokenCrazyPass(Context context, String password, int brokenVariant) {
-        // due to a link bug in the initial implementation, some crazypasses were built with
-        // prehash & variant == 1
-        // since there are wallets out there, we need to keep this here
-        // yes, it's a mess
-        if (isArm32() && (brokenVariant != 2)) return null;
-        return getCrazyPass(context, password, brokenVariant);
-    }
-
-    private static Boolean isArm32 = null;
-
-    public static boolean isArm32() {
-        if (isArm32 != null) return isArm32;
-        synchronized (KeyStoreException.class) {
-            if (isArm32 != null) return isArm32;
-            if (Build.SUPPORTED_ABIS[0].equals("armeabi-v7a")) {
-                isArm32 = true;
-            } else {
-                isArm32 = false;
-            }
-            return isArm32;
-        }
     }
 
     public static boolean saveWalletUserPass(@NonNull Context context, String wallet, String password) {

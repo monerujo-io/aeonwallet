@@ -251,9 +251,9 @@ extern "C"
 /**********************************/
 JNIEXPORT jlong JNICALL
 Java_com_m2049r_aeonwallet_model_WalletManager_createWalletJ(JNIEnv *env, jobject instance,
-                                                            jstring path, jstring password,
-                                                            jstring language,
-                                                            jint networkType) {
+                                                             jstring path, jstring password,
+                                                             jstring language,
+                                                             jint networkType) {
     const char *_path = env->GetStringUTFChars(path, NULL);
     const char *_password = env->GetStringUTFChars(password, NULL);
     const char *_language = env->GetStringUTFChars(language, NULL);
@@ -274,8 +274,8 @@ Java_com_m2049r_aeonwallet_model_WalletManager_createWalletJ(JNIEnv *env, jobjec
 
 JNIEXPORT jlong JNICALL
 Java_com_m2049r_aeonwallet_model_WalletManager_openWalletJ(JNIEnv *env, jobject instance,
-                                                          jstring path, jstring password,
-                                                          jint networkType) {
+                                                           jstring path, jstring password,
+                                                           jint networkType) {
     const char *_path = env->GetStringUTFChars(path, NULL);
     const char *_password = env->GetStringUTFChars(password, NULL);
     Monero::NetworkType _networkType = static_cast<Monero::NetworkType>(networkType);
@@ -293,10 +293,10 @@ Java_com_m2049r_aeonwallet_model_WalletManager_openWalletJ(JNIEnv *env, jobject 
 
 JNIEXPORT jlong JNICALL
 Java_com_m2049r_aeonwallet_model_WalletManager_recoveryWalletJ(JNIEnv *env, jobject instance,
-                                                              jstring path, jstring password,
-                                                              jstring mnemonic,
-                                                              jint networkType,
-                                                              jlong restoreHeight) {
+                                                               jstring path, jstring password,
+                                                               jstring mnemonic,
+                                                               jint networkType,
+                                                               jlong restoreHeight) {
     const char *_path = env->GetStringUTFChars(path, NULL);
     const char *_password = env->GetStringUTFChars(password, NULL);
     const char *_mnemonic = env->GetStringUTFChars(mnemonic, NULL);
@@ -318,13 +318,13 @@ Java_com_m2049r_aeonwallet_model_WalletManager_recoveryWalletJ(JNIEnv *env, jobj
 
 JNIEXPORT jlong JNICALL
 Java_com_m2049r_aeonwallet_model_WalletManager_createWalletFromKeysJ(JNIEnv *env, jobject instance,
-                                                                    jstring path, jstring password,
-                                                                    jstring language,
-                                                                    jint networkType,
-                                                                    jlong restoreHeight,
-                                                                    jstring addressString,
-                                                                    jstring viewKeyString,
-                                                                    jstring spendKeyString) {
+                                                                     jstring path, jstring password,
+                                                                     jstring language,
+                                                                     jint networkType,
+                                                                     jlong restoreHeight,
+                                                                     jstring addressString,
+                                                                     jstring viewKeyString,
+                                                                     jstring spendKeyString) {
     const char *_path = env->GetStringUTFChars(path, NULL);
     const char *_password = env->GetStringUTFChars(password, NULL);
     const char *_language = env->GetStringUTFChars(language, NULL);
@@ -355,7 +355,7 @@ Java_com_m2049r_aeonwallet_model_WalletManager_createWalletFromKeysJ(JNIEnv *env
 
 JNIEXPORT jboolean JNICALL
 Java_com_m2049r_aeonwallet_model_WalletManager_walletExists(JNIEnv *env, jobject instance,
-                                                           jstring path) {
+                                                            jstring path) {
     const char *_path = env->GetStringUTFChars(path, NULL);
     bool exists =
             Bitmonero::WalletManagerFactory::getWalletManager()->walletExists(std::string(_path));
@@ -365,9 +365,9 @@ Java_com_m2049r_aeonwallet_model_WalletManager_walletExists(JNIEnv *env, jobject
 
 JNIEXPORT jboolean JNICALL
 Java_com_m2049r_aeonwallet_model_WalletManager_verifyWalletPassword(JNIEnv *env, jobject instance,
-                                                                   jstring keys_file_name,
-                                                                   jstring password,
-                                                                   jboolean watch_only) {
+                                                                    jstring keys_file_name,
+                                                                    jstring password,
+                                                                    jboolean watch_only) {
     const char *_keys_file_name = env->GetStringUTFChars(keys_file_name, NULL);
     const char *_password = env->GetStringUTFChars(password, NULL);
     bool passwordOk =
@@ -381,7 +381,7 @@ Java_com_m2049r_aeonwallet_model_WalletManager_verifyWalletPassword(JNIEnv *env,
 
 JNIEXPORT jobject JNICALL
 Java_com_m2049r_aeonwallet_model_WalletManager_findWallets(JNIEnv *env, jobject instance,
-                                                          jstring path) {
+                                                           jstring path) {
     const char *_path = env->GetStringUTFChars(path, NULL);
     std::vector<std::string> walletPaths =
             Bitmonero::WalletManagerFactory::getWalletManager()->findWallets(std::string(_path));
@@ -399,7 +399,7 @@ Java_com_m2049r_aeonwallet_model_WalletManager_getErrorString(JNIEnv *env, jobje
 
 JNIEXPORT void JNICALL
 Java_com_m2049r_aeonwallet_model_WalletManager_setDaemonAddressJ(JNIEnv *env, jobject instance,
-                                                                jstring address) {
+                                                                 jstring address) {
     const char *_address = env->GetStringUTFChars(address, NULL);
     Bitmonero::WalletManagerFactory::getWalletManager()->setDaemonAddress(std::string(_address));
     env->ReleaseStringUTFChars(address, _address);
@@ -408,7 +408,7 @@ Java_com_m2049r_aeonwallet_model_WalletManager_setDaemonAddressJ(JNIEnv *env, jo
 // returns whether the daemon can be reached, and its version number
 JNIEXPORT jint JNICALL
 Java_com_m2049r_aeonwallet_model_WalletManager_getDaemonVersion(JNIEnv *env,
-                                                               jobject instance) {
+                                                                jobject instance) {
     uint32_t version;
     bool isConnected =
             Bitmonero::WalletManagerFactory::getWalletManager()->connected(&version);
@@ -423,7 +423,7 @@ Java_com_m2049r_aeonwallet_model_WalletManager_getBlockchainHeight(JNIEnv *env, 
 
 JNIEXPORT jlong JNICALL
 Java_com_m2049r_aeonwallet_model_WalletManager_getBlockchainTargetHeight(JNIEnv *env,
-                                                                        jobject instance) {
+                                                                         jobject instance) {
     return Bitmonero::WalletManagerFactory::getWalletManager()->blockchainTargetHeight();
 }
 
@@ -449,9 +449,9 @@ Java_com_m2049r_aeonwallet_model_WalletManager_isMining(JNIEnv *env, jobject ins
 
 JNIEXPORT jboolean JNICALL
 Java_com_m2049r_aeonwallet_model_WalletManager_startMining(JNIEnv *env, jobject instance,
-                                                          jstring address,
-                                                          jboolean background_mining,
-                                                          jboolean ignore_battery) {
+                                                           jstring address,
+                                                           jboolean background_mining,
+                                                           jboolean ignore_battery) {
     const char *_address = env->GetStringUTFChars(address, NULL);
     bool success =
             Bitmonero::WalletManagerFactory::getWalletManager()->startMining(std::string(_address),
@@ -468,8 +468,8 @@ Java_com_m2049r_aeonwallet_model_WalletManager_stopMining(JNIEnv *env, jobject i
 
 JNIEXPORT jstring JNICALL
 Java_com_m2049r_aeonwallet_model_WalletManager_resolveOpenAlias(JNIEnv *env, jobject instance,
-                                                               jstring address,
-                                                               jboolean dnssec_valid) {
+                                                                jstring address,
+                                                                jboolean dnssec_valid) {
     const char *_address = env->GetStringUTFChars(address, NULL);
     bool _dnssec_valid = (bool) dnssec_valid;
     std::string resolvedAlias =
@@ -484,7 +484,7 @@ Java_com_m2049r_aeonwallet_model_WalletManager_resolveOpenAlias(JNIEnv *env, job
 
 JNIEXPORT jboolean JNICALL
 Java_com_m2049r_aeonwallet_model_WalletManager_closeJ(JNIEnv *env, jobject instance,
-                                                     jobject walletInstance) {
+                                                      jobject walletInstance) {
     Bitmonero::Wallet *wallet = getHandle<Bitmonero::Wallet>(env, walletInstance);
     bool closeSuccess = Bitmonero::WalletManagerFactory::getWalletManager()->closeWallet(wallet,
                                                                                          false);
@@ -521,7 +521,7 @@ Java_com_m2049r_aeonwallet_model_Wallet_getSeedLanguage(JNIEnv *env, jobject ins
 
 JNIEXPORT void JNICALL
 Java_com_m2049r_aeonwallet_model_Wallet_setSeedLanguage(JNIEnv *env, jobject instance,
-                                                       jstring language) {
+                                                        jstring language) {
     const char *_language = env->GetStringUTFChars(language, NULL);
     Bitmonero::Wallet *wallet = getHandle<Bitmonero::Wallet>(env, instance);
     wallet->setSeedLanguage(std::string(_language));
@@ -542,7 +542,7 @@ Java_com_m2049r_aeonwallet_model_Wallet_getErrorString(JNIEnv *env, jobject inst
 
 JNIEXPORT jboolean JNICALL
 Java_com_m2049r_aeonwallet_model_Wallet_setPassword(JNIEnv *env, jobject instance,
-                                                   jstring password) {
+                                                    jstring password) {
     const char *_password = env->GetStringUTFChars(password, NULL);
     Bitmonero::Wallet *wallet = getHandle<Bitmonero::Wallet>(env, instance);
     bool success = wallet->setPassword(std::string(_password));
@@ -573,7 +573,7 @@ Java_com_m2049r_aeonwallet_model_Wallet_nettype(JNIEnv *env, jobject instance) {
 
 JNIEXPORT jstring JNICALL
 Java_com_m2049r_aeonwallet_model_Wallet_getIntegratedAddress(JNIEnv *env, jobject instance,
-                                                            jstring payment_id) {
+                                                             jstring payment_id) {
     const char *_payment_id = env->GetStringUTFChars(payment_id, NULL);
     Bitmonero::Wallet *wallet = getHandle<Bitmonero::Wallet>(env, instance);
     std::string address = wallet->integratedAddress(_payment_id);
@@ -595,7 +595,7 @@ Java_com_m2049r_aeonwallet_model_Wallet_getSecretSpendKey(JNIEnv *env, jobject i
 
 JNIEXPORT jboolean JNICALL
 Java_com_m2049r_aeonwallet_model_Wallet_store(JNIEnv *env, jobject instance,
-                                             jstring path) {
+                                              jstring path) {
     const char *_path = env->GetStringUTFChars(path, NULL);
     Bitmonero::Wallet *wallet = getHandle<Bitmonero::Wallet>(env, instance);
     bool success = wallet->store(std::string(_path));
@@ -616,9 +616,9 @@ Java_com_m2049r_aeonwallet_model_Wallet_getFilename(JNIEnv *env, jobject instanc
 
 JNIEXPORT jboolean JNICALL
 Java_com_m2049r_aeonwallet_model_Wallet_initJ(JNIEnv *env, jobject instance,
-                                             jstring daemon_address,
-                                             jlong upper_transaction_size_limit,
-                                             jstring daemon_username, jstring daemon_password) {
+                                              jstring daemon_address,
+                                              jlong upper_transaction_size_limit,
+                                              jstring daemon_username, jstring daemon_password) {
     const char *_daemon_address = env->GetStringUTFChars(daemon_address, NULL);
     const char *_daemon_username = env->GetStringUTFChars(daemon_username, NULL);
     const char *_daemon_password = env->GetStringUTFChars(daemon_password, NULL);
@@ -671,7 +671,7 @@ Java_com_m2049r_aeonwallet_model_Wallet_getBlockChainHeight(JNIEnv *env, jobject
 
 JNIEXPORT jlong JNICALL
 Java_com_m2049r_aeonwallet_model_Wallet_getApproximateBlockChainHeight(JNIEnv *env,
-                                                                      jobject instance) {
+                                                                       jobject instance) {
     Bitmonero::Wallet *wallet = getHandle<Bitmonero::Wallet>(env, instance);
     return wallet->approximateBlockChainHeight();
 }
@@ -684,7 +684,7 @@ Java_com_m2049r_aeonwallet_model_Wallet_getDaemonBlockChainHeight(JNIEnv *env, j
 
 JNIEXPORT jlong JNICALL
 Java_com_m2049r_aeonwallet_model_Wallet_getDaemonBlockChainTargetHeight(JNIEnv *env,
-                                                                       jobject instance) {
+                                                                        jobject instance) {
     Bitmonero::Wallet *wallet = getHandle<Bitmonero::Wallet>(env, instance);
     return wallet->daemonBlockChainTargetHeight();
 }
@@ -698,24 +698,13 @@ Java_com_m2049r_aeonwallet_model_Wallet_isSynchronized(JNIEnv *env, jobject inst
 //void cn_slow_hash(const void *data, size_t length, char *hash); // from crypto/hash-ops.h
 JNIEXPORT jbyteArray JNICALL
 Java_com_m2049r_aeonwallet_util_KeyStoreHelper_slowHash(JNIEnv *env, jobject clazz,
-                                                       jbyteArray data, jint brokenVariant) {
+                                                        jbyteArray data) {
     char hash[HASH_SIZE];
     jsize size = env->GetArrayLength(data);
-    if ((brokenVariant > 0) && (size < 200 /*sizeof(union hash_state)*/)) {
-        return nullptr;
-    }
-
     jbyte *buffer = env->GetByteArrayElements(data, NULL);
-    switch (brokenVariant) {
-        case 1:
-            slow_hash_broken(buffer, hash, 1);
-            break;
-        case 2:
-            slow_hash_broken(buffer, hash, 0);
-            break;
-        default: // not broken
-            slow_hash(buffer, (size_t) size, hash);
-    }
+
+    slow_hash(buffer, (size_t) size, hash);
+
     env->ReleaseByteArrayElements(data, buffer, JNI_ABORT); // do not update java byte[]
     jbyteArray result = env->NewByteArray(HASH_SIZE);
     env->SetByteArrayRegion(result, 0, HASH_SIZE, (jbyte *) hash);
@@ -724,13 +713,13 @@ Java_com_m2049r_aeonwallet_util_KeyStoreHelper_slowHash(JNIEnv *env, jobject cla
 
 JNIEXPORT jstring JNICALL
 Java_com_m2049r_aeonwallet_model_Wallet_getDisplayAmount(JNIEnv *env, jobject clazz,
-                                                        jlong amount) {
+                                                         jlong amount) {
     return env->NewStringUTF(Bitmonero::Wallet::displayAmount(amount).c_str());
 }
 
 JNIEXPORT jlong JNICALL
 Java_com_m2049r_aeonwallet_model_Wallet_getAmountFromString(JNIEnv *env, jobject clazz,
-                                                           jstring amount) {
+                                                            jstring amount) {
     const char *_amount = env->GetStringUTFChars(amount, NULL);
     uint64_t x = Bitmonero::Wallet::amountFromString(_amount);
     env->ReleaseStringUTFChars(amount, _amount);
@@ -739,7 +728,7 @@ Java_com_m2049r_aeonwallet_model_Wallet_getAmountFromString(JNIEnv *env, jobject
 
 JNIEXPORT jlong JNICALL
 Java_com_m2049r_aeonwallet_model_Wallet_getAmountFromDouble(JNIEnv *env, jobject clazz,
-                                                           jdouble amount) {
+                                                            jdouble amount) {
     return Bitmonero::Wallet::amountFromDouble(amount);
 }
 
@@ -750,7 +739,7 @@ Java_com_m2049r_aeonwallet_model_Wallet_generatePaymentId(JNIEnv *env, jobject c
 
 JNIEXPORT jboolean JNICALL
 Java_com_m2049r_aeonwallet_model_Wallet_isPaymentIdValid(JNIEnv *env, jobject clazz,
-                                                        jstring payment_id) {
+                                                         jstring payment_id) {
     const char *_payment_id = env->GetStringUTFChars(payment_id, NULL);
     bool isValid = Bitmonero::Wallet::paymentIdValid(_payment_id);
     env->ReleaseStringUTFChars(payment_id, _payment_id);
@@ -759,7 +748,7 @@ Java_com_m2049r_aeonwallet_model_Wallet_isPaymentIdValid(JNIEnv *env, jobject cl
 
 JNIEXPORT jboolean JNICALL
 Java_com_m2049r_aeonwallet_model_Wallet_isAddressValid(JNIEnv *env, jobject clazz,
-                                                      jstring address, jint networkType) {
+                                                       jstring address, jint networkType) {
     const char *_address = env->GetStringUTFChars(address, NULL);
     Monero::NetworkType _networkType = static_cast<Monero::NetworkType>(networkType);
     bool isValid = Bitmonero::Wallet::addressValid(_address, _networkType);
@@ -769,8 +758,8 @@ Java_com_m2049r_aeonwallet_model_Wallet_isAddressValid(JNIEnv *env, jobject claz
 
 JNIEXPORT jstring JNICALL
 Java_com_m2049r_aeonwallet_model_Wallet_getPaymentIdFromAddress(JNIEnv *env, jobject clazz,
-                                                               jstring address,
-                                                               jint networkType) {
+                                                                jstring address,
+                                                                jint networkType) {
     Monero::NetworkType _networkType = static_cast<Monero::NetworkType>(networkType);
     const char *_address = env->GetStringUTFChars(address, NULL);
     std::string payment_id = Bitmonero::Wallet::paymentIdFromAddress(_address, _networkType);
@@ -812,9 +801,9 @@ Java_com_m2049r_aeonwallet_model_Wallet_refreshAsync(JNIEnv *env, jobject instan
 
 JNIEXPORT jlong JNICALL
 Java_com_m2049r_aeonwallet_model_Wallet_createTransactionJ(JNIEnv *env, jobject instance,
-                                                          jstring dst_addr, jstring payment_id,
-                                                          jlong amount, jint mixin_count,
-                                                          jint priority) {
+                                                           jstring dst_addr, jstring payment_id,
+                                                           jlong amount, jint mixin_count,
+                                                           jint priority) {
 
     const char *_dst_addr = env->GetStringUTFChars(dst_addr, NULL);
     const char *_payment_id = env->GetStringUTFChars(payment_id, NULL);
@@ -833,7 +822,7 @@ Java_com_m2049r_aeonwallet_model_Wallet_createTransactionJ(JNIEnv *env, jobject 
 
 JNIEXPORT jlong JNICALL
 Java_com_m2049r_aeonwallet_model_Wallet_createSweepUnmixableTransactionJ(JNIEnv *env,
-                                                                        jobject instance) {
+                                                                         jobject instance) {
     Bitmonero::Wallet *wallet = getHandle<Bitmonero::Wallet>(env, instance);
     Bitmonero::PendingTransaction *tx = wallet->createSweepUnmixableTransaction();
     return reinterpret_cast<jlong>(tx);
@@ -844,7 +833,7 @@ Java_com_m2049r_aeonwallet_model_Wallet_createSweepUnmixableTransactionJ(JNIEnv 
 
 JNIEXPORT void JNICALL
 Java_com_m2049r_aeonwallet_model_Wallet_disposeTransaction(JNIEnv *env, jobject instance,
-                                                          jobject pendingTransaction) {
+                                                           jobject pendingTransaction) {
     Bitmonero::Wallet *wallet = getHandle<Bitmonero::Wallet>(env, instance);
     Bitmonero::PendingTransaction *_pendingTransaction =
             getHandle<Bitmonero::PendingTransaction>(env, pendingTransaction);
@@ -866,7 +855,7 @@ Java_com_m2049r_aeonwallet_model_Wallet_getHistoryJ(JNIEnv *env, jobject instanc
 
 JNIEXPORT jlong JNICALL
 Java_com_m2049r_aeonwallet_model_Wallet_setListenerJ(JNIEnv *env, jobject instance,
-                                                    jobject javaListener) {
+                                                     jobject javaListener) {
     Bitmonero::Wallet *wallet = getHandle<Bitmonero::Wallet>(env, instance);
     wallet->setListener(nullptr); // clear old listener
     // delete old listener
@@ -900,7 +889,7 @@ Java_com_m2049r_aeonwallet_model_Wallet_setDefaultMixin(JNIEnv *env, jobject ins
 
 JNIEXPORT jboolean JNICALL
 Java_com_m2049r_aeonwallet_model_Wallet_setUserNote(JNIEnv *env, jobject instance,
-                                                   jstring txid, jstring note) {
+                                                    jstring txid, jstring note) {
 
     const char *_txid = env->GetStringUTFChars(txid, NULL);
     const char *_note = env->GetStringUTFChars(note, NULL);
@@ -917,7 +906,7 @@ Java_com_m2049r_aeonwallet_model_Wallet_setUserNote(JNIEnv *env, jobject instanc
 
 JNIEXPORT jstring JNICALL
 Java_com_m2049r_aeonwallet_model_Wallet_getUserNote(JNIEnv *env, jobject instance,
-                                                   jstring txid) {
+                                                    jstring txid) {
 
     const char *_txid = env->GetStringUTFChars(txid, NULL);
 
@@ -931,7 +920,7 @@ Java_com_m2049r_aeonwallet_model_Wallet_getUserNote(JNIEnv *env, jobject instanc
 
 JNIEXPORT jstring JNICALL
 Java_com_m2049r_aeonwallet_model_Wallet_getTxKey(JNIEnv *env, jobject instance,
-                                                jstring txid) {
+                                                 jstring txid) {
 
     const char *_txid = env->GetStringUTFChars(txid, NULL);
 
@@ -1053,7 +1042,7 @@ Java_com_m2049r_aeonwallet_model_PendingTransaction_getErrorString(JNIEnv *env, 
 // commit transaction or save to file if filename is provided.
 JNIEXPORT jboolean JNICALL
 Java_com_m2049r_aeonwallet_model_PendingTransaction_commit(JNIEnv *env, jobject instance,
-                                                          jstring filename, jboolean overwrite) {
+                                                           jstring filename, jboolean overwrite) {
 
     const char *_filename = env->GetStringUTFChars(filename, NULL);
 
@@ -1108,8 +1097,8 @@ Java_com_m2049r_aeonwallet_model_PendingTransaction_getTxCount(JNIEnv *env, jobj
 //static void error(const std::string &category, const std::string &str);
 JNIEXPORT void JNICALL
 Java_com_m2049r_aeonwallet_model_WalletManager_initLogger(JNIEnv *env, jobject instance,
-                                                         jstring argv0,
-                                                         jstring default_log_base_name) {
+                                                          jstring argv0,
+                                                          jstring default_log_base_name) {
 
     const char *_argv0 = env->GetStringUTFChars(argv0, NULL);
     const char *_default_log_base_name = env->GetStringUTFChars(default_log_base_name, NULL);
@@ -1122,7 +1111,7 @@ Java_com_m2049r_aeonwallet_model_WalletManager_initLogger(JNIEnv *env, jobject i
 
 JNIEXPORT void JNICALL
 Java_com_m2049r_aeonwallet_model_WalletManager_logDebug(JNIEnv *env, jobject instance,
-                                                       jstring category, jstring message) {
+                                                        jstring category, jstring message) {
 
     const char *_category = env->GetStringUTFChars(category, NULL);
     const char *_message = env->GetStringUTFChars(message, NULL);
@@ -1135,7 +1124,7 @@ Java_com_m2049r_aeonwallet_model_WalletManager_logDebug(JNIEnv *env, jobject ins
 
 JNIEXPORT void JNICALL
 Java_com_m2049r_aeonwallet_model_WalletManager_logInfo(JNIEnv *env, jobject instance,
-                                                      jstring category, jstring message) {
+                                                       jstring category, jstring message) {
 
     const char *_category = env->GetStringUTFChars(category, NULL);
     const char *_message = env->GetStringUTFChars(message, NULL);
@@ -1148,7 +1137,7 @@ Java_com_m2049r_aeonwallet_model_WalletManager_logInfo(JNIEnv *env, jobject inst
 
 JNIEXPORT void JNICALL
 Java_com_m2049r_aeonwallet_model_WalletManager_logWarning(JNIEnv *env, jobject instance,
-                                                         jstring category, jstring message) {
+                                                          jstring category, jstring message) {
 
     const char *_category = env->GetStringUTFChars(category, NULL);
     const char *_message = env->GetStringUTFChars(message, NULL);
@@ -1161,7 +1150,7 @@ Java_com_m2049r_aeonwallet_model_WalletManager_logWarning(JNIEnv *env, jobject i
 
 JNIEXPORT void JNICALL
 Java_com_m2049r_aeonwallet_model_WalletManager_logError(JNIEnv *env, jobject instance,
-                                                       jstring category, jstring message) {
+                                                        jstring category, jstring message) {
 
     const char *_category = env->GetStringUTFChars(category, NULL);
     const char *_message = env->GetStringUTFChars(message, NULL);
@@ -1174,7 +1163,7 @@ Java_com_m2049r_aeonwallet_model_WalletManager_logError(JNIEnv *env, jobject ins
 
 JNIEXPORT void JNICALL
 Java_com_m2049r_aeonwallet_model_WalletManager_setLogLevel(JNIEnv *env, jobject instance,
-                                                          jint level) {
+                                                           jint level) {
     Bitmonero::WalletManagerFactory::setLogLevel(level);
 }
 
