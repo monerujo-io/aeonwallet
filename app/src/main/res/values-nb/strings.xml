@@ -163,7 +163,7 @@
 
     <string name="generate_check_key">Skriv inn gyldig nøkkel</string>
     <string name="generate_check_address">Skriv inn gyldig adresse</string>
-    <string name="generate_check_mnemonic">Skriv inn ditt 25-ord lange seed</string>
+    <string name="generate_check_mnemonic">Skriv inn ditt 24/25-ord lange seed</string>
 
     <string name="send_address_hint">Mottakers XMR adresse</string>
     <string name="send_paymentid_hint">Betalings-ID (valgfritt)</string>

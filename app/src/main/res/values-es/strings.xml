@@ -160,7 +160,7 @@
 
     <string name="generate_check_key">Introduce una clave válida</string>
     <string name="generate_check_address">Introduce una dirección válida</string>
-    <string name="generate_check_mnemonic">Introduce tu semilla de 25 palabras</string>
+    <string name="generate_check_mnemonic">Introduce tu semilla de 24/25 palabras</string>
 
     <string name="send_address_hint">Dirección XMR del Destinatario</string>
     <string name="send_paymentid_hint">ID de Pago (opcional)</string>

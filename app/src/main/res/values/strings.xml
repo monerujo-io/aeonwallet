@@ -168,7 +168,7 @@
 
     <string name="generate_check_key">Enter valid Key</string>
     <string name="generate_check_address">Enter valid Address</string>
-    <string name="generate_check_mnemonic">Enter your 25 word seed</string>
+    <string name="generate_check_mnemonic">Enter your 24/25 word seed</string>
 
     <string name="send_address_hint">Receiver\'s AEON Address</string>
     <string name="send_paymentid_hint">Payment ID (optional)</string>

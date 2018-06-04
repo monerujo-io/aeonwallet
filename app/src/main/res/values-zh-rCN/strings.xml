@@ -160,7 +160,7 @@
 
     <string name="generate_check_key">输入有效的密钥</string>
     <string name="generate_check_address">输入有效的地址</string>
-    <string name="generate_check_mnemonic">输入你的25字种子码</string>
+    <string name="generate_check_mnemonic">输入你的24/25字种子码</string>
 
     <string name="send_address_hint">收款者的 XMR 地址</string>
     <string name="send_paymentid_hint">付款ID (选填)</string>

@@ -164,7 +164,7 @@
 
     <string name="generate_check_key">Inserisci una chiave valida</string>
     <string name="generate_check_address">Inserisci un indirizzo valido</string>
-    <string name="generate_check_mnemonic">Inserisci il tuo seed di 25 parole</string>
+    <string name="generate_check_mnemonic">Inserisci il tuo seed di 24/25 parole</string>
 
     <string name="send_address_hint">Indirizzo XMR del ricevente</string>
     <string name="send_paymentid_hint">ID pagamento (opzionale)</string>

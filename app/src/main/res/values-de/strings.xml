@@ -163,7 +163,7 @@
 
     <string name="generate_check_key">Gib einen gültigen Schlüssel ein</string>
     <string name="generate_check_address">Gib eine gültige Adresse ein</string>
-    <string name="generate_check_mnemonic">Gib deine 25 Wörter Seed ein</string>
+    <string name="generate_check_mnemonic">Gib deine 24/25 Wörter Seed ein</string>
 
     <string name="send_address_hint">Empfänger XMR Adresse</string>
     <string name="send_paymentid_hint">Zahlungs-ID (optional)</string>

@@ -407,7 +407,8 @@ public class GenerateFragment extends Fragment {
 
     private boolean checkMnemonic() {
         String seed = etWalletMnemonic.getEditText().getText().toString();
-        boolean ok = (seed.split("\\s").length == 25); // 25 words
+        int seedWords = seed.split("\\s").length;
+        boolean ok = ((seedWords == 25) || (seedWords == 24)); // 24 are old style
         if (!ok) {
             etWalletMnemonic.setError(getString(R.string.generate_check_mnemonic));
         } else {
