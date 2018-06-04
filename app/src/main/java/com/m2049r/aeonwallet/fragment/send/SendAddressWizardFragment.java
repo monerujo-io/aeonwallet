@@ -21,7 +21,6 @@ import android.os.Bundle;
 import android.support.design.widget.TextInputLayout;
 import android.support.v7.widget.CardView;
 import android.text.Editable;
-import android.text.Html;
 import android.text.InputType;
 import android.text.TextWatcher;
 import android.view.KeyEvent;
@@ -36,10 +35,7 @@ import android.widget.TextView;
 import com.m2049r.aeonwallet.R;
 import com.m2049r.aeonwallet.data.BarcodeData;
 import com.m2049r.aeonwallet.data.TxData;
-import com.m2049r.aeonwallet.data.TxDataBtc;
 import com.m2049r.aeonwallet.model.Wallet;
-import com.m2049r.aeonwallet.model.WalletManager;
-import com.m2049r.aeonwallet.util.BitcoinAddressValidator;
 import com.m2049r.aeonwallet.util.Helper;
 
 import timber.log.Timber;
@@ -76,8 +72,6 @@ public class SendAddressWizardFragment extends SendWizardFragment {
     private CardView cvScan;
     private View tvPaymentIdIntegrated;
     private View llPaymentId;
-    private TextView tvXmrTo;
-    private View llXmrTo;
 
     OnScanListener onScanListener;
 
@@ -96,9 +90,6 @@ public class SendAddressWizardFragment extends SendWizardFragment {
 
         tvPaymentIdIntegrated = view.findViewById(R.id.tvPaymentIdIntegrated);
         llPaymentId = view.findViewById(R.id.llPaymentId);
-        llXmrTo = view.findViewById(R.id.llXmrTo);
-        tvXmrTo = (TextView) view.findViewById(R.id.tvXmrTo);
-        tvXmrTo.setText(Html.fromHtml(getString(R.string.info_xmrto)));
 
         etAddress = (TextInputLayout) view.findViewById(R.id.etAddress);
         etAddress.getEditText().setRawInputType(InputType.TYPE_TEXT_FLAG_NO_SUGGESTIONS);
@@ -127,20 +118,11 @@ public class SendAddressWizardFragment extends SendWizardFragment {
                     etPaymentId.getEditText().getText().clear();
                     llPaymentId.setVisibility(View.INVISIBLE);
                     tvPaymentIdIntegrated.setVisibility(View.VISIBLE);
-                    llXmrTo.setVisibility(View.INVISIBLE);
                     sendListener.setMode(SendFragment.Mode.XMR);
-                } else if (isBitcoinAddress()) {
-                    Timber.d("isBitcoinAddress");
-                    etPaymentId.getEditText().getText().clear();
-                    llPaymentId.setVisibility(View.INVISIBLE);
-                    tvPaymentIdIntegrated.setVisibility(View.INVISIBLE);
-                    llXmrTo.setVisibility(View.VISIBLE);
-                    sendListener.setMode(SendFragment.Mode.BTC);
                 } else {
                     Timber.d("isStandardAddress");
                     llPaymentId.setVisibility(View.VISIBLE);
                     tvPaymentIdIntegrated.setVisibility(View.INVISIBLE);
-                    llXmrTo.setVisibility(View.INVISIBLE);
                     sendListener.setMode(SendFragment.Mode.XMR);
                 }
             }
@@ -211,8 +193,7 @@ public class SendAddressWizardFragment extends SendWizardFragment {
 
     private boolean checkAddressNoError() {
         String address = etAddress.getEditText().getText().toString();
-        return Wallet.isAddressValid(address)
-                || BitcoinAddressValidator.validate(address);
+        return Wallet.isAddressValid(address);
     }
 
     private boolean checkAddress() {
@@ -229,14 +210,6 @@ public class SendAddressWizardFragment extends SendWizardFragment {
         String address = etAddress.getEditText().getText().toString();
         return (address.length() == INTEGRATED_ADDRESS_LENGTH)
                 && Wallet.isAddressValid(address);
-    }
-
-    private boolean isBitcoinAddress() {
-        String address = etAddress.getEditText().getText().toString();
-        if ((address.length() >= 27) && (address.length() <= 35))
-            return BitcoinAddressValidator.validate(address);
-        else
-            return false;
     }
 
     private boolean checkPaymentId() {
@@ -269,14 +242,8 @@ public class SendAddressWizardFragment extends SendWizardFragment {
         if (!ok) return false;
         if (sendListener != null) {
             TxData txData = sendListener.getTxData();
-            if (isBitcoinAddress()) {
-                ((TxDataBtc) txData).setBtcAddress(etAddress.getEditText().getText().toString());
-                txData.setDestinationAddress(null);
-                txData.setPaymentId("");
-            } else {
-                txData.setDestinationAddress(etAddress.getEditText().getText().toString());
-                txData.setPaymentId(etPaymentId.getEditText().getText().toString());
-            }
+            txData.setDestinationAddress(etAddress.getEditText().getText().toString());
+            txData.setPaymentId(etPaymentId.getEditText().getText().toString());
         }
         return true;
     }

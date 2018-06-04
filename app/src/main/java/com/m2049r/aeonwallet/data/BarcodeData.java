@@ -18,10 +18,7 @@ package com.m2049r.aeonwallet.data;
 
 import android.net.Uri;
 
-import com.m2049r.aeonwallet.model.NetworkType;
 import com.m2049r.aeonwallet.model.Wallet;
-import com.m2049r.aeonwallet.model.WalletManager;
-import com.m2049r.aeonwallet.util.BitcoinAddressValidator;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -29,15 +26,12 @@ import java.util.Map;
 import timber.log.Timber;
 
 public class BarcodeData {
-    public static final String XMR_SCHEME = "monero:";
+    public static final String XMR_SCHEME = "aeon:";
     public static final String XMR_PAYMENTID = "tx_payment_id";
     public static final String XMR_AMOUNT = "tx_amount";
 
-    static final String BTC_SCHEME = "bitcoin:";
-    static final String BTC_AMOUNT = "amount";
-
     public enum Asset {
-        XMR, BTC
+        XMR
     }
 
     public Asset asset = null;
@@ -69,14 +63,6 @@ public class BarcodeData {
         // check for naked monero address / integrated address
         if (bcData == null) {
             bcData = parseMoneroNaked(qrCode);
-        }
-        // check for btc uri
-        if (bcData == null) {
-            bcData = parseBitcoinUri(qrCode);
-        }
-        // check for naked btc addres
-        if (bcData == null) {
-            bcData = parseBitcoinNaked(qrCode);
         }
         return bcData;
     }
@@ -144,58 +130,5 @@ public class BarcodeData {
         }
 
         return new BarcodeData(Asset.XMR, address);
-    }
-
-    // bitcoin:mpQ84J43EURZHkCnXbyQ4PpNDLLBqdsMW2?amount=0.01
-    static public BarcodeData parseBitcoinUri(String uri) {
-        Timber.d("parseBitcoinUri=%s", uri);
-
-        if (uri == null) return null;
-
-        if (!uri.startsWith(BTC_SCHEME)) return null;
-
-        String noScheme = uri.substring(BTC_SCHEME.length());
-        Uri bitcoin = Uri.parse(noScheme);
-        Map<String, String> parms = new HashMap<>();
-        String query = bitcoin.getQuery();
-        if (query != null) {
-            String[] args = query.split("&");
-            for (String arg : args) {
-                String[] namevalue = arg.split("=");
-                if (namevalue.length == 0) {
-                    continue;
-                }
-                parms.put(Uri.decode(namevalue[0]).toLowerCase(),
-                        namevalue.length > 1 ? Uri.decode(namevalue[1]) : "");
-            }
-        }
-        String address = bitcoin.getPath();
-        String amount = parms.get(BTC_AMOUNT);
-        if (amount != null) {
-            try {
-                Double.parseDouble(amount);
-            } catch (NumberFormatException ex) {
-                Timber.d(ex.getLocalizedMessage());
-                return null; // we have an amount but its not a number!
-            }
-        }
-        if (!BitcoinAddressValidator.validate(address)) {
-            Timber.d("address invalid");
-            return null;
-        }
-        return new BarcodeData(BarcodeData.Asset.BTC, address, amount);
-    }
-
-    static public BarcodeData parseBitcoinNaked(String address) {
-        Timber.d("parseBitcoinNaked=%s", address);
-
-        if (address == null) return null;
-
-        if (!BitcoinAddressValidator.validate(address)) {
-            Timber.d("address invalid");
-            return null;
-        }
-
-        return new BarcodeData(BarcodeData.Asset.BTC, address);
     }
 }

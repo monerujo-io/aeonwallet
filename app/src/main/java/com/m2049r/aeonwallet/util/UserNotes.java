@@ -16,12 +16,8 @@
 
 package com.m2049r.aeonwallet.util;
 
-import com.m2049r.aeonwallet.xmrto.api.QueryOrderStatus;
-
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-
-import timber.log.Timber;
 
 public class UserNotes {
     public String txNotes = "";
@@ -52,19 +48,6 @@ public class UserNotes {
             note = newNote;
         } else {
             note = "";
-        }
-        txNotes = buildTxNote();
-    }
-
-    public void setXmrtoStatus(QueryOrderStatus xmrtoStatus) {
-        if (xmrtoStatus != null) {
-            xmrtoKey = xmrtoStatus.getUuid();
-            xmrtoAmount = String.valueOf(xmrtoStatus.getBtcAmount());
-            xmrtoDestination = xmrtoStatus.getBtcDestAddress();
-        } else {
-            xmrtoKey = null;
-            xmrtoAmount = null;
-            xmrtoDestination = null;
         }
         txNotes = buildTxNote();
     }

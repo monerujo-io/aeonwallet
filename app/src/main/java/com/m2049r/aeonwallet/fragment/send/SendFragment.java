@@ -41,12 +41,9 @@ import com.m2049r.aeonwallet.R;
 import com.m2049r.aeonwallet.data.BarcodeData;
 import com.m2049r.aeonwallet.data.PendingTx;
 import com.m2049r.aeonwallet.data.TxData;
-import com.m2049r.aeonwallet.data.TxDataBtc;
-import com.m2049r.aeonwallet.dialog.HelpFragment;
 import com.m2049r.aeonwallet.layout.SpendViewPager;
 import com.m2049r.aeonwallet.model.PendingTransaction;
 import com.m2049r.aeonwallet.util.Helper;
-import com.m2049r.aeonwallet.util.NodeList;
 import com.m2049r.aeonwallet.util.Notice;
 import com.m2049r.aeonwallet.util.UserNotes;
 import com.m2049r.aeonwallet.widget.DotBar;
@@ -248,7 +245,7 @@ public class SendFragment extends Fragment
     }
 
     enum Mode {
-        XMR, BTC
+        XMR
     }
 
     Mode mode = Mode.XMR;
@@ -260,9 +257,6 @@ public class SendFragment extends Fragment
             switch (aMode) {
                 case XMR:
                     txData = new TxData();
-                    break;
-                case BTC:
-                    txData = new TxDataBtc();
                     break;
                 default:
                     throw new IllegalArgumentException("Mode " + String.valueOf(aMode) + " unknown!");
@@ -345,21 +339,6 @@ public class SendFragment extends Fragment
                         return SendConfirmWizardFragment.newInstance(SendFragment.this);
                     case POS_SUCCESS:
                         return SendSuccessWizardFragment.newInstance(SendFragment.this);
-                    default:
-                        throw new IllegalArgumentException("no such send position(" + position + ")");
-                }
-            } else if (mode == Mode.BTC) {
-                switch (position) {
-                    case POS_ADDRESS:
-                        return SendAddressWizardFragment.newInstance(SendFragment.this);
-                    case POS_AMOUNT:
-                        return SendBtcAmountWizardFragment.newInstance(SendFragment.this);
-                    case POS_SETTINGS:
-                        return SendSettingsWizardFragment.newInstance(SendFragment.this);
-                    case POS_CONFIRM:
-                        return SendBtcConfirmWizardFragment.newInstance(SendFragment.this);
-                    case POS_SUCCESS:
-                        return SendBtcSuccessWizardFragment.newInstance(SendFragment.this);
                     default:
                         throw new IllegalArgumentException("no such send position(" + position + ")");
                 }

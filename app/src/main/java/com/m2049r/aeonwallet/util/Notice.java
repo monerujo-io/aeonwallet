@@ -46,18 +46,6 @@ public class Notice {
             if (notices != null) return;
             notices = new ArrayList<>();
             notices.add(
-                    new Notice(NOTICE_SHOW_XMRTO_ENABLED_SEND,
-                            R.string.info_xmrto_enabled,
-                            R.string.help_xmrto,
-                            1)
-            );
-            notices.add(
-                    new Notice(NOTICE_SHOW_XMRTO_ENABLED_LOGIN,
-                            R.string.info_xmrto_enabled,
-                            R.string.help_xmrto,
-                            1)
-            );
-            notices.add(
                     new Notice(NOTICE_SHOW_CRAZYPASS,
                             R.string.info_crazypass_enabled,
                             R.string.help_details,
