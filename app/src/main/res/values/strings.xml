@@ -66,7 +66,7 @@
     <string name="prompt_daemon">([&lt;user&gt;:&lt;pass&gt;@]&lt;daemon&gt;[:&lt;port&gt;])</string>
     <string name="connect_stagenet" translatable="false">Stagenet</string>
     <string name="connect_testnet" translatable="false">Testnet</string>
-    <string name="connect_mainnet" translatable="false">Mainnet</string>
+    <string name="connect_mainnet" translatable="false">AEON edition</string>
     <string name="status_wallet_loading">Loading Wallet &#8230;</string>
     <string name="status_wallet_unloaded">Wallet saved</string>
     <string name="status_wallet_unload_failed">Wallet save failed!</string>
@@ -260,8 +260,6 @@
 
     <string-array name="currency" translatable="false">
         <item>AEON</item>
-        <item>EUR</item>
-        <item>USD</item>
     </string-array>
 
     <string name="fab_create_new">Create new wallet</string>
