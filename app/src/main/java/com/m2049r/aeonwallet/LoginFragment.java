@@ -266,11 +266,11 @@ public class LoginFragment extends Fragment implements WalletInfoAdapter.OnInter
     private String addressPrefix() {
         switch (WalletManager.getInstance().getNetworkType()) {
             case NetworkType_Testnet:
-                return "9A-";
+                return "-"; // no idea
             case NetworkType_Mainnet:
-                return "W-";
+                return "W-"; // guess
             case NetworkType_Stagenet:
-                return "5-";
+                return "S-"; // guess
             default:
                 throw new IllegalStateException("Unsupported Network: " + WalletManager.getInstance().getNetworkType());
         }
