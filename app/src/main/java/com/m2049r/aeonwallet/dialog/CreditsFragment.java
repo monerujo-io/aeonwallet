@@ -28,8 +28,10 @@ import android.text.Html;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.m2049r.aeonwallet.R;
+import com.m2049r.aeonwallet.util.Helper;
 
 public class CreditsFragment extends DialogFragment {
     static final String TAG = "DonationFragment";
@@ -54,6 +56,16 @@ public class CreditsFragment extends DialogFragment {
 
         ((TextView) view.findViewById(R.id.tvCredits)).setText(Html.fromHtml(getString(R.string.credits_text)));
 
+        (view.findViewById(R.id.bCopyAddress)).
+                setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Helper.clipBoardCopy(getActivity(), getString(R.string.label_copy_address),
+                                ((TextView) view.findViewById(R.id.tvWalletAddress)).getText().toString());
+                        Toast.makeText(getActivity(), getString(R.string.message_copy_donation), Toast.LENGTH_SHORT).show();
+                    }
+                });
+
         AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
         builder.setView(view);
         builder.setNegativeButton(R.string.about_close,
@@ -65,5 +77,4 @@ public class CreditsFragment extends DialogFragment {
                 });
 
         return builder.create();
-    }
-}
+    }}
