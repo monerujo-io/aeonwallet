@@ -39,8 +39,6 @@
     <string name="info_paymentid_intergrated">Payment ID integrated</string>
     <string name="info_prepare_tx">Preparing your transaction</string>
 
-    <string name="label_send_progress_create_tx">Preparing Monero Transaction</string>
-
     <string name="label_send_settings_advanced">Advanced:</string>
 
     <string name="label_send_txid">Transaction ID</string>
