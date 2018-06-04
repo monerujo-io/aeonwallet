@@ -39,9 +39,6 @@
 
     <string name="label_send_settings_advanced">Avansert:</string>
 
-    <string name="label_send_btc_xmrto_info">Besøk xmr.to for støtte og sporing</string>
-    <string name="label_send_btc_xmrto_key_lb">Hemmelig nøkkel\nXMR.TO</string>
-
     <string name="label_send_txid">Transaksjons-ID</string>
     <string name="label_send_address">Destinasjonsadresse</string>
     <string name="label_send_payment_id">Betalings-ID</string>
@@ -110,9 +107,7 @@
 
     <string name="label_copy_viewkey">View-nøkkel</string>
     <string name="label_copy_address">Offentlig adresse</string>
-    <string name="label_copy_xmrtokey">XMR.TO nøkkel</string>
     <string name="message_copy_viewkey">View-nøkkel kopiert til utklippstavle!</string>
-    <string name="message_copy_xmrtokey">XMR.TO-nøkkel kopiert til utklippstavle!</string>
     <string name="message_copy_address">Lommebokadresse kopiert til utklippstavle!</string>
     <string name="message_copy_txid">Transaksjons-ID kopiert til utklippstavle!</string>
     <string name="message_nocopy">Kopiering skrudd av for sikkerhetsgrunner!</string>
@@ -170,7 +165,7 @@
     <string name="generate_check_address">Skriv inn gyldig adresse</string>
     <string name="generate_check_mnemonic">Skriv inn ditt 25-ord lange seed</string>
 
-    <string name="send_address_hint">Mottakers BTC eller XMR adresse</string>
+    <string name="send_address_hint">Mottakers XMR adresse</string>
     <string name="send_paymentid_hint">Betalings-ID (valgfritt)</string>
     <string name="send_amount_hint">0,00</string>
     <string name="send_notes_hint">Privat notat (valgfritt)</string>
@@ -207,11 +202,9 @@
     <string name="tx_id">TX ID</string>
     <string name="tx_key">TX-nøkkel</string>
     <string name="tx_destination">Destinasjon</string>
-    <string name="tx_destination_btc">Destinasjon\n(BTC)</string>
     <string name="tx_paymentId">Betalings-ID</string>
     <string name="tx_blockheight">Blokk</string>
     <string name="tx_amount">Mengde</string>
-    <string name="tx_amount_btc">Mengde\n(BTC)</string>
     <string name="tx_fee">Avgift</string>
     <string name="tx_transfers">Overføringer</string>
     <string name="tx_notes">Notater</string>

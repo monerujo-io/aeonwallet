@@ -162,7 +162,7 @@
     <string name="generate_check_address">Introduce una dirección válida</string>
     <string name="generate_check_mnemonic">Introduce tu semilla de 25 palabras</string>
 
-    <string name="send_address_hint">Dirección XMR o BTC del Destinatario</string>
+    <string name="send_address_hint">Dirección XMR del Destinatario</string>
     <string name="send_paymentid_hint">ID de Pago (opcional)</string>
     <string name="send_amount_hint">0.00</string>
     <string name="send_notes_hint">Notas Privadas (opcional)</string>
@@ -241,16 +241,10 @@
     <string name="fab_restore_key">Restaurar monedero con claves privadas</string>
     <string name="fab_restore_seed">Restaurar monedero con semilla de 25 palabras</string>
     <string name="label_send_settings_advanced">Avanzado</string>
-    <string name="label_send_btc_xmrto_info">Visita https://xmr.to para soporte y rastreo</string>
-    <string name="label_send_btc_xmrto_key_lb">Clave secreta\nXMR.TO</string>
-    <string name="label_copy_xmrtokey">Clave XMR.TO</string>
-    <string name="message_copy_xmrtokey">¡Clave XMR.TO copiada al portapapeles!</string>
     <string name="send_send_label">Enviar mis preciados moneroj</string>
     <string name="send_address_invalid">No es una dirección válida</string>
     <string name="send_amount">%1$s XMR</string>
     <string name="send_fee">+%1$s Comisión</string>
-    <string name="tx_destination_btc">Destino\n(BTC)</string>
-    <string name="tx_amount_btc">Monto\n(BTC)</string>
     <string name="about_whoami">Soy monerujo</string>
     <string name="info_crazypass_enabled">CrAzYpass activado, toca para más info.</string>
 </resources>

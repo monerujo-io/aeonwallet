@@ -39,9 +39,6 @@
 
     <string name="label_send_settings_advanced">高级选项:</string>
 
-    <string name="label_send_btc_xmrto_info">参访 xmr.to 以支持 &amp; 追踪</string>
-    <string name="label_send_btc_xmrto_key_lb">私钥\nXMR.TO</string>
-
     <string name="label_send_txid">交易ID</string>
     <string name="label_send_address">收款地址</string>
     <string name="label_send_payment_id">付款ID</string>
@@ -110,9 +107,7 @@
 
     <string name="label_copy_viewkey">查看密钥</string>
     <string name="label_copy_address">公开地址</string>
-    <string name="label_copy_xmrtokey">XMR.TO 密钥</string>
     <string name="message_copy_viewkey">查看密钥已复制至剪贴簿!</string>
-    <string name="message_copy_xmrtokey">XMR.TO 密钥已复制至剪贴簿!</string>
     <string name="message_copy_address">钱包地址已复制至剪贴簿!</string>
     <string name="message_copy_txid">交易ID 已复制至剪贴簿!</string>
     <string name="message_nocopy">因安全性因素已停用复制功能!</string>
@@ -167,7 +162,7 @@
     <string name="generate_check_address">输入有效的地址</string>
     <string name="generate_check_mnemonic">输入你的25字种子码</string>
 
-    <string name="send_address_hint">收款者的 XMR 或 BTC 地址</string>
+    <string name="send_address_hint">收款者的 XMR 地址</string>
     <string name="send_paymentid_hint">付款ID (选填)</string>
     <string name="send_amount_hint">0.00</string>
     <string name="send_notes_hint">注记 (选填)</string>
@@ -204,11 +199,9 @@
     <string name="tx_id">TX ID</string>
     <string name="tx_key">TX密钥</string>
     <string name="tx_destination">收款地址</string>
-    <string name="tx_destination_btc">收款地址\n(BTC)</string>
     <string name="tx_paymentId">付款ID</string>
     <string name="tx_blockheight">区块</string>
     <string name="tx_amount">金额</string>
-    <string name="tx_amount_btc">金额\n(BTC)</string>
     <string name="tx_fee">手续费</string>
     <string name="tx_transfers">转账</string>
     <string name="tx_notes">附注</string>

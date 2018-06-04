@@ -40,9 +40,6 @@
 
     <string name="label_send_settings_advanced">Fortgeschritten:</string>
 
-    <string name="label_send_btc_xmrto_info">Besuche XMR.TO für Support &amp; Nachverfolgung</string>
-    <string name="label_send_btc_xmrto_key_lb">Geheimer Schlüssel\nXMR.TO</string>
-
     <string name="label_send_txid">Transaktions-ID</string>
     <string name="label_send_address">Zieladresse</string>
     <string name="label_send_payment_id">Zahlungs-ID</string>
@@ -111,9 +108,7 @@
 
     <string name="label_copy_viewkey">View-Key</string>
     <string name="label_copy_address">Öffentliche Adresse</string>
-    <string name="label_copy_xmrtokey">XMR.TO Schlüssel</string>
     <string name="message_copy_viewkey">View-Key in Zwischenablage kopiert!</string>
-    <string name="message_copy_xmrtokey">XMR.TO Schlüssel in Zwischenablage kopiert!</string>
     <string name="message_copy_address">Wallet Adresse in Zwischenablage kopiert!</string>
     <string name="message_copy_txid">Transaktions-ID in Zwischenablage kopiert!</string>
     <string name="message_nocopy">Kopieren aus Sicherheitsgründen deaktiviert!</string>
@@ -170,7 +165,7 @@
     <string name="generate_check_address">Gib eine gültige Adresse ein</string>
     <string name="generate_check_mnemonic">Gib deine 25 Wörter Seed ein</string>
 
-    <string name="send_address_hint">Empfänger XMR oder BTC Adresse</string>
+    <string name="send_address_hint">Empfänger XMR Adresse</string>
     <string name="send_paymentid_hint">Zahlungs-ID (optional)</string>
     <string name="send_amount_hint">0.00</string>
     <string name="send_notes_hint">Private Notizen (optional)</string>
@@ -207,11 +202,9 @@
     <string name="tx_id">TX-ID</string>
     <string name="tx_key">TX-Schlüssel</string>
     <string name="tx_destination">Ziel</string>
-    <string name="tx_destination_btc">Ziel\n(BTC)</string>
     <string name="tx_paymentId">Zahlungs-ID</string>
     <string name="tx_blockheight">Block</string>
     <string name="tx_amount">Menge</string>
-    <string name="tx_amount_btc">Menge\n(BTC)</string>
     <string name="tx_fee">Gebühr</string>
     <string name="tx_transfers">Transfers</string>
     <string name="tx_notes">Notizen</string>

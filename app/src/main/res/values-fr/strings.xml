@@ -40,9 +40,6 @@
 
     <string name="label_send_settings_advanced">Avancé :</string>
 
-    <string name="label_send_btc_xmrto_info">Visitez xmr.to pour l\'assistance &amp; le suivi</string>
-    <string name="label_send_btc_xmrto_key_lb">Clef Secrète\nXMR.TO</string>
-
     <string name="label_send_txid">ID de Transaction</string>
     <string name="label_send_address">Adresse Destination</string>
     <string name="label_send_payment_id">ID de Paiement</string>
@@ -111,9 +108,7 @@
 
     <string name="label_copy_viewkey">Clef d\'Audit</string>
     <string name="label_copy_address">Adresse Publique</string>
-    <string name="label_copy_xmrtokey">Clef XMR.TO</string>
     <string name="message_copy_viewkey">Clef d\'audit copiée !</string>
-    <string name="message_copy_xmrtokey">Clef XMR.TO copiée !</string>
     <string name="message_copy_address">Adresse du Portefeuille copiée !</string>
     <string name="message_copy_txid">ID de Transaction copié !</string>
     <string name="message_nocopy">Copie désactivée par sécurité !</string>
@@ -172,7 +167,7 @@
     <string name="generate_check_address">Entrez une Adresse valide</string>
     <string name="generate_check_mnemonic">Entrez votre phrase Mnémonique</string>
 
-    <string name="send_address_hint">Adresse XMR ou BTC du Destinataire</string>
+    <string name="send_address_hint">Adresse XMR du Destinataire</string>
     <string name="send_paymentid_hint">ID de Paiement (optionnel)</string>
     <string name="send_amount_hint">0.00</string>
     <string name="send_notes_hint">Notes Privées (optionnelles)</string>
@@ -209,11 +204,9 @@
     <string name="tx_id">ID TX</string>
     <string name="tx_key">Clef TX</string>
     <string name="tx_destination">Destination</string>
-    <string name="tx_destination_btc">Destination\n(BTC)</string>
     <string name="tx_paymentId">ID de Paiement</string>
     <string name="tx_blockheight">Bloc</string>
     <string name="tx_amount">Montant</string>
-    <string name="tx_amount_btc">Montant\n(BTC)</string>
     <string name="tx_fee">Frais</string>
     <string name="tx_transfers">Transferts</string>
     <string name="tx_notes">Notes</string>
