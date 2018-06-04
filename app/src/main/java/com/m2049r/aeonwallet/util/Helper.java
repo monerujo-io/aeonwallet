@@ -72,8 +72,8 @@ import okhttp3.HttpUrl;
 import timber.log.Timber;
 
 public class Helper {
-    static private final String WALLET_DIR = "monerujo" + (BuildConfig.DEBUG ? "-debug" : "");
-    static private final String HOME_DIR = "monero" + (BuildConfig.DEBUG ? "-debug" : "");
+    static private final String WALLET_DIR = "aeonwallet" + (BuildConfig.DEBUG ? "-debug" : "");
+    static private final String HOME_DIR = "aeon" + (BuildConfig.DEBUG ? "-debug" : "");
 
     static public int DISPLAY_DIGITS_INFO = 5;
 
@@ -331,7 +331,7 @@ public class Helper {
     // TODO make the log levels refer to the  WalletManagerFactory::LogLevel enum ?
     static public void initLogger(Context context, int level) {
         String home = getStorage(context, HOME_DIR).getAbsolutePath();
-        WalletManager.initLogger(home + "/monerujo", "monerujo.log");
+        WalletManager.initLogger(home + "/" + WALLET_DIR, "monerujo.log");
         if (level >= WalletManager.LOGLEVEL_SILENT)
             WalletManager.setLogLevel(level);
     }
