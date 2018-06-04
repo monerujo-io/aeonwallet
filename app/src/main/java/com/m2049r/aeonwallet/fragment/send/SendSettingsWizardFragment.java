@@ -55,7 +55,7 @@ public class SendSettingsWizardFragment extends SendWizardFragment {
     }
 
     // Mixin = Ringsize - 1
-    final static int Mixins[] = {6, 9, 12, 25}; // must match the layout XML / "@array/mixin"
+    final static int Mixins[] = {3, 6, 9, 12, 25}; // must match the layout XML / "@array/mixin"
     final static PendingTransaction.Priority Priorities[] =
             {PendingTransaction.Priority.Priority_Default,
                     PendingTransaction.Priority.Priority_Low,
