@@ -96,10 +96,6 @@ public class SendFragment extends Fragment
 
     private Button bDone;
 
-    private View llXmrToEnabled;
-    private View ibXmrToInfoClose;
-
-
     static private int MAX_FALLBACK = Integer.MAX_VALUE;
 
     @Override
