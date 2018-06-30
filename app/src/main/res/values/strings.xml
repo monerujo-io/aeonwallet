@@ -291,7 +291,7 @@
     <string name="fab_restore_key">Restore wallet from private keys</string>
     <string name="fab_restore_seed">Restore wallet 25 word seed</string>
 
-    <string name="accounts_balance" translatable="false">%1$s XMR</string>
+    <string name="accounts_balance" translatable="false">%1$s AEON</string>
     <string name="tx_account_formatted" translatable="false">(%1$d, %2$d)</string>
 
     <string name="accounts_drawer_new">Create Account</string>
