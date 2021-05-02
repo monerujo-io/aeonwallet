@@ -75,7 +75,7 @@
         menu. Após introduzir a nova palavra passe (podes usar a mesma) a aplicação gera uma passLoUCa para
         ti e protege os ficheiros da tua carteira com ela. Escreve-a nalgum lado!
         <h3>Carteiras com passLoUCa</h3>
-        Se precisares de reinstalar o monerujoAE (por exemplo, depois de formatares o telemóvel ou trocares
+        Se precisares de reinstalar o aeonujo (por exemplo, depois de formatares o telemóvel ou trocares
         para um novo) ou quiseres utilizar os ficheiros da carteira num dispositivo diferente ou PC, tens
         que usar esta Palavra passe de Recuperação de forma a aceder à tua carteira novamente.<br/>
         Ao seleccionar \"Alterar palavra passe\" do menu, podes escolher uma palavra passe nova. Cuidado
@@ -91,12 +91,12 @@
     <string name="help_list"><![CDATA[
         <h1>Lista de Carteiras</h1>
         <h2>Nó</h2>
-        <p>O monerujoAE utiliza um Nó Remoto para comunicar com a rede Aeon sem ter que descarregar e
+        <p>O aeonujo utiliza um Nó Remoto para comunicar com a rede Aeon sem ter que descarregar e
         guardar uma cópia da blockchain inteira. Podes encontrar uma lista de nós remotos populares ou
         aprende como correr o teu próprio nó remoto em https://nodes.aeon.run//<p>
-        <p>O monerujoAE vem com alguns Nós Remotos predefinidos. O histórico dos últimos 5 nós é guardado.</p>
+        <p>O aeonujo vem com alguns Nós Remotos predefinidos. O histórico dos últimos 5 nós é guardado.</p>
         <h2>Carteiras</h2>
-        <p>Aqui vês as tuas carteiras. Estão localizadas na pasta <tt>monerujoAE</tt>
+        <p>Aqui vês as tuas carteiras. Estão localizadas na pasta <tt>aeonujo</tt>
         na memória interna do teu dispositivo. Podes utilizar um explorador de ficheiros
         para vê-las. Deves fazer cópias de segurança desta pasta regularmente para outro
         dispositivo para o caso dele explodir ou ser roubado.</p>
@@ -110,7 +110,7 @@
         <p>Renomeia a carteira. As cópias de segurança não são renomeadas.</p>
         <h3>Cópia de segurança</h3>
         <p>Faz uma cópia da carteira na pasta <tt>cópias de segurança</tt> dentro do
-        <tt>monerujoAE</tt> reescrevendo cópias anteriores que lá estejam.</p>
+        <tt>aeonujo</tt> reescrevendo cópias anteriores que lá estejam.</p>
         <h3>Arquivar</h3>
         <p>Faz uma cópia de segurança e de seguida apaga a carteira. a cópia permanece na pasta de
         <tt>cópias de segurança</tt>. Se já não precisas das tuas cópias de segurança, deves apagá-las
@@ -151,9 +151,9 @@
         <h1>Enviar BTC</h1>
         <h2>SideShift.ai</h2>
         <p>SideShift.ai é um serviço de terceiros que funciona como intercâmbio de Aeon para Bitcoin.
-        Nós utilizamos a API do SideShift.ai para integrar pagamentos de Bitcoin no monerujoAE. Por favor
+        Nós utilizamos a API do SideShift.ai para integrar pagamentos de Bitcoin no aeonujo. Por favor
         vai a https://sideshift.ai e decide por ti próprio se queres utilizar este serviço. A equipa
-        do monerujoAE não está associada com o SideShift.ai e não te pode ajudar com este serviço.</p>
+        do aeonujo não está associada com o SideShift.ai e não te pode ajudar com este serviço.</p>
         <h2>Taxa de câmbio SideShift.ai<h2>
         <p>No ecrã de \"Quantidade\" vais ver os parâmetros actuais do serviço SideShift.ai. Estes
         incluem a taxa de câmbio assim como os limites superiores e inferiores em BTC. Nota que
@@ -164,7 +164,7 @@
         botão de \"Enviar\". A taxa de câmbio pode ser diferente da taxa indicativa mostrada
         nos ecrãs anteriores.</p>
         <h2>Chave Secreta SideShift.ai<h2>
-        <p>Como o monerujoAE só controla a parte Aeon da transacção, a chave secreta SideShift.ai
+        <p>Como o aeonujo só controla a parte Aeon da transacção, a chave secreta SideShift.ai
         pode ser utilizada para monitorar a parte Bitcoin da transacção na página pricipal do
         SideShift.ai.</p>
         <h2>Contagem decrescente SideShift.ai!</h2>
@@ -176,9 +176,9 @@
         <h1>Enviar BTC</h1>
         <h2>SideShift.ai</h2>
         <p>SideShift.ai é um serviço de terceiros que funciona como intercâmbio de Aeon para Bitcoin.
-        Nós utilizamos a API do SideShift.ai para integrar pagamentos de Bitcoin no monerujoAE. Por favor
+        Nós utilizamos a API do SideShift.ai para integrar pagamentos de Bitcoin no aeonujo. Por favor
         vai a https://sideshift.ai e decide por ti próprio se queres utilizar este serviço. A equipa
-        do monerujoAE não está associada com o SideShift.ai e não te pode ajudar com este serviço.</p>
+        do aeonujo não está associada com o SideShift.ai e não te pode ajudar com este serviço.</p>
         <h2>Taxa de câmbio SideShift.ai<h2>
         <p>No ecrã de \"Quantidade\" vais ver os parâmetros actuais do serviço SideShift.ai. Estes
         incluem a taxa de câmbio assim como os limites superiores e inferiores em BTC. Nota que
@@ -189,7 +189,7 @@
         botão de \"Enviar\". A taxa de câmbio pode ser diferente da taxa indicativa mostrada
         nos ecrãs anteriores.</p>
         <h2>Chave Secreta SideShift.ai<h2>
-        <p>Como o monerujoAE só controla a parte Aeon da transacção, a chave secreta SideShift.ai
+        <p>Como o aeonujo só controla a parte Aeon da transacção, a chave secreta SideShift.ai
         pode ser utilizada para monitorar a parte Bitcoin da transacção na página pricipal do
         SideShift.ai.</p>
         <h2>Contagem decrescente SideShift.ai!</h2>
@@ -218,7 +218,7 @@
 	na rua, num bar ou outro local publico. As transações anteriores são também escondidas. As novas 
 	transações serão mostradas, para que cossas ver se enviaste/recebeste os teus preciosos Aeon!</p>
         <h2>A Examinar</h2>
-        Como o Aeon gosta de manter as coisas privadas, cada vez que abres uma carteira monerujoAE temos
+        Como o Aeon gosta de manter as coisas privadas, cada vez que abres uma carteira aeonujo temos
         que examinar a blockchain para ver se novos Aeon foram enviados para a tua carteira. Apenas
         informação correspondente à tua carteira é guardada no telefone. Por vezes pode demorar algum tempo
         por já não sincronizares há algum tempo.
@@ -237,23 +237,23 @@
         <h1>Nós</h1>
         <h2>TL;DR</h2>
 	<p>Refresca a lista de Nós puxando para baixo &amp; favorito 3&#8211;5 nós para permitir que
-	o monerujoAE escolha o melhor para ti!</p>
+	o aeonujo escolha o melhor para ti!</p>
         <h2>O que é&apos;s um Nó?</h2>
-	<p>O monerujoAE usa um Nó remoto (por vezes chamado Daemon) para comunicar com a Rede do Aeon
+	<p>O aeonujo usa um Nó remoto (por vezes chamado Daemon) para comunicar com a Rede do Aeon
 	sem ter de descarregar e gravar uma copia inteira da blockchain.</p>
         <h2>Lista de Nós</h2>
-	<p>Se a lista estiver vazia, podes adicionar um Nó manualmente ou deixar o monerujoAE fazer um
+	<p>Se a lista estiver vazia, podes adicionar um Nó manualmente ou deixar o aeonujo fazer um
 	scan à Rede por ti. Ou ambos. Continuar a ler em&#8230;</p>
       	<p>A lista de nós mostra todos os nós actualmente conhecidos. Adicionalmente, o timestamp do
 	ultimo bloco conhecido é listado em cada nome do nó. Um icon a representar o tempo de resposta
 	do nó&apos; (que indica o nivel de conetividade esperado) é mostrado junto de cada nó.</p>
         <p>Qualquer nó na lista pode ser adicionado aos favoritos por forma a usar mais tarde.
 	Nós que não forem adicionados como favoritos serão esquecidos.<p>
-        <p>O monerujoAE irá escolher o melhor nó favorito cada vez que o usas.
+        <p>O aeonujo irá escolher o melhor nó favorito cada vez que o usas.
 	Faz isto verificando a Altura (quanto mais actualizado esta cada nó) assim como a velocidade de
 	resposta (quão rapido responde este nó?).</p>
         <p>A lista é disposta consoante estas caracteristicas, assim sendo no topo estará o nó que o 
-	monerujoAE escolheria a cada momento. No fundo da lista ficam os nós mais lentos ou indisponiveis.</p>
+	aeonujo escolheria a cada momento. No fundo da lista ficam os nós mais lentos ou indisponiveis.</p>
         <h2>Adicionar um Nó</h2>
 	<p>Tocando no botão &quot;Adicionar Nó&quot; no fundo, poderás adicionar os detalhes 
 	na janela de dialogo.
@@ -269,11 +269,11 @@
 	Assim que o teste passar (sem erros) - podes&apos;pressionar &quot;OK&quot; para gravar &amp; 
         favorito este nó.</p>
         <h2>Procurar Nós</h2>
-	<p>Adicionalmente, podes procurar nós na Rede de Aeon. O monerujoAE vai realizar
+	<p>Adicionalmente, podes procurar nós na Rede de Aeon. O aeonujo vai realizar
 	uma busca na rede por nós remotos na porta 18089. Vai começar por procurar nos teus
 	nós favoritos por outros pares na rede P2P do Aeon e depois continua perguntando 
 	a esses pares, e por ai fora. Se não tiveres nenhum nó favorito na tua lista o 
-	monerujoAE irá usar directamente os nós base que estão inscritos no codigo do Aeon.
+	aeonujo irá usar directamente os nós base que estão inscritos no codigo do Aeon.
 	A procura irá parar assim que encontrar 10 nós remotos no total.</p>
     ]]></string>
 
@@ -281,7 +281,7 @@
 
     <string name="help_uri"><![CDATA[
         <h1>Usando Endereço de Pagamento</h1>
-	<p>Iniciaste o monerujoAE com um endereço de pagamento. Para enviar fundos, por favor faz o seguinte:</p>
+	<p>Iniciaste o aeonujo com um endereço de pagamento. Para enviar fundos, por favor faz o seguinte:</p>
         <p>
 	1. Abre a carteira de onde pretendes gastar<br>
 	2. Espera até a carteira sincronizar &amp; e o botão "Enviar" aparecer<br>

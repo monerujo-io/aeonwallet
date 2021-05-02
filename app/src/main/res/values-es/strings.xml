@@ -88,7 +88,7 @@
 
     <string name="xmr_unconfirmed_amount">+ %1$s AEON sin confirmar</string>
 
-    <string name="service_description">Servicio de monerujoAE</string>
+    <string name="service_description">Servicio de aeonujo</string>
 
     <string name="status_synced">Sincronizado:</string>
     <string name="status_remaining">bloques restantes</string>
@@ -114,7 +114,7 @@
         <strong>Autenticación por huella</strong>
         <p>Con la autenticación por huella dactilar activada, puedes acceder al balance y recibir fondos
         sin la necesidad de ingresar tu contraseña.</p>
-        <p>Sin embargo, por seguridad extra, monerujoAE va a requerir tu contraseña para ver la información
+        <p>Sin embargo, por seguridad extra, aeonujo va a requerir tu contraseña para ver la información
         sensible de tu monedero o enviar fondos.</p>
         <strong>Advertencia de seguridad</strong>
         <p>Si bien es cómodo, recuerda que cualquier persona que tenga acceso a tu huella dactilar
@@ -256,7 +256,7 @@
     <string name="send_total_btc_label">Total (AEON)</string>
     <string name="send_amount">%1$s AEON</string>
     <string name="send_fee">+%1$s Comisión</string>
-    <string name="about_whoami">Soy monerujoAE</string>
+    <string name="about_whoami">Soy aeonujo</string>
     <string name="info_send_xmrto_success_order_label">Orden SideShift.ai</string>
 
     <string name="info_xmrto_enabled">Pago en BTC activado, toca para más info.</string>
@@ -358,12 +358,12 @@
     <string name="onboarding_button_next">Siguiente</string>
     <string name="onboarding_button_ready">¡Estoy listo!</string>
 
-    <string name="onboarding_welcome_title">¡Bienvenido a monerujoAE!</string>
+    <string name="onboarding_welcome_title">¡Bienvenido a aeonujo!</string>
     <string name="onboarding_welcome_information">Esta aplicación te permite crear y usar monederos de Aeon. Puedes guardar tus dulces Aeon en ellos.</string>
     <string name="onboarding_seed_title">Mantén segura tu semilla</string>
     <string name="onboarding_seed_information">La semilla otorga acceso total a quien la posee. Si la pierdes, nadie puede ayudarte a recuperarla y perderás tus preciados Aeon.</string>
     <string name="onboarding_xmrto_title">Enviar Criptos</string>
-    <string name="onboarding_xmrto_information">monerujoAE tiene SideShift.ai incorporado. Simplemente pega o escanea una dirección de BTC, LTC, ETH, DASH o DOGE y podrás enviar esas monedas usando tu AEON.</string>
+    <string name="onboarding_xmrto_information">aeonujo tiene SideShift.ai incorporado. Simplemente pega o escanea una dirección de BTC, LTC, ETH, DASH o DOGE y podrás enviar esas monedas usando tu AEON.</string>
     <string name="onboarding_nodes_title">Nodos, a tu manera</string>
     <string name="onboarding_nodes_information">Los nodos son tu conexión con la red de Aeon. Elige entre usar nodos públicos, o ir totalmente ciberpunk conectándote al tuyo propio.</string>
     <string name="onboarding_fpsend_title">Enviar con tu huella</string>

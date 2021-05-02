@@ -135,7 +135,7 @@
 
     <string name="xmr_unconfirmed_amount">+ %1$s AEON непідтверджено</string>
 
-    <string name="service_description">Служба monerujoAE</string>
+    <string name="service_description">Служба aeonujo</string>
 
     <string name="status_synced">Синхронізовано:</string>
     <string name="status_remaining">Блоків залишилось</string>
@@ -164,10 +164,10 @@
         <strong>Використання аутентифікації по відбитку пальця</strong>
         <p>З підтримкою аутентифікації по відбитку пальця, ви можете переглядати баланс і отримувати кошти
          без введення пароля.</p>
-        <p>Але для додаткової безпеки, monerujoAE попросить вас ввести пароль при
+        <p>Але для додаткової безпеки, aeonujo попросить вас ввести пароль при
          перегляді деталей гаманця, або відправці коштів.</p>
         <strong>Попередження системи безпеки</strong>
-        <p>monerujoAE хоче нагадати вам, що кожен, хто може отримати ваш відбиток пальця, буде
+        <p>aeonujo хоче нагадати вам, що кожен, хто може отримати ваш відбиток пальця, буде
          мати можливість, заглянути в баланс вашого гаманця.</p>
         <p>Наприклад, зловмисник може заглянути в ваш гаманець, коли ви спите.</p>
         <strong>Ви впевнені, що хочете включити цю функцію?</strong>
@@ -371,12 +371,12 @@
     <string name="onboarding_button_next">Next</string>
     <string name="onboarding_button_ready">I\'m ready!</string>
 
-    <string name="onboarding_welcome_title">Welcome to monerujoAE!</string>
+    <string name="onboarding_welcome_title">Welcome to aeonujo!</string>
     <string name="onboarding_welcome_information">This app allows you to create and use Aeon wallets. You can store your sweet Aeon in them.</string>
     <string name="onboarding_seed_title">Keep your seed safe</string>
     <string name="onboarding_seed_information">The seed grants full access to whoever has it. If you lose it, we cannot help you recover it and you lose your beloved Aeon.</string>
     <string name="onboarding_xmrto_title">Send Crypto</string>
-    <string name="onboarding_xmrto_information">monerujoAE has SideShift.ai support built-in. Just paste or scan a BTC, LTC, ETH, DASH or DOGE address and you\'ll be sending these cryptos by spending AEON.</string>
+    <string name="onboarding_xmrto_information">aeonujo has SideShift.ai support built-in. Just paste or scan a BTC, LTC, ETH, DASH or DOGE address and you\'ll be sending these cryptos by spending AEON.</string>
     <string name="onboarding_nodes_title">Nodes, your way</string>
     <string name="onboarding_nodes_information">Nodes connect you to the Aeon network. Choose between public nodes or go full cypherpunk using your own.</string>
     <string name="onboarding_fpsend_title">Send with fingerprint</string>

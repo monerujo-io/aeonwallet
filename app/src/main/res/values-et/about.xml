@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="about_close">Sulge</string>
-    <string name="about_whoami">Ma olen monerujoAE</string>
+    <string name="about_whoami">Ma olen aeonujo</string>
     <string name="about_version">Versioon %1$s (%2$d)</string>
 
     <string name="credits_text"><![CDATA[
@@ -16,7 +16,7 @@
     <string name="privacy_policy"><![CDATA[
         <h1>Privaatsuspoliitika</h1>
         <p>See leht informeerib sind personaalsete andmete kogumise, kasutamise ja
-        avaldamise osas, mida saame meie äpi (monerujoAE: Aeon Wallet) kasutajatelt.
+        avaldamise osas, mida saame meie äpi (aeonujo: Aeon Wallet) kasutajatelt.
         </p>
         <p>Äppi kasutades nõustute teabe kogumise ja kasutamisega vastavalt sellele
         poliitikale.
@@ -28,13 +28,13 @@
         tehingute töötlemiseks ja edastatakse Aeon võrku krüptitud kujul.
         </p>
         <p>Rakendus ei kogu muid isikuandmeid.</p>
-        <p>Kui kasutate vahetusfunktsiooni, kasutab monerujoAE selleks coinmarketcap.com\'i
+        <p>Kui kasutate vahetusfunktsiooni, kasutab aeonujo selleks coinmarketcap.com\'i
         avaliku API funktsiooni. Vaadake nende privaatsuspoliitikat aadressil
         https://coinmarketcap.com/privacy, et saada üksikasju, kuidas teie päringute kohta
         andmeid kogutakse.</p>
         <p>Kui kasutate äppi BTC-aadressitele raha saatmiseks, siis kasutatakse selleks
         SideShift.ai teenust. Lisateabe saamiseks vaadake nende privaatsuspoliitikat aadressil
-        https://sideshift.ai/. monerujoAE saadab neile BTC sihtkoha aadressi ja summa. Koguda
+        https://sideshift.ai/. aeonujo saadab neile BTC sihtkoha aadressi ja summa. Koguda
         võidakse ka teie IP aadressi.</p>
         <h2>Äpi õigused</h2>
         <ul>

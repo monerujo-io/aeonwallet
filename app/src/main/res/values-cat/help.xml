@@ -63,7 +63,7 @@
         <h3>Contrasenya de Llegat</h3>
 	Si veieu la vostra contrasenya aquí, els fitxers del portamonedes no estan tan segurs com quan s’utilitza la CrAzYsenya. Per solucionar-ho, seleccioneu \"Canviar 		Contrasenya\" des del menú. Després d’entrar una nova contrasenya (potser fins i tot la mateixa que abans) l’aplicació generarà una CrAzYsenya per a protegir els vostres 	arxius del portamonedes. Anoteu-la!
         <h3>CrAzYsenya del Portamonedes</h3>
-	Si mai necessiteu tornar a instal·lar monerujoAE (per exemple, després de restablir el telèfon o canviar-lo per un de nou) o voleu utilitzar els arxius del portamonedes en un 	altre dispositiu o PC, cal que ho feu utilitzant aquesta Contrasenya de Recuperació (CrAzYsenya) per tornar a accedir al vostre portamonedes. <br/>
+	Si mai necessiteu tornar a instal·lar aeonujo (per exemple, després de restablir el telèfon o canviar-lo per un de nou) o voleu utilitzar els arxius del portamonedes en un 	altre dispositiu o PC, cal que ho feu utilitzant aquesta Contrasenya de Recuperació (CrAzYsenya) per tornar a accedir al vostre portamonedes. <br/>
         En seleccionar \"Canviar Contrasenya\" des del menú, podeu triar una nova contrasenya. Aneu amb compte que això generarà una nova Contrasenya de Recuperació (CrAzYsenya). 	Anoteu-la!
         <h2>Clau de Visualització</h2>
    	La vostra clau de visualització es pot utilitzar per monitoritzar les transaccions entrants al vostre portamonedes sense donar-ne permís per gastar els fons a dins seu.
@@ -74,11 +74,11 @@
     <string name="help_list"><![CDATA[
         <h1>Llista de Portamonedes</h1>
         <h2>Node</h2>
-        <p>monerujoAE utilitza un node remot per comunicar-se amb la xarxa Aeon sense necessitat
+        <p>aeonujo utilitza un node remot per comunicar-se amb la xarxa Aeon sense necessitat
          de descarregar i emmagatzemar una còpia de tota la blockchain sencera. Podeu trobar una llista dels nodes remots més populars o aprendre a configurar el vostre propi node 	remot aquí https://nodes.aeon.run//<p>
-        <p>monerujoAE té alguns Nodes remots incorporats. Se’n recorda dels últims cinc nodes empleats.</p>
+        <p>aeonujo té alguns Nodes remots incorporats. Se’n recorda dels últims cinc nodes empleats.</p>
         <h2>Portamonedes</h2>
-        <p>Aquí podeu veure els portamonedes. Es troben a la carpeta <tt> monerujoAE </tt>
+        <p>Aquí podeu veure els portamonedes. Es troben a la carpeta <tt> aeonujo </tt>
          dins l’emmagatzematge intern del dispositiu. Podeu utilitzar una aplicació d’exploració d’arxius per veure’ls. Haurieu de fer còpies de seguretat d’aquesta carpeta de 	manera regular en un emmagatzematge extern al dispositiu en cas que el vostre dispositiu exploti o el robin.</p>
         <p>Seleccioneu una portamonedes per obrir-lo o premeu el botó "+" per crear-ne un de nou.
          O seleccioneu una de les operacions del portamonedes:</p>
@@ -89,7 +89,7 @@
         <h3>Canvi de Nom</h3>
         <p>Canvia el nom del portamonedes. El canvi de nom no afecta a les còpies de seguretat.</p>
         <h3>Còpia de Seguretat</h3>
-        <p>Feu una còpia del portamonedes en la carpeta <tt> backups </tt> dins del <tt> monerujoAE </tt>
+        <p>Feu una còpia del portamonedes en la carpeta <tt> backups </tt> dins del <tt> aeonujo </tt>
          per a sobreescriure còpies anteriors.</p>
         <h3>Arxiu</h3>
         <p>Feu una còpia de seguretat i a continuació elimineu el portamonedes. La còpia es mantindrà a la carpeta <tt> backups </tt>. Si ja no necessiteu les vostres còpies de 	seguretat les haureu d’eliminar amb un explorador d’arxius o una aplicació segura.</p>
@@ -122,7 +122,7 @@
         <h1>Enviant BTC</h1>
         <h2>SideShift.ai</h2>
         <p>SideShift.ai és un servei de tercers que fa proporciona el canvi de Aeon a Bitcoin.
-         Nosaltres fem servir l’API SideShift.ai per integrar els pagaments de Bitcoin a monerujoAE. Si us plau, doneu un cop d’ull a https://sideshift.ai i decidiu vosaltres mateixos si és una 	cosa que volgueu utilitzar. L’equip de 	monerujoAE no està associat amb SideShift.ai i no pot oferir assistència amb el seu servei.</p>
+         Nosaltres fem servir l’API SideShift.ai per integrar els pagaments de Bitcoin a aeonujo. Si us plau, doneu un cop d’ull a https://sideshift.ai i decidiu vosaltres mateixos si és una 	cosa que volgueu utilitzar. L’equip de 	aeonujo no està associat amb SideShift.ai i no pot oferir assistència amb el seu servei.</p>
         <h2>Tipus de Canvi SideShift.ai<h2>
         <p>A la pantalla \"Quantitat\" es mostraran els paràmetres actuals del servei SideShift.ai. Aquests
          inclouen el tipus de canvi actual, així com els límits de BTC superiors i inferiors. Tingueu en compte que la tarifa no està garantida en aquell mateix moment.</p>
@@ -131,7 +131,7 @@
          un temps limitat: és possible que veieu un compte enrere en el botó \"Gastar\". El tipus de canvi pot
          ser diferent del mostrat en pantalles anteriors.</p>
         <h2>Clau Secreta SideShift.ai<h2>
-        <p>Com que monerujoAE només gestiona la part Aeon de la vostra transacció, la vostra clau secreta per SideShift.ai es pot utilitzar per fer el seguiment de la part de Bitcoin de 	la vostra comanda a la pàgina principal de SideShift.ai.</p>
+        <p>Com que aeonujo només gestiona la part Aeon de la vostra transacció, la vostra clau secreta per SideShift.ai es pot utilitzar per fer el seguiment de la part de Bitcoin de 	la vostra comanda a la pàgina principal de SideShift.ai.</p>
         <h2>Compte enrere SideShift.ai!</h2>
         <p>Una vegada el compte enrere arribi a zero haureu d’obtenir una nova sol·licitud de SideShift.ai tornant enrere al pas anterior i després tornar a la pantalla de 			\"Confirmar\".</p>
     ]]></string>
@@ -140,7 +140,7 @@
         <h1>Enviant BTC</h1>
         <h2>SideShift.ai</h2>
         <p>SideShift.ai és un servei de tercers que fa proporciona el canvi de Aeon a Bitcoin.
-         Nosaltres fem servir l’API SideShift.ai per integrar els pagaments de Bitcoin a monerujoAE. Si us plau, doneu un cop d’ull a https://sideshift.ai i decidiu vosaltres mateixos si és una 	cosa que volgueu utilitzar. L’equip de 	monerujoAE no està associat amb SideShift.ai i no pot oferir assistència amb el seu servei.</p>
+         Nosaltres fem servir l’API SideShift.ai per integrar els pagaments de Bitcoin a aeonujo. Si us plau, doneu un cop d’ull a https://sideshift.ai i decidiu vosaltres mateixos si és una 	cosa que volgueu utilitzar. L’equip de 	aeonujo no està associat amb SideShift.ai i no pot oferir assistència amb el seu servei.</p>
         <h2>Tipus de Canvi SideShift.ai<h2>
         <p>A la pantalla \"Quantitat\" es mostraran els paràmetres actuals del servei SideShift.ai. Aquests
          inclouen el tipus de canvi actual, així com els límits de BTC superiors i inferiors. Tingueu en compte que la tarifa no està garantida en aquell mateix moment.</p>
@@ -149,7 +149,7 @@
          un temps limitat: és possible que veieu un compte enrere en el botó \"Gastar\". El tipus de canvi pot
          ser diferent del mostrat en pantalles anteriors.</p>
         <h2>Clau Secreta SideShift.ai<h2>
-        <p>Com que monerujoAE només gestiona la part Aeon de la vostra transacció, la vostra clau secreta per SideShift.ai es pot utilitzar per fer el seguiment de la part de Bitcoin de 	la vostra comanda a la pàgina principal de SideShift.ai.</p>
+        <p>Com que aeonujo només gestiona la part Aeon de la vostra transacció, la vostra clau secreta per SideShift.ai es pot utilitzar per fer el seguiment de la part de Bitcoin de 	la vostra comanda a la pàgina principal de SideShift.ai.</p>
         <h2>Compte enrere SideShift.ai!</h2>
         <p>Una vegada el compte enrere arribi a zero haureu d’obtenir una nova sol·licitud de SideShift.ai tornant enrere al pas anterior i després tornar a la pantalla de 			\"Confirmar\".</p>
     ]]></string>
@@ -159,7 +159,7 @@
         <h2>Mode de carrer</h2>
         <p>El mode de carrer es pot habilitar / desactivar des del menú o a la icona principal de Gunther. En aquest mode, el vostre balanç no es mostra a cap pantalla perquè pugueu 	utilitzar la vostra cartera amb seguretat al carrer, al pub o qualsevol lloc públic. Les transaccions anteriors també estan ocultes. Es mostraran les noves transaccions 	perquè pogueu veure que heu enviat / rebut els vostres estimats Aeon!</p>
         <h2>Escanejant</h2>
-        Perquè a Aeon li agrada mantenir les coses privades, cada cop que obri un portamonedes monerujoAE hem d’escanejar la blockchain per veure si s’han enviat nous Aeon al seu 	portamonedes. Això només emmagatzema l’informació al telèfon que pertany al seu portamonedes. De vegades pot trigar una estona perquè no s’ha sincronitzat en molt de temps.
+        Perquè a Aeon li agrada mantenir les coses privades, cada cop que obri un portamonedes aeonujo hem d’escanejar la blockchain per veure si s’han enviat nous Aeon al seu 	portamonedes. Això només emmagatzema l’informació al telèfon que pertany al seu portamonedes. De vegades pot trigar una estona perquè no s’ha sincronitzat en molt de temps.
         <h2>El Balanç</h2>
         <p><b>Ajuda! El balanç del meu portamonedes ha desaparegut o consta com a no confirmat!</b><br/>
         No patiu! Quan envieu fons desde el vostre portamonedes part del balanç apareixerà com a no confirmat de forma temporal.        
@@ -172,14 +172,14 @@
     <string name="help_node"><![CDATA[
         <h1>Nodes</h1>
         <h2>TL;DR</h2>
-        <p>Actualitzeu la llista de nodes prement cap avall; marqueu 3&#8211;5 nodes per permetre a monerujoAE
+        <p>Actualitzeu la llista de nodes prement cap avall; marqueu 3&#8211;5 nodes per permetre a aeonujo
          triar el millor per a tu!</p>
         <h2>Què és un Node?</h2>
-        <p>monerujoAE utilitza un Node Remot (de vegades també anomenat daemon) per comunicar-se
+        <p>aeonujo utilitza un Node Remot (de vegades també anomenat daemon) per comunicar-se
          la xarxa Aeon sense haver de descarregar i emmagatzemar una còpia de
          tota la blockchain mateixa.<p>
         <h2>Llista de Nodes</h2>
-        <p>Si la llista està buida, podeu afegir nous nodes manualment o deixar que monerujoAE
+        <p>Si la llista està buida, podeu afegir nous nodes manualment o deixar que aeonujo
          escanegi la xarxa per vostè. O ambdós. Llegiu &#8230;</p>
         <p>La llista de nodes mostra tots els nodes coneguts. A més, la marca de temps
          de l’últim bloc conegut per a cada node es mostra sota el nom del node. La icona
@@ -188,10 +188,10 @@
          es mostra al costat de cada node.</p>
         <p>Es pot marcar qualsevol node de la llista per utilitzar-lo més endevant.
          Es descartaràn els nodes que no hagin estat seleccionats.<p>
-        <p>monerujoAE escollirà el node òptim (marcat) cada vegada que l’utilitzeu.
+        <p>aeonujo escollirà el node òptim (marcat) cada vegada que l’utilitzeu.
          Això ho fa mitjançant la comprovació de l’alçada de bloc (com d’actualitzat
          està el node?), així com el temps de resposta (què tan ràpidament respon el node a les peticions?).</p>
-        <p>La llista s’ordena per aquestes característiques, de manera que el node superior seria el que monerujoAE
+        <p>La llista s’ordena per aquestes característiques, de manera que el node superior seria el que aeonujo
          triaria ara mateix. La part inferior de la llista mostraria els nodes més lents o no disponibles.</p>
         <h2>Afegir Node</h2>
         <p>Si premeu el botó &quot;Afegir Node&quot; a la part inferior, se us demanarà
@@ -209,18 +209,18 @@
         Un cop aprovada la prova (sense error), ja estás llest per prémer &quot;D’acord&quot; per desar iamp;
         marcar aquest node.</p>
         <h2>Escanejar Nodes</h2>
-        <p>A més, podeu escanejar la xarxa per buscar nodes. monerujoAE començarà
+        <p>A més, podeu escanejar la xarxa per buscar nodes. aeonujo començarà
          escanejant la xarxa per als nodes remots al port 18089. Començarà per preguntar als vostres
          nodes marcats per altres companys de la xarxa P2P de Aeon, i després continuarà
          preguntant-los per als seus companys, etc. Si no teniu cap node marcat
          (o no ens informen sobre els seus companys),
-         monerujoAE anirà directament als nodes de llavor de Aeon codificats a dins de Aeon.
+         aeonujo anirà directament als nodes de llavor de Aeon codificats a dins de Aeon.
          L’escaneig s’atura quan troba un total de 10 nodes remots.</p>
     ]]></string>
 
     <string name="help_uri"><![CDATA[
         <h1>Fer servir un enllaç de pagament</h1>
-        <p>Heu iniciat monerujoAE amb un enllaç de pagament. Per enviar fons, feu el següent:</p>
+        <p>Heu iniciat aeonujo amb un enllaç de pagament. Per enviar fons, feu el següent:</p>
         <p>
         1. Obrir el portamonedes desde la qual voleu gastar els fons<br>
         2. Espereu fins que es sincronitzi el portamonedes i el botó de "Donar" apareixi<br>

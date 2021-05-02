@@ -137,7 +137,7 @@
 
     <string name="xmr_unconfirmed_amount">+ %1$s AEON unbestätigt</string>
 
-    <string name="service_description">monerujoAE Service</string>
+    <string name="service_description">aeonujo Service</string>
 
     <string name="status_synced">Synchronisiert:</string>
     <string name="status_remaining">Blöcke verbleibend</string>
@@ -166,7 +166,7 @@
         <strong>Fingerabdruck-Authentifizierung</strong>
         <p>Mit aktivierter Fingerabdruck-Authentifizierung kannst du ohne Eingabe eines Passworts
         das Wallet-Guthaben einsehen sowie Gelder empfangen.</p>
-        <p>Aus Sicherheitsgründen wird monerujoAE weiterhin dein Passwort abfragen,
+        <p>Aus Sicherheitsgründen wird aeonujo weiterhin dein Passwort abfragen,
         wenn du Wallet-Details einsehen oder Gelder senden möchtest.</p>
         <strong>Sicherheits-Warnung</strong>
         <p>Bedenke bitte, dass jeder mit Zugriff auf deinen Fingerabdruck dein Wallet-Saldo einsehen kann.</p>
@@ -369,12 +369,12 @@
     <string name="onboarding_button_next">Next</string>
     <string name="onboarding_button_ready">I\'m ready!</string>
 
-    <string name="onboarding_welcome_title">Welcome to monerujoAE!</string>
+    <string name="onboarding_welcome_title">Welcome to aeonujo!</string>
     <string name="onboarding_welcome_information">This app allows you to create and use Aeon wallets. You can store your sweet Aeon in them.</string>
     <string name="onboarding_seed_title">Keep your seed safe</string>
     <string name="onboarding_seed_information">The seed grants full access to whoever has it. If you lose it, we cannot help you recover it and you lose your beloved Aeon.</string>
     <string name="onboarding_xmrto_title">Send Crypto</string>
-    <string name="onboarding_xmrto_information">monerujoAE has SideShift.ai support built-in. Just paste or scan a BTC, LTC, ETH, DASH or DOGE address and you\'ll be sending these cryptos by spending AEON.</string>
+    <string name="onboarding_xmrto_information">aeonujo has SideShift.ai support built-in. Just paste or scan a BTC, LTC, ETH, DASH or DOGE address and you\'ll be sending these cryptos by spending AEON.</string>
     <string name="onboarding_nodes_title">Nodes, your way</string>
     <string name="onboarding_nodes_information">Nodes connect you to the Aeon network. Choose between public nodes or go full cypherpunk using your own.</string>
     <string name="onboarding_fpsend_title">Send with fingerprint</string>

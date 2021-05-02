@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="about_close">Închide</string>
-    <string name="about_whoami">Eu sunt monerujoAE</string>
+    <string name="about_whoami">Eu sunt aeonujo</string>
     <string name="about_version">Versiunea %1$s (%2$d)</string>
 
     <string name="credits_text"><![CDATA[
@@ -17,7 +17,7 @@
         <h1>Politică de confidențialitate</h1>
         <p>Această pagină te informează despre politicile privind colectarea,
         utilizarea și divulgarea informațiilor personale pe care le primim de la
-        utilizatorii aplicației noastre (monerujoAE: Portofelul Aeon).
+        utilizatorii aplicației noastre (aeonujo: Portofelul Aeon).
         </p>
         <p>Folosind această aplicație, ești de acord cu colectarea și utilizarea informațiilor
 		în conformitate cu această politică.
@@ -30,13 +30,13 @@
 		rețeaua Aeon într-o formă criptată.
         </p>
         <p>Alte date personale nu sunt colectate de către aplicație.</p>
-        <p>În cazul în care folosești funcția de schimb monetar USD/EUR (facultativ), monerujoAE preia rata de schimb
+        <p>În cazul în care folosești funcția de schimb monetar USD/EUR (facultativ), aeonujo preia rata de schimb
         prin intermediul API-ului public al kraken.com.
         Vizualizează politica de confidențialitate la adresa https://www.kraken.com/legal/privacy pentru a vedea
 		cum este procesată informația (În special secțiunea "Information We Collect Automatically").</p>
         <p>În cazul in care folosești aplicația pentru a face o plată către o adresă de portofel BTC,
 		vei folosi serviciul oferit de SideShift.ai.
-        Vizualizează politica lor de confidențialitate la adresa https://sideshift.ai/ pentru detalii. monerujoAE le va trimite lor 
+        Vizualizează politica lor de confidențialitate la adresa https://sideshift.ai/ pentru detalii. aeonujo le va trimite lor 
 		adresa de destinație și suma BTC. Adresa ta de IP poate fi colectată.</p>
         <h2>Permisiunile aplicației</h2>
         <ul>

@@ -84,7 +84,7 @@
 		Po vložení novej prístupovej frázy (aj pri tej istej ako predtým), aplikácia ti vygeneruje
 		CrAzYpass a zabezpečí s ním súbory peňaženky. Zapísať!
         <h3>CrAzYpass peňaženky</h3>
-        Ak budeš potrebovať niekedy preinštalovať monerujoAE (napríklad po resetovaní telefónu alebo pri výmene za iný),
+        Ak budeš potrebovať niekedy preinštalovať aeonujo (napríklad po resetovaní telefónu alebo pri výmene za iný),
 		alebo ak chceš použiť súbory peňaženky na inom zariadení či PC, budeš musieť
 		použiť toto heslo pre obnovu na opätovný prístup do svojej peňaženky.<br/>
         Označením \"Zmeň Frázu\ z menu, môžeš vybrať inú prístupovú frázu. Tu pozor, pretože to vygenereuje nové heslo pre obnovu.
@@ -100,12 +100,12 @@
     <string name="help_list"><![CDATA[
         <h1>Zoznam Peňaženiek</h1>
         <h2>Uzol</h2>
-        <p>monerujoAE používa vzdialené uzly na komunikáciu so sieťou Aeon. Nie je tak potrebné sťahovať
+        <p>aeonujo používa vzdialené uzly na komunikáciu so sieťou Aeon. Nie je tak potrebné sťahovať
 		a ukladať celú blockchain ako takú. Zoznam populárnych uzlov spolu s návodmi ako ich rozbehať môžeš nájsť na 
 		https://nodes.aeon.run//<p>
-        <p>monerujoAE prichádza s niekoľkými prednastavenými uzlami. Pamätá si posledných 5 použitých uzlov.</p>
+        <p>aeonujo prichádza s niekoľkými prednastavenými uzlami. Pamätá si posledných 5 použitých uzlov.</p>
         <h2>Peňaženky</h2>
-        <p>Tu vidíš svoje peňaženky. Sú umiestnené v adresári <tt>monerujoAE</tt> na internom úložisku Tvojho zariadenia.
+        <p>Tu vidíš svoje peňaženky. Sú umiestnené v adresári <tt>aeonujo</tt> na internom úložisku Tvojho zariadenia.
         Môžeš použiť súborový manažér telefónu na ich vyhľadanuie a zobrazenie.
 		Mal by si robiť pravidelné zálohy týchto adresárov a umiestniť ich mimo zariadenie pre prípad straty, či poškodenia.</p>
         <p>Označ Peňaženku alebo stlač \"+\" pre vytvorenie novej.
@@ -117,7 +117,7 @@
         <h3>Premenuj</h3>
         <p>Premenuje peňaženku. Zálohy nie sú premenované.</p>
         <h3>Záloha</h3>
-        <p>Vytvorí kópiu peňaženky v adresári <tt>backups</tt> vnútri <tt>monerujoAE</tt>
+        <p>Vytvorí kópiu peňaženky v adresári <tt>backups</tt> vnútri <tt>aeonujo</tt>
         prepísaním predchádzajúcich kópií.</p>
         <h3>Archivovať</h3>
         <p>Vytvorí zálohu s následným zmazaním peňaženky. Kópia zostáva v adresári <tt>backups</tt>
@@ -157,9 +157,9 @@
         <h1>Posielanie BTC</h1>
         <h2>SideShift.ai</h2>
         <p>SideShift.ai je služba tretej strany, ktorá umožňuje zámenu z Aeon na Bitcoin.
-        Používame SideShift.ai API na integráciu Bitcoin platieb do monerujoAE. Prosím mrkni na 
+        Používame SideShift.ai API na integráciu Bitcoin platieb do aeonujo. Prosím mrkni na 
 		https://sideshift.ai a rozhodni sa sám, či je to naozaj služba, ktorú chceš používať.
-		Tím monerujoAE nie je nijako spojený so službou SideShift.ai a teda nemôže pomôcť s prípadnými problémami s touto službou.</p>
+		Tím aeonujo nie je nijako spojený so službou SideShift.ai a teda nemôže pomôcť s prípadnými problémami s touto službou.</p>
         <h2>SideShift.ai Výmenný Kurz<h2>
         <p>Na obrazovke \"Množstvo\" uvidíš aktuálne parametre služby SideShift.ai, vrátane aktuálneho kurzu BTC, hornej a dolnej hranice.
 		Podotýkame, že tento kurz nie je garantovaný.</p>
@@ -167,7 +167,7 @@
         <p>Na obrazovke \"Potvrdiť\", uvidíš aktuálnu objednávku v SideShift.ai. Táto objednávka je platná iba obmedzený čas - ako si môžeš všimnúť odpočítavanie na tlačítku \"Minúť\". 
 		Výmenný kurz sa môže líšiť od toho, ktorý bol na predošlých obrazovkách.</p>
         <h2>SideShift.ai Tajný Kľúč<h2>
-        <p>Keďže monerujoAE dbá len na tú časť transakcie, ktorá pracuje s Aeon, 
+        <p>Keďže aeonujo dbá len na tú časť transakcie, ktorá pracuje s Aeon, 
 		tento SideShift.ai Tajný Kľúč sa môže využívať na sledovanie Bitcoinovej časti transakcie a objednávky
 		na domovskej stránke SideShift.ai</p>
         <h2>SideShift.ai Odpočítavanie!</h2>
@@ -178,9 +178,9 @@
         <h1>Posielanie BTC</h1>
         <h2>SideShift.ai</h2>
         <p>SideShift.ai je služba tretej strany, ktorá umožňuje zámenu z Aeon na Bitcoin.
-        Používame SideShift.ai API na integráciu Bitcoin platieb do monerujoAE. Prosím mrkni na
+        Používame SideShift.ai API na integráciu Bitcoin platieb do aeonujo. Prosím mrkni na
 		https://sideshift.ai a rozhodni sa sám, či je to naozaj služba, ktorú chceš používať.
-		Tím monerujoAE nie je nijako spojený so službou SideShift.ai a teda nemôže pomôcť s prípadnými problémami s touto službou.</p>
+		Tím aeonujo nie je nijako spojený so službou SideShift.ai a teda nemôže pomôcť s prípadnými problémami s touto službou.</p>
         <h2>SideShift.ai Výmenný Kurz<h2>
         <p>Na obrazovke \"Množstvo\" uvidíš aktuálne parametre služby SideShift.ai, vrátane aktuálneho kurzu BTC, hornej a dolnej hranice.
 		Podotýkame, že tento kurz nie je garantovaný.</p>
@@ -188,7 +188,7 @@
         <p>Na obrazovke \"Potvrdiť\", uvidíš aktuálnu objednávku v SideShift.ai. Táto objednávka je platná iba obmedzený čas - ako si môžeš všimnúť odpočítavanie na tlačítku \"Minúť\".
 		Výmenný kurz sa môže líšiť od toho, ktorý bol na predošlých obrazovkách.</p>
         <h2>SideShift.ai Tajný Kľúč<h2>
-        <p>Keďže monerujoAE dbá len na tú časť transakcie, ktorá pracuje s Aeon,
+        <p>Keďže aeonujo dbá len na tú časť transakcie, ktorá pracuje s Aeon,
 		tento SideShift.ai Tajný Kľúč sa môže využívať na sledovanie Bitcoinovej časti transakcie a objednávky
 		na domovskej stránke SideShift.ai</p>
         <h2>SideShift.ai Odpočítavanie!</h2>
@@ -204,8 +204,8 @@
 		aby ste mohli vidieť či vám odoslalo a dorazilo všetko správne.</p>
 
         <h2>Skenovanie</h2>
-        Keďže Aeon obľubuje súkromie, zakaždým pri otváraní monerujoAE musíme skenovať blockchain aby sme videli, či nedorazili nové Monerá.
-		monerujoAE uchováva len tie informácie, ktoré prislúchajú vašej peňaženke. Pokiaľ nemáte sychronizovanú peňaženku dlhší čas, synchronizácia môže trvať dlho.
+        Keďže Aeon obľubuje súkromie, zakaždým pri otváraní aeonujo musíme skenovať blockchain aby sme videli, či nedorazili nové Monerá.
+		aeonujo uchováva len tie informácie, ktoré prislúchajú vašej peňaženke. Pokiaľ nemáte sychronizovanú peňaženku dlhší čas, synchronizácia môže trvať dlho.
         <h2>Zostatok</h2>
         <p><b>Pomóc! Zostatok v mojej peňaženke zmizol, alebo je nepotvrdený!</b><br/>
         Nestresuj! Keď odosielaš prostriedky zo svojej peňaženky, časť zostatku sa dočasne ukáže ako nepotvrdená.
@@ -220,16 +220,16 @@
     <string name="help_node"><![CDATA[
         <h1>Uzly</h1>
         <h2>TL;DR</h2>
-        <p>Aktuálny zoznam uzlov získaš tak, že potiahneš a pridáš do záložiek 5 uzlov, z ktorých si monerujoAE jeden vyberie.</p>
+        <p>Aktuálny zoznam uzlov získaš tak, že potiahneš a pridáš do záložiek 5 uzlov, z ktorých si aeonujo jeden vyberie.</p>
         <h2>Čo je Uzol?</h2>
-        <p>monerujoAE používa vzdialený uzol (Remote Node, niekedy nazývaný aj Daemon) a peňaženka tak môže komunikovať so sieťou Aeon bez toho, aby bolo potrebné sťahovať celú blockchain.<p>
+        <p>aeonujo používa vzdialený uzol (Remote Node, niekedy nazývaný aj Daemon) a peňaženka tak môže komunikovať so sieťou Aeon bez toho, aby bolo potrebné sťahovať celú blockchain.<p>
         <h2>Zoznam Uzlov</h2>
-        <p>Ak je zoznam prázdny, môžeš zadať adresu uzla manuálne, alebo môžeš nechať monerujoAE preskúmať celú sieť. Prípadne oboje. Čítaj ďalej&#8230;</p>
+        <p>Ak je zoznam prázdny, môžeš zadať adresu uzla manuálne, alebo môžeš nechať aeonujo preskúmať celú sieť. Prípadne oboje. Čítaj ďalej&#8230;</p>
         <p>Zoznam uzlov zobrazuje všetky momentálne známe uzly. Pod každým uzlom je zobrazená časová pečiatka jeho posledného bloku.
 		Vedľa je ikonka nodu, ktorá indikuje úroveň pripojenia.</p>
         <p>Ktorýkoľvek uzol v zozname si môžte pridať do záložiek pre budúce použitie. Uzly, ktoré nebudú uložené, sa z pamäte vymažú.<p>
-        <p>monerujoAE vyberie jeden z uložených uzlov pri každom použití. Skontroluje výšku bloku (blockheight) týchto uzlov a zistí, ktorý uzol je ako aktualizovaný, ako dlho trvá odpoveď a podľa toho vyberie pre vás optimálny uzol.</p>
-        <p>Podľa týchto charakteristík je dané aj zoradenie v zozname. Prvý uzol bude ten, ktorý monerujoAE vybral práve teraz. Naspodku bude veľmi pomalý uzol s pomalou odozvou, alebo nedostupné uzly.</p>
+        <p>aeonujo vyberie jeden z uložených uzlov pri každom použití. Skontroluje výšku bloku (blockheight) týchto uzlov a zistí, ktorý uzol je ako aktualizovaný, ako dlho trvá odpoveď a podľa toho vyberie pre vás optimálny uzol.</p>
+        <p>Podľa týchto charakteristík je dané aj zoradenie v zozname. Prvý uzol bude ten, ktorý aeonujo vybral práve teraz. Naspodku bude veľmi pomalý uzol s pomalou odozvou, alebo nedostupné uzly.</p>
         <h2>Pridať Uzol</h2>
         <p>Dotykom na tlačítko &quot;Pridať Uzol&quot; vložíte detaily vlastného uzla.
         &quot;Adresa&quot; je hostname alebo IP-adresa uzla. Je to jediné povinné pole.
@@ -242,14 +242,14 @@
 		Prípadne kombinácia zadanej adresy a portu neprislúcha žiadnemu uzlu Aeon siete!
         Akonáhle test skončí úspešne (žiadna chyba sa neobjaví) - klepni na &quot;OK&quot; a ulož si daný uzol.</p>
         <h2>Vyhľadať Uzol</h2>
-        <p>Táto funkcia umožní vyhľadať uzol skenovaním Aeon siete. monerujoAE začne skenovať sieť a vyhľadávať vzdialené uzly na porte 18089.
+        <p>Táto funkcia umožní vyhľadať uzol skenovaním Aeon siete. aeonujo začne skenovať sieť a vyhľadávať vzdialené uzly na porte 18089.
 		Začína tým, že sa opýta uzlov vo vašich záložkách na ďalšie uzly v P2P sieti Aeon, ktoré sú s nimi spojené, tých sa opýta zas na ďalšie uzly atď. 
-		V prípade, že nemáte žiadne uzly vo svojich záložkách, monerujoAE bude skúšať uzly (seed nodes) natvrdo zapísané v kóde Aeon. Vyhľadávanie končí ak monerujoAE nájde aspoň 10 vzdialených uzlov.</p>
+		V prípade, že nemáte žiadne uzly vo svojich záložkách, aeonujo bude skúšať uzly (seed nodes) natvrdo zapísané v kóde Aeon. Vyhľadávanie končí ak aeonujo nájde aspoň 10 vzdialených uzlov.</p>
     ]]></string>
 
     <string name="help_uri"><![CDATA[
         <h1>Používanie platobného linku</h1>
-        <p>monerujoAE je spustené z platobného linku. Ak chceš posielať prostriedky, postupuj nasledovne:</p>
+        <p>aeonujo je spustené z platobného linku. Ak chceš posielať prostriedky, postupuj nasledovne:</p>
         <p>
         1. Otvor peňaženku z ktorej chceš platiť<br>
         2. Počkaj kým sa peňaženka zosynchronizuje a zobrazí sa tlačítko "Poslať" <br>

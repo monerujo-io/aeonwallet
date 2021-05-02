@@ -73,12 +73,12 @@
     <string name="help_list"><![CDATA[
         <h1>Λίστα Πορτοφολιών</h1>
         <h2>Κόμβος</h2>
-        <p>Το monerujoAE χρησιμοποιεί έναν Απομακρυσμένο Κόμβο(Remote Node) για επικοινωνία με το Δίκτυο του Aeon χωρίς
+        <p>Το aeonujo χρησιμοποιεί έναν Απομακρυσμένο Κόμβο(Remote Node) για επικοινωνία με το Δίκτυο του Aeon χωρίς
         να χρειάζεται να κατεβάσει και αποθηκεύσει ολόκληρο το blockchain. Μπορείς να βρεις μια λίστα απο δημοφιλείς
         απομακρυσμένους κόμβους ή να μάθεις πως να τρέχεις τον δικό σου απομακρυσμένο κόμβο εδώ https://nodes.aeon.run//<p>
-        <p>Το monerujoAE έχει κάποιους προκαθορισμένους Απομακρυσμένους Κόμβους. Θυμάται τους τελευταίους πέντε που χρησιμοποιήθηκαν.</p>
+        <p>Το aeonujo έχει κάποιους προκαθορισμένους Απομακρυσμένους Κόμβους. Θυμάται τους τελευταίους πέντε που χρησιμοποιήθηκαν.</p>
         <h2>Πορτοφόλια</h2>
-        <p>Εδώ βλέπεις τα πορτοφόλια σου. Βρίσκοντε στον φάκελο <tt>monerujoAE</tt>
+        <p>Εδώ βλέπεις τα πορτοφόλια σου. Βρίσκοντε στον φάκελο <tt>aeonujo</tt>
         στην εσωτερική αποθήκευση της συσκευής σας. Μπορείς να τα δεις με μια εφαρμογή εξερεύνησης αρχείων.
         Θα πρέπει να κρατάς συχνά αντίγραφα ασφαλείας αυτού του φακέλου εκτώς συσκευής σε
         περίπτωση που η συσκευή σου ανατιναχθεί ή κλαπεί.</p>
@@ -92,7 +92,7 @@
         <p>Μετονόμασε το πορτοφόλι. Τα αντίγραφα ασφαλείας δεν θα μετονομαστούν.</p>
         <h3>Αντιγρ. Ασφαλείας</h3>
         <p>Φτιάχνει ένα αντίγραφο ασφαλείας του πορτοφολιού στον φάκελο <tt>backups</tt> που είναι
-        στον φάκελο <tt>monerujoAE</tt> αντικαθιστόντας προηγούμενα αντίγραφα εκεί.</p>
+        στον φάκελο <tt>aeonujo</tt> αντικαθιστόντας προηγούμενα αντίγραφα εκεί.</p>
         <h3>Αρχειοθέτηση</h3>
         <p>Φτιάχνει ένα αντίγραφο ασφαλείας και στη συνέχεια διαγράφει το πορτοφόλι. Το αντίγραφο παραμένει στον
         <tt>backups</tt> φάκελο. Εάν δεν χρειάζεσαι πλεον τα αντίγραφα θα πρεπει να τα διαγράψεις με μια
@@ -133,9 +133,9 @@
         <h1>Αποστολή BTC</h1>
         <h2>SideShift.ai</h2>
         <p>Το SideShift.ai είναι τρίτος πάροχος που δρα σαν ανταλλακτήριο από Aeon σε Bitcoin.
-        Χρησιμοποιούμε το API του SideShift.ai για να ενσωματώσουμε πληρωμές Bitcoin στο monerujoAE. Παρακαλώ δες το
+        Χρησιμοποιούμε το API του SideShift.ai για να ενσωματώσουμε πληρωμές Bitcoin στο aeonujo. Παρακαλώ δες το
         https://sideshift.ai και αποφάσισε για τον εαυτό σου εαν αυτό είναι κάτι που θες να χρησιμοποιήσεις. Η Ομάδα του
-        monerujoAE δεν συνδέεται με το SideShift.ai και δεν μπορεί να σε βοηθήσει με την υπηρεσία.</p>
+        aeonujo δεν συνδέεται με το SideShift.ai και δεν μπορεί να σε βοηθήσει με την υπηρεσία.</p>
         <h2>Ισοτιμία συναλλάγματος SideShift.ai<h2>
         <p>Στην οθόνη \"Ποσό\" θα σου δωθούν οι τρέχουσες παράμετροι της υπηρεσίας SideShift.ai. Αυτές
         περιλαμβάνουν την τρέχουσα ισοτιμία καθώς και τα μέγιστα και ελάχιστα όρια BTC. Σημειωτέον ότι αυτή η
@@ -145,7 +145,7 @@
         περιορισμένο χρόνο - μπορεί να προσέξεις μια αντίστροφη μέτρηση στο κουμπί \"Ξόδεψε\". Η ισοτιμία
         μπορεί να είναι διαφορετική από την ενδεικτική που φαινόταν σε προηγούμενες οθόνες.</p>
         <h2>Μυστικό Κλειδί SideShift.ai<h2>
-        <p>Μιας και το monerujoAE διαχειρίζεται μόνο την πλευρά του Aeon της συναλλαγής το μυστικό κλειδί SideShift.ai
+        <p>Μιας και το aeonujo διαχειρίζεται μόνο την πλευρά του Aeon της συναλλαγής το μυστικό κλειδί SideShift.ai
         μπορεί να χρησιμοποιηθεί για να εντοπίσει την συναλλαγή απο μεριάς Bitcoin στην SideShift.ai εντολή σου στην αρχική τους σελίδα.</p>
         <h2>Αντίστροφη μέτρηση SideShift.ai!</h2>
         <p>Μόλις η αντίστροφη μέτρηση φθάσει στο μηδέν, χρειάζεται να ξεκινήσεις πάλι την συναλλαγή στο SideShift.ai πηγαίνοντας
@@ -156,9 +156,9 @@
         <h1>Αποστολή BTC</h1>
         <h2>SideShift.ai</h2>
         <p>Το SideShift.ai είναι τρίτος πάροχος που δρα σαν ανταλλακτήριο από Aeon σε Bitcoin.
-        Χρησιμοποιούμε το API του SideShift.ai για να ενσωματώσουμε πληρωμές Bitcoin στο monerujoAE. Παρακαλώ δες το
+        Χρησιμοποιούμε το API του SideShift.ai για να ενσωματώσουμε πληρωμές Bitcoin στο aeonujo. Παρακαλώ δες το
         https://sideshift.ai και αποφάσισε για τον εαυτό σου εαν αυτό είναι κάτι που θες να χρησιμοποιήσεις. Η Ομάδα του
-        monerujoAE δεν συνδέεται με το SideShift.ai και δεν μπορεί να σε βοηθήσει με την υπηρεσία.</p>
+        aeonujo δεν συνδέεται με το SideShift.ai και δεν μπορεί να σε βοηθήσει με την υπηρεσία.</p>
         <h2>Ισοτιμία συναλλάγματος SideShift.ai<h2>
         <p>Στην οθόνη \"Ποσό\" θα σου δωθούν οι τρέχουσες παράμετροι της υπηρεσίας SideShift.ai. Αυτές
         περιλαμβάνουν την τρέχουσα ισοτιμία καθώς και τα μέγιστα και ελάχιστα όρια BTC. Σημειωτέον ότι αυτή η
@@ -168,7 +168,7 @@
         περιορισμένο χρόνο - μπορεί να προσέξεις μια αντίστροφη μέτρηση στο κουμπί \"Ξόδεψε\". Η ισοτιμία
         μπορεί να είναι διαφορετική από την ενδεικτική που φαινόταν σε προηγούμενες οθόνες.</p>
         <h2>Μυστικό Κλειδί SideShift.ai<h2>
-        <p>Μιας και το monerujoAE διαχειρίζεται μόνο την πλευρά του Aeon της συναλλαγής το μυστικό κλειδί SideShift.ai
+        <p>Μιας και το aeonujo διαχειρίζεται μόνο την πλευρά του Aeon της συναλλαγής το μυστικό κλειδί SideShift.ai
         μπορεί να χρησιμοποιηθεί για να εντοπίσει την συναλλαγή απο μεριάς Bitcoin στην SideShift.ai εντολή σου στην αρχική τους σελίδα.</p>
         <h2>Αντίστροφη μέτρηση SideShift.ai!</h2>
         <p>Μόλις η αντίστροφη μέτρηση φθάσει στο μηδέν, χρειάζεται να ξεκινήσεις πάλι την συναλλαγή στο SideShift.ai πηγαίνοντας
@@ -196,7 +196,7 @@
         you can see that you have sent/received sweet Aeon!</p>
         <h2>Σάρωση</h2>
         Επειδή το Aeon θέλει να κρατάει τα πράγματα ιδιωτικά, κάθε φορά που ανοίγεις ένα πορτοφόλι
-        monerujoAE πρέπει να σαρώσουμε όλο το blockchain για να βρεθούν νέα ληφθέντα Aeon στο πορτοφόλι σας, αυτό
+        aeonujo πρέπει να σαρώσουμε όλο το blockchain για να βρεθούν νέα ληφθέντα Aeon στο πορτοφόλι σας, αυτό
         αποθηκεύει μόνο πληροφορίες στο τηλέφωνό σου που ανιστοιχούν στο πορτοφόλι σου. Μερικές φορές
         μπορεί να χρειαστεί λίγος χρόνος γιατί δεν έχεις συγχρονίσει για μεγάλο χρονικό διάστημα.
         <h2>Το Υπόλοιπο</h2>
@@ -212,14 +212,14 @@
     <string name="help_node"><![CDATA[
         <h1>Nodes</h1>
         <h2>TL;DR</h2>
-        <p>Refresh the nodes list by pulling down &amp; bookmark 3&#8211;5 nodes to allow monerujoAE
+        <p>Refresh the nodes list by pulling down &amp; bookmark 3&#8211;5 nodes to allow aeonujo
         to choose the best one for you!</p>
         <h2>What&apos;s a Node?</h2>
-        <p>monerujoAE uses a Remote Node (sometimes also called Daemon) to communicate with
+        <p>aeonujo uses a Remote Node (sometimes also called Daemon) to communicate with
         the Aeon Network without having to download and store a copy of the
         whole blockchain itself.<p>
         <h2>Node List</h2>
-        <p>If the list is empty, you can either add new nodes manually or let monerujoAE
+        <p>If the list is empty, you can either add new nodes manually or let aeonujo
         scan the network for you. Or both. Read on&#8230;</p>
         <p>The node list shows all currently known nodes. Additionally, the timestamp
         of the latest block known to each node is shown under the node name. An icon
@@ -228,10 +228,10 @@
         is shown next to each node.</p>
         <p>Any node in the list can be bookmarked for later use.
         Nodes which are not bookmarked will be forgotten.<p>
-        <p>monerujoAE will choose the optimal bookmarked node each time you use it.
+        <p>aeonujo will choose the optimal bookmarked node each time you use it.
         It does this by checking the blockheight (how up-to-date
         is the node?) as well as the response behaviour (how fast does the node respond to requests?).</p>
-        <p>The list is sorted by these characteristics, so the top node would be the one monerujoAE
+        <p>The list is sorted by these characteristics, so the top node would be the one aeonujo
         would choose right now. The bottom of the list would show very slow or unavailable nodes.</p>
         <h2>Add a Node</h2>
         <p>By touching the &quot;Add Node&quot; button at the bottom, you will be asked to
@@ -249,12 +249,12 @@
         Once the test passes (no error) - you&apos;re set to press &quot;OK&quot; to save &amp;
         bookmark this node.</p>
         <h2>Scan for Nodes</h2>
-        <p>Additionally, you can scan the network for nodes. monerujoAE will start
+        <p>Additionally, you can scan the network for nodes. aeonujo will start
         scanning the network for Remote Nodes on port 18089. It begins by asking your
         bookmarked nodes for other peers in the Aeon P2P network and then continues
         by asking those for their peers, and so on. If you have no bookmarked nodes
         (or they don&apos;t tell us about their peers),
-        monerujoAE will go straight to the Aeon seed nodes hardcoded into Aeon. The
+        aeonujo will go straight to the Aeon seed nodes hardcoded into Aeon. The
         scan stops when it finds 10 remote nodes in total.</p>
     ]]></string>
 
@@ -262,7 +262,7 @@
 
     <string name="help_uri"><![CDATA[
         <h1>Using a payment link</h1>
-        <p>You have started monerujoAE with a payment link. In order to send funds, please do the following:</p>
+        <p>You have started aeonujo with a payment link. In order to send funds, please do the following:</p>
         <p>
         1. Open the wallet you want to spend from<br>
         2. Wait until the wallet is synced &amp; the "Give" button appears<br>

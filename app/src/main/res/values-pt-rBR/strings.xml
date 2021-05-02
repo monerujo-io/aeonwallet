@@ -135,7 +135,7 @@
 
     <string name="xmr_unconfirmed_amount">+ %1$s AEON não confirmado</string>
 
-    <string name="service_description">Serviço monerujoAE</string>
+    <string name="service_description">Serviço aeonujo</string>
 
     <string name="status_synced">Sincronizado:</string>
     <string name="status_remaining">Blocos restantes</string>
@@ -163,7 +163,7 @@
     <string name="generate_fingerprint_warn"><![CDATA[
         <strong>Autenticação por impressão digital</strong>
         <p>Com a autenticação por impressão digital ativa, é possível verificar o saldo e receber transações sem escrever a senha.</p>
-        <p>Porém por questões de segurança extra, o monerujoAE seguirá solicitando sua senha para ver detalhes da carteira ou enviar transações.</p>
+        <p>Porém por questões de segurança extra, o aeonujo seguirá solicitando sua senha para ver detalhes da carteira ou enviar transações.</p>
         <strong>Aviso de Segurança</strong>
         <p>Queremos lembrar que qualquer pessoa com acesso às suas digitais poderá espiar o seu saldo.</p>
         <p>Por exemplo, uma pessoa com má intenção pode abrir sua carteira usando sua digital enquanto você dorme.</p>
@@ -358,12 +358,12 @@
     <string name="onboarding_button_next">Próximo</string>
     <string name="onboarding_button_ready">Estou pronto!</string>
 
-    <string name="onboarding_welcome_title">Bem-vindo a monerujoAE!</string>
+    <string name="onboarding_welcome_title">Bem-vindo a aeonujo!</string>
     <string name="onboarding_welcome_information">Esse aplicativo permite que você crie e use carteiras Aeon. Você poderá guardar seus queridos Aeon aqui.</string>
     <string name="onboarding_seed_title">Mantenha sua semente em segurança</string>
     <string name="onboarding_seed_information">A semente dá acesso total a qualquer pessoa que a tenha. Se você perdê-la, nós não conseguiremos lhe ajudar a recuperá-la e você perderá seus amados Aeon.</string>
     <string name="onboarding_xmrto_title">Enviar Crypto</string>
-    <string name="onboarding_xmrto_information">A monerujoAE possui o SideShift.ai integrado. Basta colar ou escaner um endereço BTC, LTC, ETH, DASH ou DOGE e você estará enviando cripto, mas gastando em AEON.</string>
+    <string name="onboarding_xmrto_information">A aeonujo possui o SideShift.ai integrado. Basta colar ou escaner um endereço BTC, LTC, ETH, DASH ou DOGE e você estará enviando cripto, mas gastando em AEON.</string>
     <string name="onboarding_nodes_title">"Nós", do seu jeito</string>
     <string name="onboarding_nodes_information">Os nós conectam você à rede Aeon. Escolha entre nós públicos ou seja completamente "cypherpunk" e utilize seu próprio nó.</string>
     <string name="onboarding_fpsend_title">Enviar usando a digital</string>

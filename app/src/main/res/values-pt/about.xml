@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="about_close">Fechar</string>
-    <string name="about_whoami">Eu sou o monerujoAE</string>
+    <string name="about_whoami">Eu sou o aeonujo</string>
     <string name="about_version">Versão %1$s (%2$d)</string>
 
     <string name="credits_text"><![CDATA[
@@ -17,7 +17,7 @@
         <h1>Política de Privacidade</h1>
         <p>Esta página contém informação acerca das nossas políticas de recolha, uso
         e divulgação das informações pessoais que recebemos dos utilizadores
-        da nossa app (monerujoAE: Aeon Wallet).
+        da nossa app (aeonujo: Aeon Wallet).
         </p>
         <p>Ao utilizar esta app está a concordar com a recolha e uso de
         informação de acordo com esta política.
@@ -30,13 +30,13 @@
         encriptada.
         </p>
         <p>Quaisquer outros dados pessoais não são recolhidos pela app.</p>
-        <p>Se utilizar a conversão para USD/EUR, o monerujoAE obtém as taxas de conversão a
+        <p>Se utilizar a conversão para USD/EUR, o aeonujo obtém as taxas de conversão a
         partir da API pública do kraken.com.
         Confirme a política de privacidade deste serviço em https://www.kraken.com/legal/privacy para
         mais detalhes em como estes pedidos são processados (especialmente a
         secção "Informação que recolhemos automaticament").</p>
         <p>Se utilizar esta app para pagar em BTC, você estará a utilizar o serviço SideShift.ai.
-        Veja a sua política de privacidade em https://sideshift.ai/ para mais detalhes. O monerujoAE envia
+        Veja a sua política de privacidade em https://sideshift.ai/ para mais detalhes. O aeonujo envia
         para este serviço a quantidade e o endereço de destino das BTC. O seu IP vai ser registado.</p>
         <h2>Permissões da app</h2>
         <ul>
