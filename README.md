@@ -1,4 +1,4 @@
-# MonerujoAE
+# aeonujo
 The Android AEON Wallet
 
 ### QUICKSTART

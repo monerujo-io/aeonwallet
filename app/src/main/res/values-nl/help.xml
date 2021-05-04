@@ -64,7 +64,7 @@
         <h3>Ouderwets wachtwoord</h3>
         Als je wachtzin hierbij staat, zijn je portemonneebestanden niet zo goed beveiligd als wanneer je CrAzYpass gebruikt. Selecteer \"Wachtzin wijzigen\" in het menu om dit op te lossen. Nadat je een nieuwe wachtzin hebt ingevoerd (of dezelfde als de vorige keer), wordt er een nieuwe CrAzYpass voor je gegenereerd, waarmee je portemonneebestanden worden beveiligd. Schrijf deze op!
         <h3>Portemonnee met CrAzYpass</h3>
-        Als je monerujoAE ooit opnieuw moet installeren (bijvoorbeeld als je je telefoon opnieuw hebt ingesteld of als je een nieuwe telefoon hebt) of als je je portemonneebestanden op een ander apparaat of een computer wilt gebruiken, moet je dit herstelwachtwoord invoeren om weer toegang tot je portemonnee te krijgen.<br/>
+        Als je aeonujo ooit opnieuw moet installeren (bijvoorbeeld als je je telefoon opnieuw hebt ingesteld of als je een nieuwe telefoon hebt) of als je je portemonneebestanden op een ander apparaat of een computer wilt gebruiken, moet je dit herstelwachtwoord invoeren om weer toegang tot je portemonnee te krijgen.<br/>
         Door \"Wachtzin wijzigen\" te selecteren in het menu kun je een andere wachtzin kiezen. Let op: hierdoor wordt een nieuw herstelwachtwoord gegenereerd. Schrijf het op!
         <h2>Alleen-lezen sleutel</h2>
         Met je alleen-lezen sleutel kunnen binnenkomende transacties voor je portemonnee worden gevolgd zonder toestemming te geven om het geld in je portemonnee uit te geven.
@@ -75,10 +75,10 @@
     <string name="help_list"><![CDATA[
         <h1>Portemonneelijst</h1>
         <h2>Node</h2>
-        <p>monerujoAE gebruikt een externe node om te communiceren met het Aeon-netwerk zonder zelf een exemplaar van de hele blockchain te hoeven downloaden en opslaan. Hier vind je een lijst met populaire externe nodes, of kun je leren hoe je er zelf een draait: https://nodes.aeon.run//<p>
-        <p>Bepaalde externe nodes zijn vooraf ingesteld in monerujoAE. De laatste vijf gebruikte nodes worden onthouden.</p>
+        <p>aeonujo gebruikt een externe node om te communiceren met het Aeon-netwerk zonder zelf een exemplaar van de hele blockchain te hoeven downloaden en opslaan. Hier vind je een lijst met populaire externe nodes, of kun je leren hoe je er zelf een draait: https://nodes.aeon.run//<p>
+        <p>Bepaalde externe nodes zijn vooraf ingesteld in aeonujo. De laatste vijf gebruikte nodes worden onthouden.</p>
         <h2>Portemonnees</h2>
-        <p>Hier worden je portemonnees weergegeven. Ze zijn opgeslagen in de map <tt>monerujoAE</tt> in de interne opslag van je apparaat. Je kunt ze vinden in een bestandenverkenner-app.
+        <p>Hier worden je portemonnees weergegeven. Ze zijn opgeslagen in de map <tt>aeonujo</tt> in de interne opslag van je apparaat. Je kunt ze vinden in een bestandenverkenner-app.
         Maak regelmatig back-ups van deze map naar opslag elders, voor het geval dat je apparaat in brand vliegt of wordt gestolen.</p>
         <p>Selecteer een portemonnee om te openen of tik op de \"+\" om een nieuwe te maken.
         Of selecteer een van de portemonnee-bewerkingen:</p>
@@ -89,7 +89,7 @@
         <h3>Hernoemen</h3>
         <p>De portemonnee een andere naam geven. De naam van back-ups wordt niet veranderd.</p>
         <h3>Back-up</h3>
-        <p>Een kopie maken van de portemonnee in de map <tt>backups</tt> in de map <tt>monerujoAE</tt>. Hierdoor worden eerdere kopieën overschreven.</p>
+        <p>Een kopie maken van de portemonnee in de map <tt>backups</tt> in de map <tt>aeonujo</tt>. Hierdoor worden eerdere kopieën overschreven.</p>
         <h3>Archiveren</h3>
         <p>Een back-up maken en vervolgens de portemonnee verwijderen. De kopie blijft in de map <tt>backups</tt> staan. Heb je je back-ups niet meer nodig? Verwijder ze dan met een bestandenverkenner of verwijder de app veilig.</p>
     ]]></string>
@@ -122,13 +122,13 @@
         <h1>BTC verzenden</h1>
         <h2>SideShift.ai</h2>
         <p>SideShift.ai is een externe service waarmee je Aeon kunt inwisselen voor Bitcoin.
-        We gebruiken de API van SideShift.ai om Bitcoin-betalingen te integreren in monerujoAE. Neem eens een kijkje op https://sideshift.ai en besluit zelf of je dit wilt gebruiken. Het monerujoAE-team is niet verbonden aan SideShift.ai en kan je niet helpen met deze service.</p>
+        We gebruiken de API van SideShift.ai om Bitcoin-betalingen te integreren in aeonujo. Neem eens een kijkje op https://sideshift.ai en besluit zelf of je dit wilt gebruiken. Het aeonujo-team is niet verbonden aan SideShift.ai en kan je niet helpen met deze service.</p>
         <h2>Wisselkoers SideShift.ai<h2>
         <p>Op het scherm \"Bedrag\" worden de huidige waarden voor het gebruik van SideShift.ai weergegeven. Hierbij staat de huidige wisselkoers, maar ook het maximale en minimale BTC-bedrag. Houd er rekening mee dat deze koers op dit moment nog niet wordt gegarandeerd.</p>
         <h2>SideShift.ai-opdracht<h2>
         <p>Op het scherm \"Bevestigen\" wordt de eigenlijke SideShift.ai-opdracht weergegeven. Deze opdracht is geldig voor een beperkte tijd. Er wordt afgeteld op de knop \"Uitgeven\". De wisselkoers kan hier anders zijn dan de schatting die op eerdere schermen is weergegeven.</p>
         <h2>Geheime sleutel SideShift.ai<h2>
-        <p>Omdat monerujoAE alleen het Aeon-gedeelte van je transactie verwerkt, kun je je geheime sleutel voor SideShift.ai gebruiken om het Bitcoin-gedeelte van de opdracht te volgen op de SideShift.ai-website.</p>
+        <p>Omdat aeonujo alleen het Aeon-gedeelte van je transactie verwerkt, kun je je geheime sleutel voor SideShift.ai gebruiken om het Bitcoin-gedeelte van de opdracht te volgen op de SideShift.ai-website.</p>
         <h2>SideShift.ai telt af!</h2>
         <p>Als de knop heeft afgeteld naar nul, moet je een nieuw aanbod van SideShift.ai aanvragen. Ga daarvoor terug naar de vorige stap en open het scherm \"Bevestigen\" opnieuw.</p>
     ]]></string>
@@ -137,13 +137,13 @@
         <h1>BTC verzenden</h1>
         <h2>SideShift.ai</h2>
         <p>SideShift.ai is een externe service waarmee je Aeon kunt inwisselen voor Bitcoin.
-        We gebruiken de API van SideShift.ai om Bitcoin-betalingen te integreren in monerujoAE. Neem eens een kijkje op https://sideshift.ai en besluit zelf of je dit wilt gebruiken. Het monerujoAE-team is niet verbonden aan SideShift.ai en kan je niet helpen met deze service.</p>
+        We gebruiken de API van SideShift.ai om Bitcoin-betalingen te integreren in aeonujo. Neem eens een kijkje op https://sideshift.ai en besluit zelf of je dit wilt gebruiken. Het aeonujo-team is niet verbonden aan SideShift.ai en kan je niet helpen met deze service.</p>
         <h2>Wisselkoers SideShift.ai<h2>
         <p>Op het scherm \"Bedrag\" worden de huidige waarden voor het gebruik van SideShift.ai weergegeven. Hierbij staat de huidige wisselkoers, maar ook het maximale en minimale BTC-bedrag. Houd er rekening mee dat deze koers op dit moment nog niet wordt gegarandeerd.</p>
         <h2>SideShift.ai-opdracht<h2>
         <p>Op het scherm \"Bevestigen\" wordt de eigenlijke SideShift.ai-opdracht weergegeven. Deze opdracht is geldig voor een beperkte tijd. Er wordt afgeteld op de knop \"Uitgeven\". De wisselkoers kan hier anders zijn dan de schatting die op eerdere schermen is weergegeven.</p>
         <h2>Geheime sleutel SideShift.ai<h2>
-        <p>Omdat monerujoAE alleen het Aeon-gedeelte van je transactie verwerkt, kun je je geheime sleutel voor SideShift.ai gebruiken om het Bitcoin-gedeelte van de opdracht te volgen op de SideShift.ai-website.</p>
+        <p>Omdat aeonujo alleen het Aeon-gedeelte van je transactie verwerkt, kun je je geheime sleutel voor SideShift.ai gebruiken om het Bitcoin-gedeelte van de opdracht te volgen op de SideShift.ai-website.</p>
         <h2>SideShift.ai telt af!</h2>
         <p>Als de knop heeft afgeteld naar nul, moet je een nieuw aanbod van SideShift.ai aanvragen. Ga daarvoor terug naar de vorige stap en open het scherm \"Bevestigen\" opnieuw.</p>
     ]]></string>
@@ -156,7 +156,7 @@
         other public place. Previous transactions are also hidden. New transactions will be shown, so
         you can see that you have sent/received sweet Aeon!</p>
         <h2>Scannen</h2>
-        Omdat Aeon graag alles geheim houdt, scannen we iedere keer als je een monerujoAE-portemonnee opent de blockchain om te kijken of er nieuwe Aeon naar je portemonnee zijn overgemaakt. Hierbij wordt alleen informatie die bij je portemonnee hoort opgeslagen op je telefoon. Soms kan het even duren als je een tijd niet hebt gesynchroniseerd.
+        Omdat Aeon graag alles geheim houdt, scannen we iedere keer als je een aeonujo-portemonnee opent de blockchain om te kijken of er nieuwe Aeon naar je portemonnee zijn overgemaakt. Hierbij wordt alleen informatie die bij je portemonnee hoort opgeslagen op je telefoon. Soms kan het even duren als je een tijd niet hebt gesynchroniseerd.
         <h2>Het saldo</h2>
         <p><b>Help! Het saldo van mijn portemonnee is verdwenen of niet bevestigd!</b><br/>
         Geen paniek! Wanneer je geld uit je portemonnee verzend, wordt een deel van je saldo tijdelijk aangegeven als onbevestigd.
@@ -170,14 +170,14 @@
     <string name="help_node"><![CDATA[
         <h1>Nodes</h1>
         <h2>TL;DR</h2>
-        <p>Refresh the nodes list by pulling down &amp; bookmark 3&#8211;5 nodes to allow monerujoAE
+        <p>Refresh the nodes list by pulling down &amp; bookmark 3&#8211;5 nodes to allow aeonujo
         to choose the best one for you!</p>
         <h2>What&apos;s a Node?</h2>
-        <p>monerujoAE uses a Remote Node (sometimes also called Daemon) to communicate with
+        <p>aeonujo uses a Remote Node (sometimes also called Daemon) to communicate with
         the Aeon Network without having to download and store a copy of the
         whole blockchain itself.<p>
         <h2>Node List</h2>
-        <p>If the list is empty, you can either add new nodes manually or let monerujoAE
+        <p>If the list is empty, you can either add new nodes manually or let aeonujo
         scan the network for you. Or both. Read on&#8230;</p>
         <p>The node list shows all currently known nodes. Additionally, the timestamp
         of the latest block known to each node is shown under the node name. An icon
@@ -186,10 +186,10 @@
         is shown next to each node.</p>
         <p>Any node in the list can be bookmarked for later use.
         Nodes which are not bookmarked will be forgotten.<p>
-        <p>monerujoAE will choose the optimal bookmarked node each time you use it.
+        <p>aeonujo will choose the optimal bookmarked node each time you use it.
         It does this by checking the blockheight (how up-to-date
         is the node?) as well as the response behaviour (how fast does the node respond to requests?).</p>
-        <p>The list is sorted by these characteristics, so the top node would be the one monerujoAE
+        <p>The list is sorted by these characteristics, so the top node would be the one aeonujo
         would choose right now. The bottom of the list would show very slow or unavailable nodes.</p>
         <h2>Add a Node</h2>
         <p>By touching the &quot;Add Node&quot; button at the bottom, you will be asked to
@@ -207,12 +207,12 @@
         Once the test passes (no error) - you&apos;re set to press &quot;OK&quot; to save &amp;
         bookmark this node.</p>
         <h2>Scan for Nodes</h2>
-        <p>Additionally, you can scan the network for nodes. monerujoAE will start
+        <p>Additionally, you can scan the network for nodes. aeonujo will start
         scanning the network for Remote Nodes on port 18089. It begins by asking your
         bookmarked nodes for other peers in the Aeon P2P network and then continues
         by asking those for their peers, and so on. If you have no bookmarked nodes
         (or they don&apos;t tell us about their peers),
-        monerujoAE will go straight to the Aeon seed nodes hardcoded into Aeon. The
+        aeonujo will go straight to the Aeon seed nodes hardcoded into Aeon. The
         scan stops when it finds 10 remote nodes in total.</p>
     ]]></string>
 
@@ -220,7 +220,7 @@
 
     <string name="help_uri"><![CDATA[
         <h1>Using a payment link</h1>
-        <p>You have started monerujoAE with a payment link. In order to send funds, please do the following:</p>
+        <p>You have started aeonujo with a payment link. In order to send funds, please do the following:</p>
         <p>
         1. Open the wallet you want to spend from<br>
         2. Wait until the wallet is synced &amp; the "Give" button appears<br>

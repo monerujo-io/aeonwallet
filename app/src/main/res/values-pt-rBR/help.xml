@@ -88,7 +88,7 @@
         o aplicativo vai criar a SeNHaLoUCa para você e protegerá seus arquivos com ela.
         Não esqueça de anotá-la!
         <h3>Carteiras com SeNHaLoUCa</h3>
-        Se você precisar reinstalar o monerujoAE (por exemplo, caso você compre um novo celular), ou se você quiser usar
+        Se você precisar reinstalar o aeonujo (por exemplo, caso você compre um novo celular), ou se você quiser usar
         os arquivos da sua carteira em outro dispositivo ou computador, será preciso usar essa senha de restauração para
         ter acesso à carteira novamente.<br/>
         Ao selecionar "Alterar senha" no menu, você poderá escolher uma nova senha. Lembre-se que isso vai criar uma nova senha
@@ -104,12 +104,12 @@
     <string name="help_list"><![CDATA[
         <h1>Lista de Carteiras</h1>
         <h2>Nó</h2>
-        <p>O monerujoAE usa nós remotos para se comunicar com a rede Aeon sem precisar fazer o
+        <p>O aeonujo usa nós remotos para se comunicar com a rede Aeon sem precisar fazer o
         download do blockchain inteiro. Você pode consultar uma lista de nós remotos populares
         e aprender a como usar seu próprio nó em https://nodes.aeon.run//<p>
-        <p>O monerujoAE já possui alguns nós remotos pré-definidos. Os últimos 5 nós usados ficam salvos.</p>
+        <p>O aeonujo já possui alguns nós remotos pré-definidos. Os últimos 5 nós usados ficam salvos.</p>
         <h2>Carteiras</h2>
-        <p>Aqui ficam suas carteiras. Elas estão numa pasta chamada <tt>monerujoAE</tt> no armazenamento
+        <p>Aqui ficam suas carteiras. Elas estão numa pasta chamada <tt>aeonujo</tt> no armazenamento
         interno do seu dispositivo. Você pode usar um aplicativo de gerenciador de arquivos para vê-las.
         Você deve fazer backups desta pasta fora do celular regularmente caso seu dispositivo
         exploda ou seja roubado</p>
@@ -122,7 +122,7 @@
         <h3>Renomear</h3>
         <p>Renomeia a carteira. Backups não são renomeados.</p>
         <h3>Backup</h3>
-        <p>Faz uma cópia da carteira na pasta <tt>backups</tt> dentro de <tt>monerujoAE</tt>
+        <p>Faz uma cópia da carteira na pasta <tt>backups</tt> dentro de <tt>aeonujo</tt>
         sobrescrevendo as cópias anteriores.</p>
         <h3>arquivar</h3>
         <p>Faz um backup da carteira e a deleta logo em seguida. A cópia permanece na pasta <tt>backups</tt>.
@@ -164,8 +164,8 @@
         <h1>Enviando BTC</h1>
         <h2>SideShift.ai</h2>
         <p>SideShift.ai é um serviço terceiro que age como casa de câmbio de Aeon para Bitcoin.
-        Nós usamos a API do SideShift.ai para integrar pagamentos em Bitcoin direto na carteira monerujoAE. Consulte https://sideshift.ai
-        e decide por sua própria conta se este é um serviço que você quer usar. A equipe monerujoAE não está associada com o SideShift.ai
+        Nós usamos a API do SideShift.ai para integrar pagamentos em Bitcoin direto na carteira aeonujo. Consulte https://sideshift.ai
+        e decide por sua própria conta se este é um serviço que você quer usar. A equipe aeonujo não está associada com o SideShift.ai
         e não podemos ajudá-lo caso algo não funcione no serviço.</p>
         <h2>Cotação SideShift.ai<h2>
         <p>Na tela que exibe o valor da transação você poderá consultar os parâmetros do SideShift.ai.
@@ -176,7 +176,7 @@
         um período limitado - você pode observar uma contagem regressiva no botão de confirmação. A cotação pode
         ser diferente do que estava indicado na tela anterior.</p>
         <h2>Chave secreta do SideShift.ai<h2>
-        <p>Como o monerujoAE somente lida com a parte da transação que é em Aeon, você pode usar sua chave secreta do
+        <p>Como o aeonujo somente lida com a parte da transação que é em Aeon, você pode usar sua chave secreta do
         SideShift.ai para rastrear a parte da transação que é em Bitcoin no website do SideShift.ai.</p>
         <h2>Contagem regressiva do SideShift.ai</h2>
         <p>Quando o contador chega a zero será preciso iniciar uma nova ordem e solicitar uma nova cotação ao SideShift.ai. Volte para a tela
@@ -187,8 +187,8 @@
         <h1>Enviando BTC</h1>
         <h2>SideShift.ai</h2>
         <p>SideShift.ai é um serviço terceiro que age como casa de câmbio de Aeon para Bitcoin.
-        Nós usamos a API do SideShift.ai para integrar pagamentos em Bitcoin direto na carteira monerujoAE. Consulte https://sideshift.ai
-        e decide por sua própria conta se este é um serviço que você quer usar. A equipe monerujoAE não está associada com o SideShift.ai
+        Nós usamos a API do SideShift.ai para integrar pagamentos em Bitcoin direto na carteira aeonujo. Consulte https://sideshift.ai
+        e decide por sua própria conta se este é um serviço que você quer usar. A equipe aeonujo não está associada com o SideShift.ai
         e não podemos ajudá-lo caso algo não funcione no serviço.</p>
         <h2>Cotação SideShift.ai<h2>
         <p>Na tela que exibe o valor da transação você poderá consultar os parâmetros do SideShift.ai.
@@ -199,7 +199,7 @@
         um período limitado - você pode observar uma contagem regressiva no botão de confirmação. A cotação pode
         ser diferente do que estava indicado na tela anterior.</p>
         <h2>Chave secreta do SideShift.ai<h2>
-        <p>Como o monerujoAE somente lida com a parte da transação que é em Aeon, você pode usar sua chave secreta do
+        <p>Como o aeonujo somente lida com a parte da transação que é em Aeon, você pode usar sua chave secreta do
         SideShift.ai para rastrear a parte da transação que é em Bitcoin no website do SideShift.ai.</p>
         <h2>Contagem regressiva do SideShift.ai</h2>
         <p>Quando o contador chega a zero será preciso iniciar uma nova ordem e solicitar uma nova cotação ao SideShift.ai. Volte para a tela
@@ -214,7 +214,7 @@
         outro lugar público. Transações anteriores também serão ocultas. Novas transações serão mostradas, então
         você pode ver que você enviou/recebeu Aeon!</p>
         <h2>Escaneando</h2>
-        Como o Aeon sempre mantém tudo privado, sempre que você abrir sua carteira o monerujoAE precisa escanear
+        Como o Aeon sempre mantém tudo privado, sempre que você abrir sua carteira o aeonujo precisa escanear
         o blockchain para identificar se você recebeu algum novo Aeon. Somente as informações que correspondem à sua
         carteira são salvas no celular. De vez em quando esse processo demora,
         principalmente se faz tempo que você não abre a carteira.
@@ -231,14 +231,14 @@
     <string name="help_node"><![CDATA[
         <h1>Nós</h1>
         <h2>TL;DR</h2>
-        <p>Atualize a lista de nós puxando para baixo &amp; favorite 3&#8211;5 nós para permitir que o monerujoAE
+        <p>Atualize a lista de nós puxando para baixo &amp; favorite 3&#8211;5 nós para permitir que o aeonujo
         escolha o melhor para você!</p>
         <h2>O que é um Nó?</h2>
-        <p>O monerujoAE usa um nó remoto (às vezes também chamado de Daemon) para se comunicar com
+        <p>O aeonujo usa um nó remoto (às vezes também chamado de Daemon) para se comunicar com
         a Rede Aeon sem ter que baixar e armazenar uma cópia do
         blockchain inteiro.<p>
         <h2>Lista de Nós</h2>
-        <p>Se a lista estiver vazia, você pode adicionar novos nós manualmente ou deixar que o monerujoAE
+        <p>Se a lista estiver vazia, você pode adicionar novos nós manualmente ou deixar que o aeonujo
         escaneie a rede para você. Ou ambos. Leia mais&#8230;</p>
         <p>A lista de nós mostra todos os nós conhecidos atualmente. Além disso, a data e hora
         do último bloco sincronizado para cada nó é exibido abaixo de seu nome. Um ícone
@@ -247,10 +247,10 @@
         é exibido ao lado.</p>
         <p>Qualquer nó na lista pode ser favoritado para uso posterior.
         Os nós que não são marcados como favoritos serão esquecidos.<p>
-        <p>O monerujoAE sempre escolherá o nó ideal dentre os marcados.
+        <p>O aeonujo sempre escolherá o nó ideal dentre os marcados.
         Ele faz isso verificando a altura do bloco (quão sincronizado
         está o nó?) bem como o comportamento da resposta (com que rapidez o nó responde às solicitações?).</p>
-        <p>A lista é classificada por essas características, portanto, o nó do topo seria o único que o monerujoAE
+        <p>A lista é classificada por essas características, portanto, o nó do topo seria o único que o aeonujo
         escolheria nesse caso. A parte inferior da lista mostraria nós muito lentos ou indisponíveis.</p>
         <h2>Adicionar um Nó</h2>
         <p>Ao tocar no botão &quot;Adicionar nó&quot; na parte inferior, você será solicitado a
@@ -268,12 +268,12 @@
         Depois que o teste passar (sem erro), você poderá pressionar &quot;OK&quot; para salvar &amp;
         marcar este nó como favorito.</p>
         <h2>Escanear Nós</h2>
-        <p>Além disso, você pode verificar a rede em busca de nós. O monerujoAE vai começar a
+        <p>Além disso, você pode verificar a rede em busca de nós. O aeonujo vai começar a
         escanear a rede por nós remotos na porta 18089. Ele começa perguntando ao seus
         nós marcados como favoritos por outros pares na rede P2P do Aeon e, em seguida, continua
         perguntando por seus pares, e assim por diante. Se você não tem nós marcados como favoritos
         (ou eles não nos dizem sobre seus pares),
-        o monerujoAE irá direto para os nós codificados direto no Aeon em si. O
+        o aeonujo irá direto para os nós codificados direto no Aeon em si. O
         escaneamento termina quando 10 nós remotos são encontrados no total.</p>
     ]]></string>
 
@@ -281,7 +281,7 @@
 
     <string name="help_uri"><![CDATA[
         <h1>Usando um link de pagamento</h1>
-        <p>Você abriu o monerujoAE a partir de um link de pagamento. Para enviar os fundos, siga estes passos:</p>
+        <p>Você abriu o aeonujo a partir de um link de pagamento. Para enviar os fundos, siga estes passos:</p>
         <p>
         1. Abra a carteira da qual você quer gastar<br>
         2. Espere que a carteira esteja sincronizada &amp; o botão "Enviar" vai aparecer<br>

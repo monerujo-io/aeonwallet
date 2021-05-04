@@ -91,7 +91,7 @@
         unei noi parole (inclusiv una folosită anterior) aplicația va genera un CrAzYpass pentru
         tine și va securiza fișierele portofelului cu ajutorul lui. Notează-l!
         <h3>Portofele CrAzYpass</h3>
-        Dacă dorești să reinstalezi MonerujoAE (ca exemplu, după resetarea telefonului sau trecerea
+        Dacă dorești să reinstalezi aeonujo (ca exemplu, după resetarea telefonului sau trecerea
         la unul nou) sau dorești să utilizezi fișierele portofelului pe un alt dispozitiv sau PC, folosește
         Parola de Recuperare pentru a accesa portofelul din nou.<br/>
         La selectarea \"Schimbă Parola\" din meniu, poți alege o parolă nouă. Aceasta va genera
@@ -107,14 +107,14 @@
     <string name="help_list"><![CDATA[
         <h1>Listă Portofele</h1>
         <h2>Nod</h2>
-        <p>MonerujoAE folosește un dispozitiv la distanță (remote node) pentru a comunica cu Rețeaua Aeon
+        <p>aeonujo folosește un dispozitiv la distanță (remote node) pentru a comunica cu Rețeaua Aeon
 	fără a descărca și a stoca o copie a întregii baze de date distribuite (blockchain). Poți găsi o listă
 	populară de noduri de asamblare aflate la distanța, sau despre cum să creezi un nod de asamblare personal,
 	la adresa https://nodes.aeon.run/<p>
-        <p>MonerujoAE vine cu o listă presetată de noduri de asamblare aflate la distanță (remote nodes).
-	De asemenea, MonerujoAE reține ultimele cinci noduri folosite.</p>
+        <p>aeonujo vine cu o listă presetată de noduri de asamblare aflate la distanță (remote nodes).
+	De asemenea, aeonujo reține ultimele cinci noduri folosite.</p>
         <h2>Portofele</h2>
-        <p>Aici sunt afișate portofelele tale. Ele sunt salvate în dosarul <tt>monerujoAE</tt> aflat în
+        <p>Aici sunt afișate portofelele tale. Ele sunt salvate în dosarul <tt>aeonujo</tt> aflat în
 	memoria internă a dispozitivului tău. Poți să utilizezi un manager de fișiere pentru a le vedea.
 	Ar trebui să efectuezi, în mod regulat, copii de siguranță ale acestui dosar pe alte dispozitive,
 	în cazul în care dispozitivul tău va avea o disfuncționalitate sau va fi furat.</p>
@@ -127,7 +127,7 @@
         <h3>Redenumește</h3>
         <p>Redenumește portofelul. Copiile de siguranță (backups) nu sunt redenumite în această operațiune.</p>
         <h3>Copie de siguranță</h3>
-        <p>Creează o copie de siguranță în dosarul <tt>backups</tt> aflat în dosarul <tt>monerujoAE</tt> 
+        <p>Creează o copie de siguranță în dosarul <tt>backups</tt> aflat în dosarul <tt>aeonujo</tt> 
 	suprascriind copiile anterioare.</p>
         <h3>Arhivează</h3>
         <p>Efectuează o copie de siguranță și apoi șterge fișierul portofelului. Copia va rămâne
@@ -171,8 +171,8 @@
         <h1>Transfer BTC</h1>
         <h2>SideShift.ai</h2>
         <p>SideShift.ai este un serviciu terță parte care acționează ca un schimb valutar între Aeon și Bitcoin.
-        Noi folosim API-ul SideShift.ai pentru a integra plățile Bitcoin în MonerujoAE. Vezi
-        https://sideshift.ai și decide singur dacă acesta este un serviciu pe care dorești să îl folosești. Echipa MonerujoAE
+        Noi folosim API-ul SideShift.ai pentru a integra plățile Bitcoin în aeonujo. Vezi
+        https://sideshift.ai și decide singur dacă acesta este un serviciu pe care dorești să îl folosești. Echipa aeonujo
         nu este asociată în niciun fel cu SideShift.ai și nu te poate ajuta cu serviciile oferite de ei.</p>
         <h2>Rata de schimb a SideShift.ai<h2>
         <p>Pe ecranul cu \"Suma\" vor fi afișați parametrii serviciului SideShift.ai. Aceștia includ cursul de
@@ -183,7 +183,7 @@
 	un timp limitat - este posibil să observi o numărătoare inversă pe butonul \"Consum\". Rata de schimb poate
 	fi diferită de cea indicată pe ecranele anterioare.</p>
         <h2>Cheia secretă SideShift.ai<h2>
-        <p>Din moment ce MonerujoAE gestionează numai partea Aeon din tranzacția ta, cheia secretă a SideShift.ai
+        <p>Din moment ce aeonujo gestionează numai partea Aeon din tranzacția ta, cheia secretă a SideShift.ai
         poate fi folosită pentru a urmări partea Bitcoin a comenzii tale de pe site-ul SideShift.ai.</p>
         <h2>Numerotarea inversă SideShift.ai</h2>
         <p>În momentul în care numerotarea inversă ajunge la zero, va trebui să obții o nouă cotație de la SideShift.ai mergând
@@ -194,8 +194,8 @@
         <h1>Transfer BTC</h1>
         <h2>SideShift.ai</h2>
         <p>SideShift.ai este un serviciu terță parte care acționează ca un schimb valutar între Aeon și Bitcoin.
-        Noi folosim API-ul SideShift.ai pentru a integra plățile Bitcoin în MonerujoAE. Vezi
-        https://sideshift.ai și decide singur dacă acesta este un serviciu pe care dorești să îl folosești. Echipa MonerujoAE
+        Noi folosim API-ul SideShift.ai pentru a integra plățile Bitcoin în aeonujo. Vezi
+        https://sideshift.ai și decide singur dacă acesta este un serviciu pe care dorești să îl folosești. Echipa aeonujo
         nu este asociată în niciun fel cu SideShift.ai și nu te poate ajuta cu serviciile oferite de ei.</p>
         <h2>Rata de schimb a SideShift.ai<h2>
         <p>Pe ecranul cu \"Suma\" vor fi afișați parametrii serviciului SideShift.ai. Aceștia includ cursul de
@@ -206,7 +206,7 @@
 	un timp limitat - este posibil să observi o numărătoare inversă pe butonul \"Consum\". Rata de schimb poate
 	fi diferită de cea indicată pe ecranele anterioare.</p>
         <h2>Cheia secretă SideShift.ai<h2>
-        <p>Din moment ce MonerujoAE gestionează numai partea Aeon din tranzacția ta, cheia secretă a SideShift.ai
+        <p>Din moment ce aeonujo gestionează numai partea Aeon din tranzacția ta, cheia secretă a SideShift.ai
         poate fi folosită pentru a urmări partea Bitcoin a comenzii tale de pe site-ul SideShift.ai.</p>
         <h2>Numerotarea inversă SideShift.ai</h2>
         <p>În momentul în care numerotarea inversă ajunge la zero, va trebui să obții o nouă cotație de la SideShift.ai mergând
@@ -222,7 +222,7 @@
         să poți vizualiza scumpul Aeon trimis/primit!</p>
         <h2>Scanarea</h2>
         Deoarece Aeon păstrează lucrurile într-un mod privat, de fiecare dată când deschizi
-	portofelul MonerujoAE, vom scana baza de date distribuită (blockchain) pentru a vedea dacă
+	portofelul aeonujo, vom scana baza de date distribuită (blockchain) pentru a vedea dacă
 	ai primit Aeon în portofel, această metodă stochează doar informații relevante portofelului tău.
 	Uneori poate dura ceva timp, fiindcă portofelul n-a fost sincronizat demult.
         <h2>Balanța</h2>
@@ -239,14 +239,14 @@
     <string name="help_node"><![CDATA[
         <h1>Noduri</h1>
         <h2>TL;DR</h2>
-        <p>Actualizează lista de noduri prin tragerea în jos &amp; marchează 3&#8211;5 noduri pentru a permite lui MonerujoAE
+        <p>Actualizează lista de noduri prin tragerea în jos &amp; marchează 3&#8211;5 noduri pentru a permite lui aeonujo
         să-l aleagă pe cel mai bun!</p>
         <h2>Ce este un Nod?</h2>
-        <p>MonerujoAE folosește un nod la distanță (cunoscut și ca Daemon) pentru a comunica cu
+        <p>aeonujo folosește un nod la distanță (cunoscut și ca Daemon) pentru a comunica cu
         Rețeaua Aeon fără a descărca și stoca o copie a
         întregului blockchain.<p>
         <h2>Listă Noduri</h2>
-        <p>Dacă lista este goală, fie adaugi manual noduri noi sau îl lași pe MonerujoAE
+        <p>Dacă lista este goală, fie adaugi manual noduri noi sau îl lași pe aeonujo
         să scaneze rețeaua pentru tine. Sau ambele. Mai mullt&#8230;</p>
         <p>Lista de noduri conține toate nodurile cunoscute în prezent. Mai mult, marca temporală
         a ultimului monobloc cunoscută fiecărui nod este afișată sub numele nodului. Calitatea răspunsului
@@ -254,10 +254,10 @@
         plasată lângă fiecare nod.</p>
         <p>Orice nod din listă poate fi marcat pentru a fi utilizat mai târziu.
         Nodurile care nu sunt marcate vor fi uitate.<p>
-        <p>MonerujoAE va selecta nodul optim marcat la fiecare utilizare.
+        <p>aeonujo va selecta nodul optim marcat la fiecare utilizare.
         Aceasta are loc atât prin verificarea numărului monoblocului (cât de actual
         e nodul?), cât și prin calitatea răspunsului nodului (cât de repede sunt procesate cererile?).</p>
-        <p>Lista e sortată după aceste caracteristici, așă că acum MonerujoAE va alege nodul
+        <p>Lista e sortată după aceste caracteristici, așă că acum aeonujo va alege nodul
         cel mai bun. Josul listei va conține noduri foarte lente sau indisponibile.</p>
         <h2>Adaugă un Nod</h2>
         <p>La atingerea butonului &quot;Adaugă Nod&quot; din josul ecranului, va trebui
@@ -275,12 +275,12 @@
         Odată ce testarea e pozitivă (fără erori) - atinge &quot;OK&quot; pentru a salva &amp;
         marca acest nod.</p>
         <h2>Scanare Noduri</h2>
-        <p>În plus, poți scana rețeaua pentru noduri. MonerujoAE va începe
+        <p>În plus, poți scana rețeaua pentru noduri. aeonujo va începe
         scanarea rețelei pentru noduri la distanță cu portul 18089. Primele sunt solicitate
         nodurile marcate, care vor furniza alți parteneri în rețeaua P2P Aeon care, la rândul lor,
         vor căuta alții, și așa mai departe. Dacă nu ai noduri marcate
         (sau ele nu comunică informația partenerilor),
-        MonerujoAE va accesa nodurile integrate în Aeon. Scanarea
+        aeonujo va accesa nodurile integrate în Aeon. Scanarea
         se finalizează odată ce s-au găsit 10 noduri la distanță.</p>
     ]]></string>
 
@@ -288,7 +288,7 @@
 
     <string name="help_uri"><![CDATA[
         <h1>Utilizarea unui link de plată</h1>
-        <p>Ai accesat monerujoAE cu un link de plată. Pentru a trimite fonduri, te rugăm să efectuezi următoarele:</p>
+        <p>Ai accesat aeonujo cu un link de plată. Pentru a trimite fonduri, te rugăm să efectuezi următoarele:</p>
         <p>
         1. Deschide portofelul pe care dorești să-l folosești<br>
         2. Așteaptă să se sincronizeze portofelul &amp; butonul "Trimite" va fi disponibil<br>

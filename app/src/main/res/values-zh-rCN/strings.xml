@@ -101,7 +101,7 @@
     <string name="label_wallet_receive">收款</string>
     <string name="label_wallet_send">发送</string>
     <string name="xmr_unconfirmed_amount">+ %1$s AEON未确认</string>
-    <string name="service_description">monerujoAE服务</string>
+    <string name="service_description">aeonujo服务</string>
     <string name="status_synced">已同步：</string>
     <string name="status_remaining">区块剩余</string>
     <string name="status_syncing">扫描中：</string>
@@ -124,9 +124,9 @@
     <string name="generate_fingerprint_warn"><![CDATA[
 <strong>指纹授权</strong>
 <p>启用指纹授权后，无需输入密码，也可查看钱包余额和收款。</p>
-<p>出于安全性的考量，若要查看钱包明细和汇款，monerujoAE还是会要求您输入密码。</p>
+<p>出于安全性的考量，若要查看钱包明细和汇款，aeonujo还是会要求您输入密码。</p>
 <strong>安全警告</strong>
-<p>最后monerujoAE提醒您，任何取得您指纹的人，都能够进入您的账户。</p>
+<p>最后aeonujo提醒您，任何取得您指纹的人，都能够进入您的账户。</p>
 <p>比如，他人可能趁您熟睡时，使用您的指纹登录您的账户。</p>
 <strong>您确定要开启此功能？</strong>
 ]]></string>
@@ -290,12 +290,12 @@
     <string name="onboarding_button_next">Next</string>
     <string name="onboarding_button_ready">I\'m ready!</string>
 
-    <string name="onboarding_welcome_title">Welcome to monerujoAE!</string>
+    <string name="onboarding_welcome_title">Welcome to aeonujo!</string>
     <string name="onboarding_welcome_information">This app allows you to create and use Aeon wallets. You can store your sweet Aeon in them.</string>
     <string name="onboarding_seed_title">Keep your seed safe</string>
     <string name="onboarding_seed_information">The seed grants full access to whoever has it. If you lose it, we cannot help you recover it and you lose your beloved Aeon.</string>
     <string name="onboarding_xmrto_title">Send Crypto</string>
-    <string name="onboarding_xmrto_information">monerujoAE has SideShift.ai support built-in. Just paste or scan a BTC, LTC, ETH, DASH or DOGE address and you\'ll be sending these cryptos by spending AEON.</string>
+    <string name="onboarding_xmrto_information">aeonujo has SideShift.ai support built-in. Just paste or scan a BTC, LTC, ETH, DASH or DOGE address and you\'ll be sending these cryptos by spending AEON.</string>
     <string name="onboarding_nodes_title">Nodes, your way</string>
     <string name="onboarding_nodes_information">Nodes connect you to the Aeon network. Choose between public nodes or go full cypherpunk using your own.</string>
     <string name="onboarding_fpsend_title">Send with fingerprint</string>

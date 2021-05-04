@@ -133,7 +133,7 @@
 
     <string name="xmr_unconfirmed_amount">+ %1$s AEON obekräftade</string>
 
-    <string name="service_description">monerujoAE-tjänsten</string>
+    <string name="service_description">aeonujo-tjänsten</string>
 
     <string name="status_synced">Synkade:</string>
     <string name="status_remaining">Återstående block</string>
@@ -158,7 +158,7 @@
     <string name="generate_name_hint">Plånbokens namn</string>
     <string name="generate_password_hint">Plånbokens lösenfras</string>
     <string name="generate_fingerprint_hint">Tillåt öppning av plånboken med fingeravtryck</string>
-    <string name="generate_fingerprint_warn"><![CDATA[<strong>Autentisering med fingeravtryck</strong> <p>När fingeravtrycksautentisering är aktiverad kan du se plånbokens saldo och ta emot pengar utan att ange lösenord.</p> <p>Men för ytterligare säkerhet kräver monerujoAE ändå att du anger lösenord för att granska information om plånboken eller skicka pengar.</p> <strong>Säkerhetsvarning</strong> <p>Slutligen vill monerujoAE påminna dig att vem som helst som kan komma åt ditt fingeravtryck kan se saldot i din plånbok.</p> <p>En elak användare i din närhet kan till exempel öppna din plånbok när du sover.</p> <strong>Är det säkert att du vill aktivera denna funktion?</strong>]]></string>
+    <string name="generate_fingerprint_warn"><![CDATA[<strong>Autentisering med fingeravtryck</strong> <p>När fingeravtrycksautentisering är aktiverad kan du se plånbokens saldo och ta emot pengar utan att ange lösenord.</p> <p>Men för ytterligare säkerhet kräver aeonujo ändå att du anger lösenord för att granska information om plånboken eller skicka pengar.</p> <strong>Säkerhetsvarning</strong> <p>Slutligen vill aeonujo påminna dig att vem som helst som kan komma åt ditt fingeravtryck kan se saldot i din plånbok.</p> <p>En elak användare i din närhet kan till exempel öppna din plånbok när du sover.</p> <strong>Är det säkert att du vill aktivera denna funktion?</strong>]]></string>
     <string name="generate_bad_passwordB">Lösenfraserna matchar inte</string>
     <string name="generate_empty_passwordB">Lösenfrasen får inte vara tom</string>
     <string name="generate_buttonGenerate">Skapa min plånbok nu då!</string>
@@ -358,12 +358,12 @@
     <string name="onboarding_button_next">Nästa</string>
     <string name="onboarding_button_ready">Jag är redo!</string>
 
-    <string name="onboarding_welcome_title">Välkommen till MonerujoAE!</string>
+    <string name="onboarding_welcome_title">Välkommen till aeonujo!</string>
     <string name="onboarding_welcome_information">Denna app tillåter dig att skapa och använda Monero plånböcker. Du kan förvara dina kära moneroj i dem.</string>
     <string name="onboarding_seed_title">Håll dina seed i säkert förvar.</string>
     <string name="onboarding_seed_information">Seed ger full åtkomst till den som har den. Om du förlorar det, kan vi inte hjälpa dig och du förlorar dina kära moneroj.</string>
     <string name="onboarding_xmrto_title">Skicka krypto</string>
-    <string name="onboarding_xmrto_information">MonerujoAE har SideShift.ai support inbyggt. Bara klistra in eller scanna en BTC, LTC, ETH, DASH or DOGE address och du skickar dessa krypto genom att spendera XMR.</string>
+    <string name="onboarding_xmrto_information">aeonujo har SideShift.ai support inbyggt. Bara klistra in eller scanna en BTC, LTC, ETH, DASH or DOGE address och du skickar dessa krypto genom att spendera XMR.</string>
     <string name="onboarding_nodes_title">Noder, på ditt sätt.</string>
     <string name="onboarding_nodes_information">Noder ansluter dig till Monero-nätverket. Välj mellan offentliga noder eller gå all-in "cypherpunk" med din egen.</string>
     <string name="onboarding_fpsend_title">Skicka med fingeravtryck</string>

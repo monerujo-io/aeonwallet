@@ -79,7 +79,7 @@
 	Nachdem du eine neue Passwortphrase eingegeben hast (auch bei der gleichen wie zuvor) wird die App 
 	ein neues CrAzYpass für dich erstellen und deine Wallet-Dateien sichern. Schreibe es auf!
         <h3>CrAzYpass-Wallets</h3>
-        Falls du monerujoAE jemals neu installieren musst (zum Beispiel nachdem du dein Gerät auf Werkseinstellungen zurückgesetzt hast
+        Falls du aeonujo jemals neu installieren musst (zum Beispiel nachdem du dein Gerät auf Werkseinstellungen zurückgesetzt hast
  	oder du ein neues Gerät besitzt) oder die Wallet-Dateien auf einem anderen Gerät oder PC nutzen willst, dann
  	musst du dieses Wiederherstellungspasswort nutzen, um Zugriff auf dein Wallet zu erhalten.<br/>
         Durch die Auswahl \"Passwortphrase ändern\" aus dem Menü kannst du eine andere Passwortphrase wählen. Beachte,
@@ -95,12 +95,12 @@
     <string name="help_list"><![CDATA[
         <h1>Wallet-Liste</h1>
         <h2>Node</h2>
-        <p>monerujoAE benutzt einen Drittanbieter-Node, um mit dem Aeon-Netzwerk zu kommunizieren, ohne
+        <p>aeonujo benutzt einen Drittanbieter-Node, um mit dem Aeon-Netzwerk zu kommunizieren, ohne
         die gesamte Blockchain herunterladen zu müssen. Eine Liste bekannter Drittanbieter-Nodes
 	oder eine Anleitung zum Betreiben eines eigenen Drittanbieter-Nodes findest du unter https://nodes.aeon.run//<p>
-        <p>monerujoAE besitzt einige voreingestellte Drittanbieter-Nodes. Es erinnert sich an die letzten 5 benutzten Nodes.</p>
+        <p>aeonujo besitzt einige voreingestellte Drittanbieter-Nodes. Es erinnert sich an die letzten 5 benutzten Nodes.</p>
         <h2>Wallets</h2>
-        <p>Hier siehst du deine Wallets. Sie befinden sich im <tt>monerujoAE</tt> Ordner
+        <p>Hier siehst du deine Wallets. Sie befinden sich im <tt>aeonujo</tt> Ordner
         im internen Speicher deines Geräts. Du kannst einen Datei-Explorer nutzen, um sie zu finden.
         Du solltest regelmäßig Backups von diesem Ordner machen und diese sicher aufbewahren für den Fall,
         dass dein Gerät EXPLODIERT oder gestohlen wird.</p>
@@ -113,7 +113,7 @@
         <h3>Umbenennen</h3>
         <p>Benenne das Wallet um. Backups werden nicht umbenannt.</p>
         <h3>Backup</h3>
-        <p>Erstelle eine Kopie des Wallets im <tt>backups</tt> Ordner innerhalb des <tt>monerujoAE</tt> Ordners.
+        <p>Erstelle eine Kopie des Wallets im <tt>backups</tt> Ordner innerhalb des <tt>aeonujo</tt> Ordners.
         Eine bereits vorhandene Kopie wird überschrieben.</p>
         <h3>Archivieren</h3>
         <p>Erstellt ein Backup und löscht danach das Wallet. Die Kopie verbleibt im <tt>backups</tt>
@@ -154,8 +154,8 @@
         <h1>BTC senden</h1>
         <h2>SideShift.ai</h2>
         <p>SideShift.ai ist ein Drittanbieter-Service, welcher als Wechselservice von Aeon zu Bitcoin fungiert.
-        Wir nutzen die SideShift.ai-Schnittstelle, um Bitcoin-Zahlungen in monerujoAE zu integrieren. Bitte schaue dir
-        https://sideshift.ai an und entscheide selbst, ob du diesen Service nutzen willst. Das monerujoAE-Team
+        Wir nutzen die SideShift.ai-Schnittstelle, um Bitcoin-Zahlungen in aeonujo zu integrieren. Bitte schaue dir
+        https://sideshift.ai an und entscheide selbst, ob du diesen Service nutzen willst. Das aeonujo-Team
         gehört nicht zu SideShift.ai und kann keinen Support für dessen Service bieten.</p>
         <h2>SideShift.ai-Wechselkurs<h2>
         <p>Auf dem \"Menge\" Bildschirm siehst du die aktuellen Werte des SideShift.ai-Service. Diese beinhalten den aktuellen Tauschkurs
@@ -165,7 +165,7 @@
         für eine bestimmte Zeit – du siehst einen Countdown auf dem \"Ausgeben\" Button. Der Wechselkurs kann
         sich von den vorherigen Angaben unterscheiden.</p>
         <h2>Geheimer SideShift.ai-Schlüssel<h2>
-        <p>Da monerujoAE nur den Aeon-Teil deiner Transaktion verarbeitet, kann dein geheimer SideShift.ai-Schlüssel
+        <p>Da aeonujo nur den Aeon-Teil deiner Transaktion verarbeitet, kann dein geheimer SideShift.ai-Schlüssel
         dazu benutzt werden, den Bitcoin-Teil deines Auftrags auf der SideShift.ai-Homepage zu verfolgen.</p>
         <h2>SideShift.ai-Countdown!</h2>
         <p>Wenn der Countdown 0 erreicht, musst du ein neues Angebot von SideShift.ai anfordern, indem du zum vorherigen Schritt
@@ -176,8 +176,8 @@
         <h1>BTC senden</h1>
         <h2>SideShift.ai</h2>
         <p>SideShift.ai ist ein Drittanbieter-Service, welcher als Wechselservice von Aeon zu Bitcoin fungiert.
-        Wir nutzen die SideShift.ai-Schnittstelle, um Bitcoin-Zahlungen in monerujoAE zu integrieren. Bitte schaue dir
-        https://sideshift.ai an und entscheide selbst, ob du diesen Service nutzen willst. Das monerujoAE-Team
+        Wir nutzen die SideShift.ai-Schnittstelle, um Bitcoin-Zahlungen in aeonujo zu integrieren. Bitte schaue dir
+        https://sideshift.ai an und entscheide selbst, ob du diesen Service nutzen willst. Das aeonujo-Team
         gehört nicht zu SideShift.ai und kann keinen Support für dessen Service bieten.</p>
         <h2>SideShift.ai-Wechselkurs<h2>
         <p>Auf dem \"Menge\" Bildschirm siehst du die aktuellen Werte des SideShift.ai-Service. Diese beinhalten den aktuellen Tauschkurs
@@ -187,7 +187,7 @@
         für eine bestimmte Zeit – du siehst einen Countdown auf dem \"Ausgeben\" Button. Der Wechselkurs kann
         sich von den vorherigen Angaben unterscheiden.</p>
         <h2>Geheimer SideShift.ai-Schlüssel<h2>
-        <p>Da monerujoAE nur den Aeon-Teil deiner Transaktion verarbeitet, kann dein geheimer SideShift.ai-Schlüssel
+        <p>Da aeonujo nur den Aeon-Teil deiner Transaktion verarbeitet, kann dein geheimer SideShift.ai-Schlüssel
         dazu benutzt werden, den Bitcoin-Teil deines Auftrags auf der SideShift.ai-Homepage zu verfolgen.</p>
         <h2>SideShift.ai-Countdown!</h2>
         <p>Wenn der Countdown 0 erreicht, musst du ein neues Angebot von SideShift.ai anfordern, indem du zum vorherigen Schritt
@@ -214,7 +214,7 @@
         anderem öffentlichen Ort nutzen kannst. Vorherige Transaktionen sind ebenfalls verborgen. Neue Transaktionen werden angezeigt, damit
         du sehen kannst, wenn du diese genialen Aeon versendet oder empfangen hast!</p>
         <h2>Scannen</h2>
-        Weil Aeon gerne Dinge geheim hält, wird nach jedem Öffnen eines monerujoAE-Wallets die Blockchain gescannt,
+        Weil Aeon gerne Dinge geheim hält, wird nach jedem Öffnen eines aeonujo-Wallets die Blockchain gescannt,
 	um zu überprüfen, ob neue Aeon zu diesem Wallet gesendet wurden. Dies speichert ausschließlich Informationen,
 	die zum Wallet auf diesem Gerät gehören. Manchmal kann dies etwas länger dauern, falls die letzte Synchronisierung
         eine Weile her ist.
@@ -230,14 +230,14 @@
     <string name="help_node"><![CDATA[
         <h1>Nodes</h1>
         <h2>Kurzfassung</h2>
-        <p>Aktualisiere die Liste der Nodes, indem du nach unten ziehst &amp; merke 3&#8211;5 davon vor, um es monerujoAE zu ermöglichen, 
+        <p>Aktualisiere die Liste der Nodes, indem du nach unten ziehst &amp; merke 3&#8211;5 davon vor, um es aeonujo zu ermöglichen, 
         den bestmöglichen für dich auszuwählen!</p>
         <h2>Was ist ein Node?</h2>
-        <p>monerujoAE nutzt einen Drittanbieter-Node (manchmal auch Aeon Knoten oder Daemon genannt), um mit
+        <p>aeonujo nutzt einen Drittanbieter-Node (manchmal auch Aeon Knoten oder Daemon genannt), um mit
         dem Aeon-Netzwerk zu kommunizieren, ohne die Blockchain selbst herunterladen und 
         speichern zu müssen.<p>
         <h2>Node-Liste</h2>
-        <p>Wenn die Liste leer ist, kannst du entweder selbst manuell neue Nodes hinzufügen oder monerujoAE
+        <p>Wenn die Liste leer ist, kannst du entweder selbst manuell neue Nodes hinzufügen oder aeonujo
         das Netzwerk für dich scannen lassen – oder beides. Weiterlesen&#8230;</p>
         <p>Die Node-Liste zeigt alle derzeit bekannten Nodes an. Außerdem wird der Zeitstempel
         des letzten, diesem Node bekannten, Block unter dem Namen eines jeden Nodes angezeigt. Ein Icon,
@@ -246,10 +246,10 @@
         wird neben jedem Node angezeigt.</p>
         <p>Jeder Node in dieser Liste kann für spätere Verwendung vorgemerkt werden.
         Nicht vorgemerkte Nodes werden vergessen.<p>
-        <p>Jedes Mal, wenn du monerujoAE nutzt, wird es aus den vorgemerkten Nodes den optimalen auswählen.
+        <p>Jedes Mal, wenn du aeonujo nutzt, wird es aus den vorgemerkten Nodes den optimalen auswählen.
         Das macht es, indem es die Blockhöhe (wie aktuell
          ist der Node?) sowie das Antwortverhalten (wie schnell reagiert der Node auf Anfragen?) prüft.</p>
-        <p>Die Liste wird anhand dieser Eigenschaften geordnet. Der oberste Node ist also immer der, den monerujoAE
+        <p>Die Liste wird anhand dieser Eigenschaften geordnet. Der oberste Node ist also immer der, den aeonujo
         momentan auswählen würde. Ganz unten in der Liste würden sehr langsame oder nicht erreichbare Nodes angezeigt werden.</p>
         <h2>Füge einen Node hinzu</h2>
         <p>Wenn du den &quot;Node hinzufügen&quot; Button unten berührst, wirst du nach den
@@ -267,12 +267,12 @@
         Wenn der Test bestanden wird (keine Fehler), kannst du &quot;OK&quot; drücken, um diesen Node zu speichern &amp;
         vorzumerken.</p>
         <h2>Suche nach Nodes</h2>
-        <p>Außerdem kannst du das Netzwerk nach Nodes durchsuchen. monerujoAE wird
+        <p>Außerdem kannst du das Netzwerk nach Nodes durchsuchen. aeonujo wird
         das Netzwerk nach Drittanbieter-Nodes auf Port 18089 durchsuchen. Es fängt damit an, deine
         vorgemerkten Nodes nach anderen Teilnehmern im Aeon-P2P-Netzwerk zu fragen und fährt dann damit fort,
         diese nach ihren Verbindungen zu fragen und so weiter. Wenn du keine vorgemerkten Nodes hast
         (oder diese uns nicht über ihre Verbindungen informieren),
-        wird sich monerujoAE direkt mit den, in Aeon fest eingebetteten, Ursprungsnodes verbinden. Die
+        wird sich aeonujo direkt mit den, in Aeon fest eingebetteten, Ursprungsnodes verbinden. Die
         Suche stoppt, wenn insgesamt 10 Nodes gefunden wurden.</p>
     ]]></string>
 
@@ -280,7 +280,7 @@
 
     <string name="help_uri"><![CDATA[
         <h1>Nutzung eines Zahlungslinks</h1>
-        <p>Du hast monerujoAE mit einem Zahlungslink gestartet. Gehe wie folgt vor, um Gelder zu versenden:</p>
+        <p>Du hast aeonujo mit einem Zahlungslink gestartet. Gehe wie folgt vor, um Gelder zu versenden:</p>
         <p>
         1. Öffne das Wallet, von der aus du senden möchtest<br>
         2. Warte, bis das Wallet synchronisiert ist &amp; der "Sende"-Button erscheint<br>

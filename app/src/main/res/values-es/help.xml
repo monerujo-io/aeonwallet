@@ -91,7 +91,7 @@
         aplicación generará una CrAzYpass y asegurará los archivos de tu monedero con ella.
         ¡Por favor anótala bien!
         <h3>Monederos CrAzYpass</h3>
-        Si alguna vez necesitas reinstalar monerujoAE (por ejemplo luego de restaurar tu teléfono
+        Si alguna vez necesitas reinstalar aeonujo (por ejemplo luego de restaurar tu teléfono
         o cambiar a uno nuevo) o si necesitas abrir los archivos de tu monedero en otro dispositivo
         o en una PC, vas a tener que usar esta Contraseña de Recuperación (CrAzYpass) para poder
         acceder a tu monedero otra vez.<br/>
@@ -108,13 +108,13 @@
     <string name="help_list"><![CDATA[
         <h1>Lista de monederos</h1>
         <h2>Nodo</h2>
-        <p>monerujoAE utiliza un nodo remoto para comunicarse con la red de Aeon sin tener que
+        <p>aeonujo utiliza un nodo remoto para comunicarse con la red de Aeon sin tener que
         descargar y almacenar una copia completa de la cadena de bloques. Puedes encontrar una lista
         de nodos remotos populares o aprender como montar tu propio nodo remoto aquí https://nodes.aeon.run/</p>
-        <p>monerujoAE viene con un nodo remoto ya preconfigurado. También recuerda los últimos cinco
+        <p>aeonujo viene con un nodo remoto ya preconfigurado. También recuerda los últimos cinco
         nodos utilizados.</p>
         <h2>Monederos</h2>
-        <p>Aquí puedes ver tus monederos. Están ubicados en el directorio <tt>monerujoAE</tt> del
+        <p>Aquí puedes ver tus monederos. Están ubicados en el directorio <tt>aeonujo</tt> del
         almacenamiento interno de tu dispositivo. Puedes utilizar un explorador de archivos
         para verlos. Deberías hacer copias de seguridad de este directorio de forma regular en
         almacenamientos fuera del dispositivo por si tu dispositivo explota o es robado.
@@ -129,7 +129,7 @@
         <p>Permite cambiar el nombre de tu monedero. La copia de seguridad no será renombrada.</p>
         <h3>Copia de seguridad</h3>
         <p>Crea una copia de tu monedero en el directorio <tt>backups</tt> que se encuentra dentro
-        de <tt>monerujoAE</tt> sobreescribiendo cualquier copia previa existente.</p>
+        de <tt>aeonujo</tt> sobreescribiendo cualquier copia previa existente.</p>
         <h3>Archivar</h3>
         <p>Crea una copia de seguridad y borra la cartera inmediatamente después. La copia
         permanecerá en el directorio <tt>backups</tt>. Si no necesitas más tus copias de seguridad
@@ -170,8 +170,8 @@
         <h1>Enviar BTC</h1>
         <h2>SideShift.ai</h2>
         <p>SideShift.ai es un servicio de terceros que actúa como casa de cambio de Aeon a Bitcoin.
-        Usamos la API de SideShift.ai para integrar pagos de Bitcoin dentro de monerujoAE. Por favor revisa
-        https://sideshift.ai y decide por ti mismo si es un servicio que quieres usar. El equipo de monerujoAE
+        Usamos la API de SideShift.ai para integrar pagos de Bitcoin dentro de aeonujo. Por favor revisa
+        https://sideshift.ai y decide por ti mismo si es un servicio que quieres usar. El equipo de aeonujo
         no está asociado con SideShift.ai y no puede ayudarte con su servicio.</p>
         <h2>Tipo de cambio SideShift.ai<h2>
         <p>En la pantalla de \"Monto\" se te mostrará las condiciones actuales del servicio SideShift.ai.
@@ -182,7 +182,7 @@
         tiempo limitado - notarás una cuenta atrás en el botón de \"Gastar\". El tipo de cambio a
         esta altura puede ser distinto al aproximado que era mostrado en pantallas anteriores.</p>
         <h2>Clave secreta SideShift.ai<h2>
-        <p>Dado que monerujoAE sólo administra la parte en Aeon de tu transacción, puedes usar tu
+        <p>Dado que aeonujo sólo administra la parte en Aeon de tu transacción, puedes usar tu
         clave secreta SideShift.ai para rastrear la parte en Bitcoin de tu orden en la página de SideShift.ai.</p>
         <h2>Cuenta atrás SideShift.ai!</h2>
         <p>Una vez que la cuenta atrás alcanza el cero, necesitarás pedir una nueva cotización de
@@ -194,8 +194,8 @@
         <h1>Enviar BTC</h1>
         <h2>SideShift.ai</h2>
         <p>SideShift.ai es un servicio de terceros que actúa como casa de cambio de Aeon a Bitcoin.
-        Usamos la API de SideShift.ai para integrar pagos de Bitcoin dentro de monerujoAE. Por favor revisa
-        https://sideshift.ai y decide por ti mismo si es un servicio que quieres usar. El equipo de monerujoAE
+        Usamos la API de SideShift.ai para integrar pagos de Bitcoin dentro de aeonujo. Por favor revisa
+        https://sideshift.ai y decide por ti mismo si es un servicio que quieres usar. El equipo de aeonujo
         no está asociado con SideShift.ai y no puede ayudarte con su servicio.</p>
         <h2>Tipo de cambio SideShift.ai<h2>
         <p>En la pantalla de \"Monto\" se te mostrará las condiciones actuales del servicio SideShift.ai.
@@ -206,7 +206,7 @@
         tiempo limitado - notarás una cuenta atrás en el botón de \"Gastar\". El tipo de cambio a
         esta altura puede ser distinto al aproximado que era mostrado en pantallas anteriores.</p>
         <h2>Clave secreta SideShift.ai<h2>
-        <p>Dado que monerujoAE sólo administra la parte en Aeon de tu transacción, puedes usar tu
+        <p>Dado que aeonujo sólo administra la parte en Aeon de tu transacción, puedes usar tu
         clave secreta SideShift.ai para rastrear la parte en Bitcoin de tu orden en la página de SideShift.ai.</p>
         <h2>Cuenta atrás SideShift.ai!</h2>
         <p>Una vez que la cuenta atrás alcanza el cero, necesitarás pedir una nueva cotización de
@@ -235,7 +235,7 @@
         que puedas ver que has enviado/recibido Aeon.</p>
         <h2>Escaneado</h2>
         Como a Aeon le gusta mantener las cosas privadas, cada vez que abres una cartera de
-        monerujoAE es necesario escanear la cadena de bloques para ver si nuevos Aeon han sido
+        aeonujo es necesario escanear la cadena de bloques para ver si nuevos Aeon han sido
         enviados a tu dirección. Esto solo almacena en tu teléfono las transacciones que pertenecen a tu
         monedero. Esto puede llevar un rato si hace tiempo que no sincronizas.
         <h2>Saldo</h2>
@@ -252,14 +252,14 @@
     <string name="help_node"><![CDATA[
         <h1>Nodos</h1>
         <h2>TL;DR</h2>
-        <p>Refresca la lista de nodos al mostrar los marcadores de nodos para permitir a monerujoAE
+        <p>Refresca la lista de nodos al mostrar los marcadores de nodos para permitir a aeonujo
         elegir el mejor para ti.</p>
         <h2>¿Qué es un Nodo?h2>
-        <p>monerujoAE usa un Nodo Remoto (algunas veces también llamado Daemon) para comunicarse con
+        <p>aeonujo usa un Nodo Remoto (algunas veces también llamado Daemon) para comunicarse con
         la red de Aeon sin tener que descargar y almacenar una copia de la
         cadena de bloques completa.<p>
         <h2>Lista de Nodos</h2>
-        <p>Si la lista está vacía, puedes agregar nuevos nodos manualmente o dejar que monerujoAE
+        <p>Si la lista está vacía, puedes agregar nuevos nodos manualmente o dejar que aeonujo
         escanee la red por ti. O ambos.</p>
         <p>La lista de nodos muestra todos los nodos actualmente conocidos. Adicionalmente, la marca de tiempo
         del último bloque conocido para cada nodo se muestra bajo el nombre del nodo. Un icono
@@ -268,10 +268,10 @@
         es mostrado seguido de cada nodo.</p>
         <p>Cualquier nodo en la lista puede ser marcado para un posterior uso.
         Nodos que no sean marcados serán olvidados.<p>
-        <p>monerujoAE elegirá el nodo marcado óptimo cada vez que lo uses.
+        <p>aeonujo elegirá el nodo marcado óptimo cada vez que lo uses.
         Esto lo hace revisando la altura del bloque (¿qué tan al día
         está el nodo?) así como el comportamiento de respuesta (¿qué tan rápido responde el nodo a solicitudes?).</p>
-        <p>La lista se ordena por estas características, por lo tanto el primer nodo en la lista sería el que monerujoAE
+        <p>La lista se ordena por estas características, por lo tanto el primer nodo en la lista sería el que aeonujo
         elegiría en ese momento. El final de la lista mostraría nodos muy lentos o no disponibles.</p>
         <h2>Agregar un Nodo</h2>
         <p>Presionando en el botón &quot;Agregar Nodo&quot; en la parte inferior, se te pedirá que
@@ -289,12 +289,12 @@
         Una vez que la prueba sea exitosa (sin error) - estás listo para presionar &quot;OK&quot; para guardar &amp;
         como marcador este nodo.</p>
         <h2>Escanear por Nodos</h2>
-        <p>Adicionalmente, puedes escanear la red por nodos. monerujoAE empezará
+        <p>Adicionalmente, puedes escanear la red por nodos. aeonujo empezará
         escaneando la red por Nodos Remotos con puerto 18089. Comienza preguntando tus
         nodos marcados por otros compañeros en la red P2P de Aeon y después continúa
         preguntando por nodos a ellos por sus compañeros, y así. Si no tienes nodos marcados
         (o no nos comunican sobre sus compañeros),
-        monerujoAE irá directo a los nodos semilla de Aeon codificados en Aeon. El
+        aeonujo irá directo a los nodos semilla de Aeon codificados en Aeon. El
         escaneo parará cuando encuentre 10 nodos remotos en total.</p>
     ]]></string>
 
@@ -302,7 +302,7 @@
 
     <string name="help_uri"><![CDATA[
         <h1>Usando un vínculo de pago</h1>
-        <p>Acabas de iniciar monerujoAE con un vínculo de pago. Para poder enviar fondos, por favor haz lo siguiente:</p>
+        <p>Acabas de iniciar aeonujo con un vínculo de pago. Para poder enviar fondos, por favor haz lo siguiente:</p>
         <p>
         1. Abre el monedero desde el cual quieras gastar<br>
         2. Espera hasta que esté sincronizado y el botón de "Enviar" aparezca<br>

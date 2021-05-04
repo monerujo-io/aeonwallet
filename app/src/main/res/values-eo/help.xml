@@ -98,7 +98,7 @@
         viajn monujdosierojn per ĝi. Skribu ĝin surpapere!
 
         <h3>CrAzYpass-monujoj</h3>
-        Se vi iam bezonas reinstali monerujoAEn (ekz. post restartigo de via telefono aŭ ŝanĝo de telefono)
+        Se vi iam bezonas reinstali aeonujon (ekz. post restartigo de via telefono aŭ ŝanĝo de telefono)
         aŭ se vi intencas uzi viajn monujdosierojn kun alia aparato aŭ komputilo, vi devos uzi tiun
         Restaŭrpasvorton por atingi vian monujon denove.<br/>
         Elektante \"Ŝanĝi pasfrazon\" el la menuo, vi povos entajpi alian pasfrazon. Atentu pri tio
@@ -117,14 +117,14 @@
         <h1>Listo de monujoj</h1>
 
         <h2>Nodo</h2>
-        <p>monerujoAE uzas foran nodon por komuniki kun la Aeon-Reto sen elŝuti kaj konservi kopion
+        <p>aeonujo uzas foran nodon por komuniki kun la Aeon-Reto sen elŝuti kaj konservi kopion
         de la tuta blokĉeno. Vi povas trovi liston de popularaj foraj nodoj, aŭ lerni kiel starigi
         vian propran foran nodon, tie : https://nodes.aeon.run//</p>
-        <p>monerujoAE estas jam antaŭagordita por kelkaj foraj nodoj. Ĝi memoros la kvin laste uzitajn
+        <p>aeonujo estas jam antaŭagordita por kelkaj foraj nodoj. Ĝi memoros la kvin laste uzitajn
         nodojn. </p>
 
         <h2>Monujoj</h2>
-        <p>Jen viaj monujoj. Ili troviĝas en la <tt>monerujoAE</tt>dosierujo, en la interna memorilo de
+        <p>Jen viaj monujoj. Ili troviĝas en la <tt>aeonujo</tt>dosierujo, en la interna memorilo de
         via aparato. Vi povas uzi dosieran foliumilon por vidi ilin. Vi devus regule sekurkopii
         tiun dosierujon, kaze de eksplodo aŭ ŝtelo de via aparato.</p>
         <p>Elektu monujon por malfermi ĝin, aŭ premu la \"+\" por krei novan.
@@ -140,7 +140,7 @@
         <p>Renomas la monujon. Sekurkopioj ne renomiĝos.</p>
 
         <h3>Sekurkopio</h3>
-        <p> Kreas kopion de la monujo en la <tt>sekurkopioj</tt>-dosierujo en la <tt>monerujoAE</tt>,
+        <p> Kreas kopion de la monujo en la <tt>sekurkopioj</tt>-dosierujo en la <tt>aeonujo</tt>,
         anstataŭigante antaŭajn kopiojn tie.</p>
 
         <h3>Arkivo</h3>
@@ -188,8 +188,8 @@
 
         <h2>SideShift.ai</h2>
         <p>SideShift.ai estas ekstera liveranto kiu agas kiel ŝanĝisto de Aeon al Bitmono. Ni uzas la
-        interfacon de AEON.TR por integrigi pagojn de bitmono en monerujoAE. Bonvolu mem legi ĉe
-        https://sideshift.ai kaj decidu ĉu vi volas uzi tion. La monerujoAE-teamo ne asocias kun SideShift.ai kaj ne
+        interfacon de AEON.TR por integrigi pagojn de bitmono en aeonujo. Bonvolu mem legi ĉe
+        https://sideshift.ai kaj decidu ĉu vi volas uzi tion. La aeonujo-teamo ne asocias kun SideShift.ai kaj ne
         kapablas helpi vin kun ilia servo.</p>
 
         <h2>Kurzo de SideShift.ai<h2>
@@ -202,7 +202,7 @@
         eble malsama ol tiu antaŭe montrita.</p>
 
         <h2>Sekreta ŝlosilo de SideShift.ai<h2>
-        <p>Ĉar monerujoAE nur traktas la Aeon-flankon de via transakcio, vi uzu la sekretan
+        <p>Ĉar aeonujo nur traktas la Aeon-flankon de via transakcio, vi uzu la sekretan
         SideShift.ai-ŝlosilon por sekvi la Bitmono-parton de via mendo sur la hejmpaĝo de SideShift.ai.</p>
         <h2>La retrokalkulo de SideShift.ai!</h2>
         <p>Kiam la retrokalkulo atingas nulon, vi devos akiri novan QUOTE de SideShift.ai, reirante al la
@@ -214,8 +214,8 @@
 
         <h2>SideShift.ai</h2>
         <p>SideShift.ai estas ekstera liveranto kiu agas kiel ŝanĝisto de Aeon al Bitmono. Ni uzas la
-        interfacon de AEON.TR por integrigi pagojn de bitmono en monerujoAE. Bonvolu mem legi ĉe
-        https://sideshift.ai kaj decidu ĉu vi volas uzi tion. La monerujoAE-teamo ne asocias kun SideShift.ai kaj ne
+        interfacon de AEON.TR por integrigi pagojn de bitmono en aeonujo. Bonvolu mem legi ĉe
+        https://sideshift.ai kaj decidu ĉu vi volas uzi tion. La aeonujo-teamo ne asocias kun SideShift.ai kaj ne
         kapablas helpi vin kun ilia servo.</p>
 
         <h2>Kurzo de SideShift.ai<h2>
@@ -228,7 +228,7 @@
         eble malsama ol tiu antaŭe montrita.</p>
 
         <h2>Sekreta ŝlosilo de SideShift.ai<h2>
-        <p>Ĉar monerujoAE nur traktas la Aeon-flankon de via transakcio, vi uzu la sekretan
+        <p>Ĉar aeonujo nur traktas la Aeon-flankon de via transakcio, vi uzu la sekretan
         SideShift.ai-ŝlosilon por sekvi la Bitmono-parton de via mendo sur la hejmpaĝo de SideShift.ai.</p>
         <h2>La retrokalkulo de SideShift.ai!</h2>
         <p>Kiam la retrokalkulo atingas nulon, vi devos akiri novan QUOTE de SideShift.ai, reirante al la
@@ -261,23 +261,23 @@
         <h1>Nodoj</h1>
         <h2>Resumo</h2>
         <p>Aktualigu la liston de nodoj tirante suben kaj aldonu legosignojn al nodoj por rajtigi
-        monerujoAEn elekti la plej bonan por vi!</p>
+        aeonujon elekti la plej bonan por vi!</p>
 
         <h2>Kio estas nodo?</h2>
-        <p>monerujoAE uzas foran nodon (kelkfoje nomata \"demono\") por komuniki kun la Aeon-reto sen
+        <p>aeonujo uzas foran nodon (kelkfoje nomata \"demono\") por komuniki kun la Aeon-reto sen
         elŝuti la tutan blokĉenon kaj gardi kopion de ĝi.</p>
 
         <h2>Listo de nodoj</h2>
-        <p>Se la listo malplenas, vi povas mane aldoni novajn nodojn, aŭ lasi monerujoAEn skani la reton
+        <p>Se la listo malplenas, vi povas mane aldoni novajn nodojn, aŭ lasi aeonujon skani la reton
         por vi. Aŭ ambaŭ. Legu pli&#8230;</p>
         <p>La listo de nodoj montras ĉiujn konatajn nodojn. Aldone, la tempindiko de la bloko kiu plej
         laste koniĝis de ĉiu nodo estas  montrita sub la nodnomo. Apud ĉiu nodo estas bildeto kiu simbolas
         la respond-sintenon de ĝi (indikilo de la postulinda konekt-nivelo).</p>
         <p>Ĉiu nodo de la listo povas markiĝi por pli posta uzo. Nodoj kiuj ne markiĝas, forgesiĝos.<p>
-        <p>Ĉiam kiam uzite, monerujoAE elektos la plej taŭgan markitan nodon.
+        <p>Ĉiam kiam uzite, aeonujo elektos la plej taŭgan markitan nodon.
         Tio okazas kontrolante la blokaltecon (kiom ĝisdata estas la nodo?) kaj la respond-sintenon (kiom
         rapide respondas la nodon?).<p>
-        <p>La listo estas ordigita laŭ tiuj ecoj, do la plej supra nodo uziĝos de monerujoAE. La plej subaj
+        <p>La listo estas ordigita laŭ tiuj ecoj, do la plej supra nodo uziĝos de aeonujo. La plej subaj
         nodoj estas ege malrapidaj aŭ nedisponaj.</p>
 
         <h2>Aldoni nodon</h2>
@@ -296,17 +296,17 @@
         Post la sukceso de la testo (neniu eraro) - vi povas premi &quot;OK&quot; por konservi tiun nodon.</p>
 
         <h2>Serĉi nodojn</h2>
-        <p>Vi povas aldone skani la reton, serĉante nodojn. monerujoAE komencos la skanadon je la pordo 18089.
+        <p>Vi povas aldone skani la reton, serĉante nodojn. aeonujo komencos la skanadon je la pordo 18089.
         Ĝi komence petos viajn markitajn nodojn je aliaj partoprenantoj de la P2P-reto,
         kaj poste petos tiujn partoprenantoj je iliaj aliaj konektitaj partoprenantojn,
         kaj tiel plu.
-        Se vi ne markis nodojn (aŭ se ili ne respondas pri iliaj konektoj), monerujoAE direkte petos la
+        Se vi ne markis nodojn (aŭ se ili ne respondas pri iliaj konektoj), aeonujo direkte petos la
         pranodojn konservitajn en la kerno de Aeon. La skanado haltos kiam 10 foraj nodoj estos trovitaj.</p>
     ]]></string>
 
     <string name="help_uri"><![CDATA[
         <h1>Using a payment link</h1>
-        <p>You have started monerujoAE with a payment link. In order to send funds, please do the following:</p>
+        <p>You have started aeonujo with a payment link. In order to send funds, please do the following:</p>
         <p>
         1. Open the wallet you want to spend from<br>
         2. Wait until the wallet is synced &amp; the "Give" button appears<br>
